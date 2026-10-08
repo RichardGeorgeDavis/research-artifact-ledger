@@ -7,8 +7,10 @@ authors:
   - family-names: Davis
     given-names: Richard George
 date-released: 2026-10-08
+version: 0.2.0
 url: https://github.com/RichardGeorgeDavis/research-artifact-ledger
 abstract: >-
-  A versioned repository structure and template for sharing bounded research
-  artifacts with explicit source trails, evidence labels, reproduction notes,
-  limitations, and correction history.
+  A versioned repository for bounded research artifacts with explicit source
+  trails, evidence labels, reproduction notes, limitations, and correction
+  history. Version 0.2.0 includes a reproduced finite negative prime-ranking
+  screen; no general predictor or novelty claim is made.
