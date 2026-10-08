@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: >-
+  If you cite this repository, please cite the version you used and include its
+  release DOI when one is available.
+title: "Research Artifact Ledger"
+authors:
+  - family-names: Davis
+    given-names: Richard George
+type: software
+date-released: 2026-10-08
+url: https://github.com/RichardGeorgeDavis/research-artifact-ledger
+abstract: >-
+  A versioned repository structure and template for sharing bounded research
+  artifacts with explicit source trails, evidence labels, reproduction notes,
+  limitations, and correction history.
