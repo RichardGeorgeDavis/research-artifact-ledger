@@ -2,6 +2,9 @@
 
 ## Unreleased — 2026-10-12
 
+- Added a public summary of three bounded GaussianMoat source-audit reports covering selected finite-entropy/accounting, quotient/lattice/component and analytic weighted prime-mass declarations. The underlying reports remain in the private research record. A separate AI challenge reviewed the reports, not the theorem source.
+- Added a separate artifact for the conditional project-level helix-metric graph application, retaining the source endpoint's trust boundary and documenting the zero-height and unrestricted-enumeration counterexamples. It is not claimed as a new theorem or field-level novelty.
+- Updated the Gaussian-moat artifact's review scope and limitations to distinguish source-reviewed slices from full proof verification; no new theorem, theorem verdict or Infinity/ordinary-prime connection is claimed.
 - Added a read-only inventory of all eleven configured Lean 4.34.1 compatibility patches. Each tracked dependency diff matches its pinned patch and passes reverse-check; this does not authenticate cached `.olean` files or recover missing exit-status receipts.
 - Corrected the Gaussian-moat evidence note: the tracked local-change warnings are explained by the configured patches, while cache-source authentication and independent reproduction remain open.
 - Published retained Gaussian-moat build/query evidence, runtime outputs and integrity manifest; documented missing exit-status receipts and cache-authentication limits. The dependency patch inventory was added in version 0.1.2 below.

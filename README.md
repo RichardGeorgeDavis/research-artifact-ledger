@@ -2,7 +2,7 @@
 
 **Purpose:** a small, versioned home for selected research artifacts with explicit source trails, evidence labels, reproduction notes and correction history.
 
-**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains an untagged Gaussian-moat formal endpoint check.** No new theorem, general predictor claim, scientific theory or novelty claim is made.
+**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains an untagged Gaussian-moat formal endpoint check, its bounded source-audit update, and a separate conditional helix-metric application.** These additions do not claim a new theorem, general predictor, scientific theory or field-level novelty.
 
 ## What this repository can and cannot show
 
@@ -13,7 +13,8 @@ Research artifacts added later must identify their question, bounded claim, sour
 ## Published artifacts
 
 - [A finite screen of singular-series ranking for next-prime retrieval](artifacts/singular-series-shortlist/README.md) — `reproduced`; one fixed 10,000-origin block, with a standalone standard-library reproduction script and explicit limitations.
-- [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) — `formalised`; an OpenAI-authored theorem checked at a pinned source revision, with chronology and trust limits. Present on `main`; not yet included in a tagged release.
+- [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) — `formalised`; an OpenAI-authored theorem checked at a pinned source revision, with chronology and trust limits. Its 2026-10-12 source-audit update remains bounded and leaves the full proof open. Present on `main`; not yet included in a tagged release.
+- [Gaussian-moat bound under an address-controlled helix metric](artifacts/gaussian-moat-helix-metric-corollary/README.md) — `provisional application`; a conditional one-way graph-containment derivation from the Gaussian-moat endpoint, with zero-height and unrestricted-enumeration counterexamples. It is not Lean-formalised or a field-level novelty claim.
 
 ## Status labels
 

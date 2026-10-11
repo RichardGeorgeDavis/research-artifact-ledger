@@ -2,6 +2,8 @@
 
 Published 2026-10-12. The five machine-output files are byte-for-byte copies of retained run outputs and the check input. Build and axiom hashes match the earlier mechanical review receipts. This packaging pass did not rerun Lean. SHA256SUMS identifies those published bytes; it does not authenticate cached binaries against source, certify execution time or prove discovery priority. A later read-only [compatibility-patch audit](dependency-patch-audit-20261012.md) records the tracked-diff comparison separately.
 
+The [bounded source-audit update](source-audit-update-20261012.md) records three later source-level reviews and a report-only challenge. These reviews add no machine outputs and did not run Lean or Lake.
+
 ## Claim-to-evidence map
 
 | Claim | Evidence | Limit |

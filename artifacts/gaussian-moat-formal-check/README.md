@@ -2,7 +2,7 @@
 
 Status: `formalised`
 
-Version: `0.1.2`
+Version: `0.1.3`
 
 Last updated: `2026-10-12`
 
@@ -38,6 +38,8 @@ OAI.GaussianMoat.fullMain : OAI.GaussianMoat.MainEndpoint ∧ OAI.GaussianMoat.U
 The pinned comparator configuration names the same theorem and permits the same three axioms. This is a configuration match; the comparator harness itself was not run.
 
 The evidence supports the labels `formalised` and `source review` for the stated scope, conditional on the imported environment and trust limits below. It does not authenticate every cached dependency against source, establish a complete independent proof audit, or determine novelty.
+
+Three further bounded source reviews and a report-level challenge are recorded in the [2026-10-12 source-audit update](evidence/source-audit-update-20261012.md). They found no defect in their listed declaration bodies, interfaces and caller substitutions; they did not run Lean/Lake or verify the entire theorem dependency chain.
 
 ## Authorship, chronology and prior work
 
@@ -80,7 +82,9 @@ Expected result: the endpoint type and three-axiom list shown above. The project
 
 This theorem is about a graph on Gaussian primes. The run found no formal map or discriminating consequence connecting it to the programme's ordinary-prime, infinity, odometer, Möbius or Berry-phase questions. Sharing the word “infinity”, or both topics involving primes, is not a mathematical connection.
 
-One transferable idea is methodological: the proof combines prime supply across many scales, selects dense separated batches, accumulates information costs, and uses a finite periodic obstruction. An abstract supply-and-sparsification lemma could be investigated elsewhere if a specific receiving theorem, structure-preserving map and testable consequence are identified. That is a future research question; this run did not establish the lemma or an application.
+One transferable idea is methodological: the proof combines prime supply across many scales, selects dense separated batches, accumulates information costs, and uses a finite periodic obstruction. An abstract supply-and-sparsification lemma could be investigated elsewhere if a specific receiving theorem, structure-preserving map and testable consequence are identified. That is a future research question; this run did not establish the lemma or an application of that lemma.
+
+A distinct project-level corollary that applies the source endpoint to an indexed helix graph is recorded in the [separate helix-metric artifact](../gaussian-moat-helix-metric-corollary/README.md). Its conditional derivation does not validate the source theorem beyond the endpoint already recorded here.
 
 ## AI-assisted consistency review
 
@@ -88,12 +92,14 @@ Review scope: bounded source audits of selected geometry/entropy, information/te
 
 Findings: reviewers found no concrete issue in the portions they inspected. Their reviews were resource-bounded and conditional on stated premises and imports. The challenger did not rerun Lean or the comparator. Reviewer model/effort readback was unavailable. No independent human review or full transitive proof audit is claimed.
 
+The later [2026-10-12 source-audit update](evidence/source-audit-update-20261012.md) adds bounded reviews of finite entropy/accounting, quotient/lattice/component interfaces and analytic weighted prime-mass extraction. A separate AI challenge checked report consistency and claim wording only; it did not reopen source or verify the reported source hashes/read coverage.
+
 ## Limitations and unresolved issues
 
 - The source manuscript's historical attributions have not all been independently checked against their original sources in this artifact.
 - The official cache's artifact bytes were not authenticated against every source body; complete transitive source closure remains unproved.
 - The comparator JSON was inspected, but its harness was not executed; `enable_nanoda` is false.
-- Selected entropy/support, quotient/lattice, analytic and transitive Mathlib proof bodies remain outside complete independent review.
+- The listed entropy/support, ordered-accounting, quotient/lattice/component and analytic prime-mass source slices have bounded AI source reviews with no defect identified in the inspected scope. Imported dependencies, uninspected portions and downstream implications remain outside complete independent review; see the dated source-audit update for exact boundaries.
 - The build and axiom output do not establish theorem novelty, a defect in the theorem, an Infinity or ordinary-prime connection, or a practical application.
 - The retained build and axiom logs are published in the evidence bundle. The full container packet and numeric exit-status receipts are not included. The tracked compatibility-patch inventory is included, but no complete cache-byte manifest or authentication of cached artifacts against source is claimed.
 
@@ -116,3 +122,4 @@ No third-party text, data or code is reproduced here beyond short technical iden
 
 | 0.1.1 / 2026-10-12 | Published retained evidence bundle | Original output hashes match earlier receipts; packaging did not rerun Lean. |
 | 0.1.2 / 2026-10-12 | Added a scoped inventory of all eleven configured compatibility patches and corrected the warning explanation | Each retained tracked package diff matches its pinned patch and passes reverse-check; cache artifact authenticity and missing exit receipts remain unresolved. |
+| 0.1.3 / 2026-10-12 | Added a public summary of three bounded source-audit reports and a separate report-level challenge | No defect was identified in the listed slices; the full reports remain private and full dependency/proof closure remains open. |
