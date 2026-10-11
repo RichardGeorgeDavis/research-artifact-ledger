@@ -1,6 +1,6 @@
 # Retained evidence and reproduction boundary
 
-Published 2026-10-12. These five files are byte-for-byte copies of retained run outputs and the check input. Build and axiom hashes match the earlier mechanical review receipts. This packaging pass did not rerun Lean. SHA256SUMS identifies the published bytes; it does not authenticate cached binaries against source, certify execution time or prove discovery priority.
+Published 2026-10-12. The five machine-output files are byte-for-byte copies of retained run outputs and the check input. Build and axiom hashes match the earlier mechanical review receipts. This packaging pass did not rerun Lean. SHA256SUMS identifies those published bytes; it does not authenticate cached binaries against source, certify execution time or prove discovery priority. A later read-only [compatibility-patch audit](dependency-patch-audit-20261012.md) records the tracked-diff comparison separately.
 
 ## Claim-to-evidence map
 
@@ -29,7 +29,7 @@ These are reproduction instructions, not a verbatim shell transcript of the orig
 
 ## Warnings, failure and missing receipts
 
-Both logs preserve all eleven local-dependency-change warnings. The environment record attributes compatibility patches to the pinned Lake configuration. Revision/origin checks do not account for every dirty byte: a complete patch inventory and cache-source correspondence remain unresolved. Do not interpret these warnings as independently explained by this bundle.
+Both logs preserve all eleven local-dependency-change warnings. The pinned Lake configuration declares the compatibility patches. A scoped audit compared each of the eleven retained tracked package diffs with its corresponding pinned patch: all eleven passed `git apply --reverse --check`, and the complete tracked diff content matched the patch after normalising only abbreviated-versus-full Git index-hash lines. This explains the tracked source changes that produced those warnings. The check did not inventory ignored cache contents or authenticate compiled `.olean` bytes against source. Do not treat patch identity as cache provenance.
 
 The execution record states that the build wrapper failed after Main succeeded because it referenced `/result/project/kernel-check.lean` instead of `/result/kernel-check.lean`. A separate offline invocation produced the retained axiom output. Numeric exit-status receipts and the original wrapper stderr are not included in these retained files; no numeric values have been reconstructed. A future independent reproduction should capture commands, stdout, stderr and exit codes separately.
 

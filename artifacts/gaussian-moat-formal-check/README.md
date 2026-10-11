@@ -2,7 +2,7 @@
 
 Status: `formalised`
 
-Version: `0.1.1`
+Version: `0.1.2`
 
 Last updated: `2026-10-12`
 
@@ -57,7 +57,7 @@ For this theorem, the checked OpenAI source snapshot predates this documented Le
 
 The run used the exact upstream revision above, Lean 4.34.1, a Linux ARM64 container with network access disabled, read-only pinned package-cache inputs, and a 7 GiB guest-memory limit. The initial source/dependency audit checked 42 dependency revision/origin pairs. The offline Lake build completed all 8,964 jobs, including the requested `Main` target.
 
-The build wrapper then exited non-zero because its follow-on check referenced a mistyped file path. The successful `Main` target was retained, and a separate fresh offline container ran the endpoint check and axiom query against the persistent built project. Eleven Lake warnings reported local changes in cached dependency checkouts. The cache review and the 42 revision/origin checks support a qualified run report; they do not bind every cached artifact byte to its declared source.
+The build wrapper then exited non-zero because its follow-on check referenced a mistyped file path. The successful `Main` target was retained, and a separate fresh offline container ran the endpoint check and axiom query against the persistent built project. Eleven Lake warnings reported local changes in cached dependency checkouts. A later scoped audit matched all eleven tracked dependency diffs to their configured pinned compatibility patches; see the [patch audit](evidence/dependency-patch-audit-20261012.md). The cache review and the 42 revision/origin checks support a qualified run report; they do not bind every cached artifact byte to its declared source.
 
 To reproduce the project check, use the exact upstream revision and its declared toolchain in a reviewed contained environment:
 
@@ -95,7 +95,7 @@ Findings: reviewers found no concrete issue in the portions they inspected. Thei
 - The comparator JSON was inspected, but its harness was not executed; `enable_nanoda` is false.
 - Selected entropy/support, quotient/lattice, analytic and transitive Mathlib proof bodies remain outside complete independent review.
 - The build and axiom output do not establish theorem novelty, a defect in the theorem, an Infinity or ordinary-prime connection, or a practical application.
-- The retained build and axiom logs are published in the evidence bundle. The full container packet, numeric exit-status receipts and complete dependency patch/cache inventory are not included.
+- The retained build and axiom logs are published in the evidence bundle. The full container packet and numeric exit-status receipts are not included. The tracked compatibility-patch inventory is included, but no complete cache-byte manifest or authentication of cached artifacts against source is claimed.
 
 ## Sources and provenance
 
@@ -115,3 +115,4 @@ No third-party text, data or code is reproduced here beyond short technical iden
 | 0.1.0 / 2026-10-12 | Initial bounded formal endpoint record | Pinned offline build, separate endpoint/axiom query, bounded challenge and mechanical review; claim limits stated above. |
 
 | 0.1.1 / 2026-10-12 | Published retained evidence bundle | Original output hashes match earlier receipts; packaging did not rerun Lean. |
+| 0.1.2 / 2026-10-12 | Added a scoped inventory of all eleven configured compatibility patches and corrected the warning explanation | Each retained tracked package diff matches its pinned patch and passes reverse-check; cache artifact authenticity and missing exit receipts remain unresolved. |
