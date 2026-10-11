@@ -28,6 +28,22 @@ Choose one or more labels from the repository README and explain exactly what wa
 
 List author-created inputs and third-party material separately. Include stable identifiers or archived versions where available.
 
+## Authorship, chronology and prior work
+
+Distinguish the author of this artifact from the originators or authors of the underlying question, conjecture, theorem, method, code, data and review. Attribute each material claim at the level the sources support.
+
+List relevant prior work and state what each source establishes, what it does not establish, and whether its priority or historical attribution was independently verified.
+
+Record chronology with dates, time zones and stable evidence where available:
+
+| Event | Date/time and zone | Evidence and immutable identifier | What this date establishes |
+|---|---|---|---|
+| First retained private record, if available | | | |
+| First public appearance of the source claim | | | |
+| First public appearance of this artifact | | | |
+
+A public commit, preprint date or release records a dated version or public appearance. It does not by itself establish first conception, unpublished priority or global originality. Make any priority statement narrow, comparative and source-supported; state when no priority verdict is made.
+
 ## Method and reproduction
 
 Describe the derivation or procedure. Link code, data and environment files. Give commands and expected outputs for any computational check. If the artifact is not computational, state how a reader can inspect the argument or evidence.

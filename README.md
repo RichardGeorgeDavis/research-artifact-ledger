@@ -2,17 +2,18 @@
 
 **Purpose:** a small, versioned home for selected research artifacts with explicit source trails, evidence labels, reproduction notes and correction history.
 
-**Current release:** repository template plus one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. No new theorem, general predictor claim, scientific theory or novelty claim is made.
+**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains an untagged Gaussian-moat formal endpoint check.** No new theorem, general predictor claim, scientific theory or novelty claim is made.
 
 ## What this repository can and cannot show
 
 Each public commit and release records what this repository contained at that point. Source links, dated records and correction history help readers inspect provenance and changes. They do not prove when an idea was first conceived, establish priority over unpublished work, or demonstrate that a claim is correct or original.
 
-Research artifacts added later must identify their question, bounded claim, sources, evidence class, method, reproducibility steps, limitations and review status. Established background, reproduced work, new derivations, synthetic examples, local applications, conjectures and open questions must not be blended into one verification label.
+Research artifacts added later must identify their question, bounded claim, sources, evidence class, method, reproducibility steps, limitations and review status. Established background, reproduced work, new derivations, synthetic examples, local applications, conjectures and open questions must not be blended into one verification label. For priority-sensitive records, distinguish claim-level authorship, prior work, first documented private note (if retained), first public record and the scope of any priority statement.
 
 ## Published artifacts
 
 - [A finite screen of singular-series ranking for next-prime retrieval](artifacts/singular-series-shortlist/README.md) — `reproduced`; one fixed 10,000-origin block, with a standalone standard-library reproduction script and explicit limitations.
+- [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) — `formalised`; an OpenAI-authored theorem checked at a pinned source revision, with chronology and trust limits. Present on `main`; not yet included in a tagged release.
 
 ## Status labels
 
