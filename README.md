@@ -33,8 +33,6 @@ Research artifacts added later must identify their question, bounded claim, sour
 4. State negative results, limits, unresolved objections and what evidence would change the conclusion.
 5. Add a dated entry to [`HISTORY.md`](HISTORY.md), update citation metadata and provide a stable release tag when making a release. Corrections can be reported through the [repository issue tracker](https://github.com/RichardGeorgeDavis/research-artifact-ledger/issues).
 
-Kaggle scores, medals and competition placements are task-specific benchmark outcomes. They do not establish scientific validity or show that a research method caused an improvement. Competition rules, dataset rights and attribution requirements apply to any shared Kaggle material.
-
 ## Scope and reuse
 
 This is an artifact ledger, not a claim that its methods are novel or that its contents have peer-review status. Each artifact carries its own evidence and review limits. No open licence is assigned; no broader reuse permission should be inferred from public visibility.
