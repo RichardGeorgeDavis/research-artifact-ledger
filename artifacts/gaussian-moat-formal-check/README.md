@@ -2,7 +2,7 @@
 
 Status: `formalised`
 
-Version: `0.1.0`
+Version: `0.1.1`
 
 Last updated: `2026-10-12`
 
@@ -23,6 +23,8 @@ This record helps readers distinguish the source theorem, our local formal-build
 Treat each Gaussian prime a + bi as a point in the square lattice, and join two different points when they are within a fixed distance D. The theorem says that, for every fixed finite D, every connected group in this graph has a finite maximum size B_D, and the same bound works no matter where the group starts. So a person cannot keep walking through new Gaussian primes forever if every step must stay at most D; eventually that connected region runs out.
 
 The bound depends on D, is not made explicit by the paper, and the claim concerns Gaussian primes in the Gaussian integers, not the ordinary primes on the number line.
+
+See the [evidence bundle and claim map](evidence/README.md) for retained outputs, integrity checks, reproduction instructions and missing receipts.
 
 ## Claim supported by this artifact
 
@@ -72,7 +74,7 @@ import OAI.NumberTheory.GaussianMoat.Main
 #print axioms OAI.GaussianMoat.fullMain
 ```
 
-Expected result: the endpoint type and three-axiom list shown above. The project has Lake hooks and a broad dependency graph; the command should be run with its writes and network route reviewed. This artifact does not include the raw local build logs or a standalone environment image.
+Expected result: the endpoint type and three-axiom list shown above. The project has Lake hooks and a broad dependency graph; the command should be run with its writes and network route reviewed. The [retained evidence bundle](evidence/README.md) includes the build log, axiom output, check input and runtime outputs. It does not include a standalone environment image.
 
 ## Relation to the Infinity Research programme
 
@@ -80,7 +82,7 @@ This theorem is about a graph on Gaussian primes. The run found no formal map or
 
 One transferable idea is methodological: the proof combines prime supply across many scales, selects dense separated batches, accumulates information costs, and uses a finite periodic obstruction. An abstract supply-and-sparsification lemma could be investigated elsewhere if a specific receiving theorem, structure-preserving map and testable consequence are identified. That is a future research question; this run did not establish the lemma or an application.
 
-## Independent review
+## AI-assisted consistency review
 
 Review scope: bounded source audits of selected geometry/entropy, information/telescope, certificate/endpoint and dependency-trust obligations; a separate AI challenge of eight integrated records; and mechanical verification of the output and comparator configuration.
 
@@ -93,7 +95,7 @@ Findings: reviewers found no concrete issue in the portions they inspected. Thei
 - The comparator JSON was inspected, but its harness was not executed; `enable_nanoda` is false.
 - Selected entropy/support, quotient/lattice, analytic and transitive Mathlib proof bodies remain outside complete independent review.
 - The build and axiom output do not establish theorem novelty, a defect in the theorem, an Infinity or ordinary-prime connection, or a practical application.
-- Raw local logs and the full container build packet remain in the private research record and are not included in this public artifact.
+- The retained build and axiom logs are published in the evidence bundle. The full container packet, numeric exit-status receipts and complete dependency patch/cache inventory are not included.
 
 ## Sources and provenance
 
@@ -102,7 +104,7 @@ Findings: reviewers found no concrete issue in the portions they inspected. Thei
 | [OpenAI Math family 028 manuscript](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026/build/main.tex) | Manuscript dated 2026-09-26; pinned repository commit above | Statement, authorship and historical claims | Theorem statement, title-page date, introduction | Public source |
 | [Lean Main module](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/NumberTheory/GaussianMoat/Main.lean) | Same source commit | Formal endpoint declaration | `OAI.GaussianMoat.fullMain` | Public source |
 | [Comparator configuration](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/GaussianMoat.json) | Same source commit | Expected theorem and permitted axiom set | Target, permitted axioms and checker setting | Public configuration; harness not run |
-| Local execution record and outputs | Dated 2026-10-11 to 2026-10-12 (Africa/Johannesburg) | Run evidence, bounded reviews and trust disposition | Build and axiom result | Private working record; not bundled here |
+| Local execution record and outputs | Dated 2026-10-11 to 2026-10-12 (Africa/Johannesburg) | Run evidence, bounded reviews and trust disposition | Build and axiom result | Selected machine outputs are published in the evidence bundle; full working record remains private |
 
 No third-party text, data or code is reproduced here beyond short technical identifiers and the minimal Lean output needed to identify the check. The theorem is paraphrased and attributed to its named source author.
 
@@ -111,3 +113,5 @@ No third-party text, data or code is reproduced here beyond short technical iden
 | Version/date | Change | Reason and evidence |
 |---|---|---|
 | 0.1.0 / 2026-10-12 | Initial bounded formal endpoint record | Pinned offline build, separate endpoint/axiom query, bounded challenge and mechanical review; claim limits stated above. |
+
+| 0.1.1 / 2026-10-12 | Published retained evidence bundle | Original output hashes match earlier receipts; packaging did not rerun Lean. |

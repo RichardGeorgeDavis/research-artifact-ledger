@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-10-12
 
+- Published retained Gaussian-moat build/query evidence, runtime outputs and integrity manifest; documented missing exit-status receipts, dependency patch inventory and cache authentication.
+
 - Added a bounded formal endpoint-check record for OpenAI Math family 028, separating source theorem authorship, manuscript date, upstream public commit time, local check dates and first public appearance of this ledger entry.
 - The record states the Lean result, cache/toolchain trust boundary, comparator limitation, bounded review scope and absence of an established Infinity/ordinary-prime connection.
 - Expanded the artifact template with claim-level authorship, chronology and prior-work fields. Public commit timestamps document repository history; they do not establish first conception or priority over unpublished work.
