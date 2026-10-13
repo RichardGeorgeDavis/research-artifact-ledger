@@ -1,5 +1,10 @@
 # Release history
 
+## Unreleased — 2026-10-13
+
+- Added a bounded derivation showing that one fixed prime-blind logarithmic-height profile gives an infinite tail path in the declared Gaussian-prime spiral display graph for every positive edge cutoff. The result is conditional on the stated fixed-modulus prime-number-theorem input and the saved spiral convention. The exact prior-art search remains inconclusive; no novelty or new-theorem claim is made, and no qualified human mathematical review is claimed.
+- Added a `bounded derivation` evidence label to distinguish an explicit, scoped mathematical argument from formalisation, qualified independent review, or a novelty assessment.
+
 ## Unreleased — 2026-10-12
 
 - Added a public summary of three bounded GaussianMoat source-audit reports covering selected finite-entropy/accounting, quotient/lattice/component and analytic weighted prime-mass declarations. The underlying reports remain in the private research record. A separate AI challenge reviewed the reports, not the theorem source.

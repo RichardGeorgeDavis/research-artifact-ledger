@@ -2,7 +2,7 @@
 
 **Purpose:** a small, versioned home for selected research artifacts with explicit source trails, evidence labels, reproduction notes and correction history.
 
-**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains an untagged Gaussian-moat formal endpoint check, its bounded source-audit update, and a separate conditional helix-metric application.** These additions do not claim a new theorem, general predictor, scientific theory or field-level novelty.
+**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains untagged Gaussian-moat formal endpoint and source-audit records, a conditional helix-metric application, and a bounded derivation for one prime-blind logarithmic-height profile.** These additions do not claim a new theorem, general predictor, scientific theory or field-level novelty.
 
 ## What this repository can and cannot show
 
@@ -15,10 +15,12 @@ Research artifacts added later must identify their question, bounded claim, sour
 - [A finite screen of singular-series ranking for next-prime retrieval](artifacts/singular-series-shortlist/README.md) — `reproduced`; one fixed 10,000-origin block, with a standalone standard-library reproduction script and explicit limitations.
 - [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) — `formalised`; an OpenAI-authored theorem checked at a pinned source revision, with chronology and trust limits. Its 2026-10-12 source-audit update remains bounded and leaves the full proof open. Present on `main`; not yet included in a tagged release.
 - [Gaussian-moat bound under an address-controlled helix metric](artifacts/gaussian-moat-helix-metric-corollary/README.md) — `provisional application`; a conditional one-way graph-containment derivation from the Gaussian-moat endpoint, with zero-height and unrestricted-enumeration counterexamples. It is not Lean-formalised or a field-level novelty claim.
+- [A prime-blind logarithmic height gives an infinite tail path](artifacts/prime-blind-log-height/README.md) — `bounded derivation`; one fixed spiral convention, one height function and a conclusion conditional on the stated prime-number theorem input. Exact prior art and qualified human mathematical review remain unresolved; no novelty claim is made. Present on `main`; not included in a tagged release.
 
 ## Status labels
 
 - `source review`: sources have been inspected for the stated scope; the result is not independently reproduced.
+- `bounded derivation`: an explicit mathematical derivation supports the stated claim under its assumptions and scope; this label does not imply formalisation, qualified independent review or novelty.
 - `reproduced`: the stated procedure was rerun and matched the declared check.
 - `independently checked`: a person not responsible for the original artifact checked the named claim or procedure; the scope of that check is stated.
 - `formalised`: a specified formal system or proof assistant checks the stated formal claim; this does not validate empirical premises.

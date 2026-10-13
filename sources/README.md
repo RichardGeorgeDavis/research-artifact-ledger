@@ -1,3 +1,3 @@
 # Sources
 
-Source-to-claim records for each released artifact are kept in this folder. See [`singular-series-screen.md`](singular-series-screen.md) for the finite shortlist screen.
+Source-to-claim records for each released artifact are kept in this folder. See [`singular-series-screen.md`](singular-series-screen.md) for the finite shortlist screen and [`prime-blind-log-height.md`](prime-blind-log-height.md) for the bounded logarithmic-height derivation.
