@@ -1,5 +1,9 @@
 # Release history
 
+## Unreleased — 2026-10-16
+
+- Gaussian-moat artifact 0.1.4 adds recorded endpoint-conversion, inverse-limit and first accurate-band source-review coverage. No new build, full proof certification or cache authentication is claimed.
+
 ## Unreleased — 2026-10-13
 
 - Added a bounded derivation showing that one fixed prime-blind logarithmic-height profile gives an infinite tail path in the declared Gaussian-prime spiral display graph for every positive edge cutoff. The result is conditional on the stated fixed-modulus prime-number-theorem input and the saved spiral convention. The exact prior-art search remains inconclusive; no novelty or new-theorem claim is made, and no qualified human mathematical review is claimed.

@@ -2,9 +2,9 @@
 
 Status: `formalised`
 
-Version: `0.1.3`
+Version: `0.1.4`
 
-Last updated: `2026-10-12`
+Last updated: `2026-10-16`
 
 Artifact author: Richard George Davis
 
@@ -123,3 +123,7 @@ No third-party text, data or code is reproduced here beyond short technical iden
 | 0.1.1 / 2026-10-12 | Published retained evidence bundle | Original output hashes match earlier receipts; packaging did not rerun Lean. |
 | 0.1.2 / 2026-10-12 | Added a scoped inventory of all eleven configured compatibility patches and corrected the warning explanation | Each retained tracked package diff matches its pinned patch and passes reverse-check; cache artifact authenticity and missing exit receipts remain unresolved. |
 | 0.1.3 / 2026-10-12 | Added a public summary of three bounded source-audit reports and a separate report-level challenge | No defect was identified in the listed slices; the full reports remain private and full dependency/proof closure remains open. |
+
+| 0.1.4 / 2026-10-16 | Added three bounded source-review coverage summaries | Records the inspected interfaces and unchanged full-proof/cache limits; no new formal run. |
+
+Additional endpoint, inverse-limit and first accurate-band review coverage is summarised in the [16 October note](evidence/source-audit-update-20261016.md). These remain source reviews with no new build or full proof assurance.
