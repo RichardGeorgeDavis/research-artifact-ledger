@@ -1,0 +1,48 @@
+{
+  "verification": "PASS",
+  "independent_classifier": "Eratosthenes sieve; separate from runner trial division and BFT forecast module",
+  "labels": 50221,
+  "label_interval": [
+    10050211,
+    10100431
+  ],
+  "independent_label_disagreements": 0,
+  "frame_prime_origins_eligible": 3111,
+  "frame_prime_origins_excluded": 0,
+  "forecasts": 3111,
+  "bft_candidates_enumerated": 24888,
+  "proposal_targets_within_secondary_window": 12444,
+  "unique_integers_classified": 50221,
+  "score_events": 6222,
+  "primary_hit_totals": {
+    "bft": 807,
+    "median5_unrestricted_mod30": 409,
+    "median5_restricted_first8_mod210": 487,
+    "first_mod210": 807
+  },
+  "secondary_any_prime_hit_totals": {
+    "bft": 807,
+    "median5_unrestricted_mod30": 685,
+    "median5_restricted_first8_mod210": 807,
+    "first_mod210": 807
+  },
+  "primary_rates": {
+    "bft": 0.25940212150433944,
+    "median5_unrestricted_mod30": 0.13146898103503696,
+    "median5_restricted_first8_mod210": 0.15654130504660882,
+    "first_mod210": 0.25940212150433944
+  },
+  "primary_bft_minus_unrestricted_median": 398,
+  "bft_seconds_sum": 4068.3665876910964,
+  "comparator_seconds_sum": 0.14366919293388491,
+  "proposal_verification_compute": "shared with the chronological range classifier; no per-proposal compute attribution is available",
+  "forecast_tip": "4f00617d9c510bcbcab65e45ae0f0da31fee414217f7c8b343f297afae96dce3",
+  "label_tip": "195ed0ae76486fecf8eef3def07d02b47809d830a87d5dca4fb7ecf9531b0ba5",
+  "score_tip": "58ce5c25f3984974ed8f8f960ecf4719d108c778f3a95feaa8cf1f3bec2bc0fb",
+  "data_sha256": {
+    "forecasts.jsonl": "6eaf0bff5ae3ab096a6a9d259a259260914257f93eae00e7e5a3a6136b3ade97",
+    "labels.jsonl": "8896683ed7b15f31334b91bfb0cdb4e08a0308e5c851d62c3abcae3aedfc8d0e",
+    "scores.jsonl": "562e1f86d47f7ac36b6e7b7b5fc7f3e5bf56bd84f2e94b149c0769a3a564b270"
+  },
+  "note": "Finite fixed-frame result only; no asymptotic, causal, calibrated-probability, or generalisation claim."
+}

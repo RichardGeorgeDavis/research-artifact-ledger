@@ -1,0 +1,29 @@
+{
+  "auxiliary_check_sha256": "46067975731955c86ab0c56b4d7288f28be3990a21e903474eb79bf516a03825",
+  "evidence_files": {
+    "forecasts.jsonl.bz2": "c1a258c34a9942d384f97904d4c47420ac70b787f2f052237341f6b421ab16c5",
+    "labels.jsonl.bz2": "027ca03f53c04f4692e5540bf6fed44f2789f6df359070c0d86cc6b4c501c2b2",
+    "scores.jsonl.bz2": "16635170ffb5a6479052b86f2615c29ca6910ea93aa7a892207c238f5267b268",
+    "verification-summary.json": "07af3eec88683a20eecd2bacd68e5ec6a9ec3f92ed720c7832ae930f2b8b8a76"
+  },
+  "frame_end": 10100247,
+  "frame_start": 10050248,
+  "historical_source": {
+    "contract": "sources/bft-first-event-census.md",
+    "contract_sha256": "311383dfafc24088012a617cb98404eec1798cc2e13b7899f2fb5c14c8864b43",
+    "verification": "sources/bft-verification-scope.md",
+    "verification_sha256": "de76de7858b25bca16f91e1c00e3e4630a37b4dee7394c24c1f67df55bcb8afa"
+  },
+  "history_watermark": 10050210,
+  "label_start": 10050211,
+  "last_six_primes": [
+    10050137,
+    10050167,
+    10050181,
+    10050191,
+    10050197,
+    10050203
+  ],
+  "schema": "bft-first-event-census-public-manifest-v1",
+  "verification_method": "Independent Eratosthenes sieve and archived chain, origin, chronology, source-binding, proposal and score-event checks; separate aggregate audit checks first-survivor proposal equivalence. The complete K=8 law is not independently reconstructed at every origin."
+}

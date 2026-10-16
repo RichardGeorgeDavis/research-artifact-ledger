@@ -2,6 +2,7 @@
 
 ## Unreleased — 2026-10-16
 
+- Added a finite descriptive BFT first-event prime census over 3,111 origins, with archived hash-chained evidence and a public verification command. BFT matched the first modulus-210 survivor at every origin; the result shows no BFT-specific advantage. A status-read exposure of some origin labels invalidated prospective blindness. No generalisation, novelty or significance claim is made.
 - Gaussian-moat artifact 0.1.4 adds recorded endpoint-conversion, inverse-limit and first accurate-band source-review coverage. No new build, full proof certification or cache authentication is claimed.
 
 ## Unreleased — 2026-10-13
