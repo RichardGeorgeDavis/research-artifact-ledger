@@ -2,9 +2,9 @@
 
 Status: `formalised`
 
-Version: `0.1.4`
+Version: `0.1.5`
 
-Last updated: `2026-10-16`
+Last updated: `2026-10-18`
 
 Artifact author: Richard George Davis
 
@@ -40,6 +40,8 @@ The pinned comparator configuration names the same theorem and permits the same 
 The evidence supports the labels `formalised` and `source review` for the stated scope, conditional on the imported environment and trust limits below. It does not authenticate every cached dependency against source, establish a complete independent proof audit, or determine novelty.
 
 Three further bounded source reviews and a report-level challenge are recorded in the [2026-10-12 source-audit update](evidence/source-audit-update-20261012.md). They found no defect in their listed declaration bodies, interfaces and caller substitutions; they did not run Lean/Lake or verify the entire theorem dependency chain.
+
+A separate [2026-10-18 source-audit update](evidence/source-audit-update-20261018.md) summarises three additional bounded Mathlib reviews: the lower PID basis-reduction construction, the rank-induction consumer assembly, and the `inductionOnRankAux` engine. The reviews found no mismatch in their inspected declarations and source maps. They are conditional source-level reviews, not a new build, theorem proof or independent human certification.
 
 ## Authorship, chronology and prior work
 
@@ -92,7 +94,7 @@ Review scope: bounded source audits of selected geometry/entropy, information/te
 
 Findings: reviewers found no concrete issue in the portions they inspected. Their reviews were resource-bounded and conditional on stated premises and imports. The challenger did not rerun Lean or the comparator. Reviewer model/effort readback was unavailable. No independent human review or full transitive proof audit is claimed.
 
-The later [2026-10-12 source-audit update](evidence/source-audit-update-20261012.md) adds bounded reviews of finite entropy/accounting, quotient/lattice/component interfaces and analytic weighted prime-mass extraction. A separate AI challenge checked report consistency and claim wording only; it did not reopen source or verify the reported source hashes/read coverage.
+The later [2026-10-12 source-audit update](evidence/source-audit-update-20261012.md) adds bounded reviews of finite entropy/accounting, quotient/lattice/component interfaces and analytic weighted prime-mass extraction. A separate AI challenge checked report consistency and claim wording only; it did not reopen source or verify the reported source hashes/read coverage. The [2026-10-18 update](evidence/source-audit-update-20261018.md) adds three further Mathlib source slices at the pinned dependency revision. Separate technical challenges included correction of reversed rank-induction prose in the first coordinator draft; the corrected source maps received no further mismatch report. These checks do not audit imported proof bodies completely or the theorem as a whole.
 
 ## Limitations and unresolved issues
 
@@ -100,6 +102,7 @@ The later [2026-10-12 source-audit update](evidence/source-audit-update-20261012
 - The official cache's artifact bytes were not authenticated against every source body; complete transitive source closure remains unproved.
 - The comparator JSON was inspected, but its harness was not executed; `enable_nanoda` is false.
 - The listed entropy/support, ordered-accounting, quotient/lattice/component and analytic prime-mass source slices have bounded AI source reviews with no defect identified in the inspected scope. Imported dependencies, uninspected portions and downstream implications remain outside complete independent review; see the dated source-audit update for exact boundaries.
+- The 2026-10-18 PID basis-reduction and rank-induction slices likewise have bounded AI source reviews at a pinned Mathlib revision. The PID review read the directly used helper bodies for `generator_submoduleImage_dvd_of_mem`, `mkFinConsOfLE` and `mkFinCons`; their lower-level dependencies remain trusted. The exact source maps and limits are in the dated update. No Lean/Lake run, complete imported-proof audit, cache authentication or complete Family-028 assurance is claimed.
 - The build and axiom output do not establish theorem novelty, a defect in the theorem, an Infinity or ordinary-prime connection, or a practical application.
 - The retained build and axiom logs are published in the evidence bundle. The full container packet and numeric exit-status receipts are not included. The tracked compatibility-patch inventory is included, but no complete cache-byte manifest or authentication of cached artifacts against source is claimed.
 
@@ -123,5 +126,6 @@ No third-party text, data or code is reproduced here beyond short technical iden
 | 0.1.2 / 2026-10-12 | Added a scoped inventory of all eleven configured compatibility patches and corrected the warning explanation | Each retained tracked package diff matches its pinned patch and passes reverse-check; cache artifact authenticity and missing exit receipts remain unresolved. |
 | 0.1.3 / 2026-10-12 | Added a public summary of three bounded source-audit reports and a separate report-level challenge | No defect was identified in the listed slices; the full reports remain private and full dependency/proof closure remains open. |
 | 0.1.4 / 2026-10-16 | Added three bounded source-review coverage summaries | Records the inspected interfaces and unchanged full-proof/cache limits; no new formal run. |
+| 0.1.5 / 2026-10-18 | Added three bounded source-review summaries for the lower PID basis construction, rank-induction consumer assembly and induction engine | Exact Mathlib sources, selected helper-body reads and the conditional, AI-reviewed evidence boundary are stated in the dated update; no Lean/Lake run, complete imported-proof audit or whole-theorem assurance. |
 
 Additional endpoint, inverse-limit and first accurate-band review coverage is summarised in the [16 October note](evidence/source-audit-update-20261016.md). These remain source reviews with no new build or full proof assurance.

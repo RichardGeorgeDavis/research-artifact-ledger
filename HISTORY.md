@@ -1,5 +1,9 @@
 # Release history
 
+## Unreleased — 2026-10-18
+
+- Gaussian-moat artifact 0.1.5 adds three bounded Mathlib source-review summaries for the lower PID basis construction, rank-induction consumer assembly and the `inductionOnRankAux` foundation. The PID review also read three directly used helper bodies; exact pinned sources and reviewer limits are recorded. A technical challenge corrected reversed rank-induction prose in the first coordinator draft. No Lean/Lake run, complete imported-proof audit, cache authentication or whole-theorem assurance is claimed.
+
 ## Unreleased — 2026-10-16
 
 - Added a finite descriptive BFT first-event prime census over 3,111 origins, with archived hash-chained evidence and a public verification command. BFT matched the first modulus-210 survivor at every origin; the result shows no BFT-specific advantage. A status-read exposure of some origin labels invalidated prospective blindness. No generalisation, novelty or significance claim is made.
