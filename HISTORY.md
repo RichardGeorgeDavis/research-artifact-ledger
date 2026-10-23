@@ -1,5 +1,9 @@
 # Release history
 
+## Unreleased — 2026-10-24
+
+- Added When a Perspective Grows, an author philosophical working paper, with a source-to-claim map and exact-arithmetic reproduction script for its stipulated geometry and conditional choice model. Calculations do not validate experiential interpretation or establish novelty. The record preserves AI disclosure, abstract-only access to Meredith, the strongest unresolved objection and absence of independent human philosophical review.
+
 ## Unreleased — 2026-10-18
 
 - Gaussian-moat artifact 0.1.5 adds three bounded Mathlib source-review summaries for the lower PID basis construction, rank-induction consumer assembly and the `inductionOnRankAux` foundation. The PID review also read three directly used helper bodies; exact pinned sources and reviewer limits are recorded. A technical challenge corrected reversed rank-induction prose in the first coordinator draft. No Lean/Lake run, complete imported-proof audit, cache authentication or whole-theorem assurance is claimed.

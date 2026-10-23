@@ -2,7 +2,7 @@
 
 **Purpose:** a small, versioned home for selected research artifacts with explicit source trails, evidence labels, reproduction notes and correction history.
 
-**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains untagged Gaussian-moat formal endpoint and source-audit records, a conditional helix-metric application, and a bounded derivation for one prime-blind logarithmic-height profile.** These additions do not claim a new theorem, general predictor, scientific theory or field-level novelty.
+**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains untagged Gaussian-moat formal endpoint and source-audit records, a conditional helix-metric application, and a bounded derivation for one prime-blind logarithmic-height profile, and a philosophical working paper on experiential comparison across learning.** These additions do not claim a new theorem, general predictor, scientific theory or field-level novelty.
 
 ## What this repository can and cannot show
 
@@ -11,6 +11,8 @@ Each public commit and release records what this repository contained at that po
 Research artifacts added later must identify their question, bounded claim, sources, evidence class, method, reproducibility steps, limitations and review status. Established background, reproduced work, new derivations, synthetic examples, local applications, conjectures and open questions must not be blended into one verification label. For priority-sensitive records, distinguish claim-level authorship, prior work, first documented private note (if retained), first public record and the scope of any priority statement.
 
 ## Published artifacts
+
+- [When a Perspective Grows](artifacts/when-a-perspective-grows/README.md) — philosophical working paper; scoped `source review`, `synthetic demonstration` and `open` questions. Exact-arithmetic examples are reproducible; the philosophical thesis is not independently verified or peer reviewed. Meredith is cited at abstract scope only. Present on `main`; not included in a tagged release.
 
 - [A finite screen of singular-series ranking for next-prime retrieval](artifacts/singular-series-shortlist/README.md) — `reproduced`; one fixed 10,000-origin block, with a standalone standard-library reproduction script and explicit limitations.
 - [BFT first-event prime census: a finite descriptive comparison](artifacts/bft-first-event-census/README.md) — `reproduced finite comparison`; one fixed 3,111-origin frame, archived evidence and a standalone verifier. Prospective blindness was compromised, and the result shows no advantage over the first modulus-210 survivor.
