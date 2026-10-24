@@ -4,9 +4,9 @@
 
 Status: `open`; scoped component: `source review`
 
-Version: `0.1.0` · Last updated: 24 October 2026 · Author: Richard George Davis
+Version: `0.2.0` · Last updated: 24 October 2026 · Author: Richard George Davis
 
-**Exploratory research note, offered for discussion; not peer-reviewed.** Read the [complete note](note.md) or its [RGD.cx publication](https://rgd.cx/articles/from-numerical-cognition-to-cognitive-command). The full AI disclosure is retained in the note.
+**Revised exploratory author version, submitted by email to *Philosophia Mathematica* on 24 October 2026; submission does not establish acceptance or peer review.** Read the [complete note](note.md) or the [earlier RGD.cx publication](https://rgd.cx/articles/from-numerical-cognition-to-cognitive-command). This Ledger copy updates the public author version; the submitted manuscript and PDF remain outside this repository. The full AI disclosure is retained in the note.
 
 ## Question and intended use
 
@@ -18,22 +18,23 @@ The note distinguishes two requirements within the cognitive-command approach di
 
 ## Evidence class and review status
 
-- `source review`: a bounded comparison of the six cited works and an attributed reconstruction of Shapiro and Pantsar. The [source-to-claim map](../../sources/numerical-cognition-cognitive-command.md) separates source findings, author interpretations and the note’s inference. This release reuses the existing source audit; it is not a fresh full-source examination, systematic review, study replication or raw-data analysis.
+- `source review`: a bounded comparison of eight cited works and an attributed reconstruction of Shapiro and Pantsar. The [source-to-claim map](../../sources/numerical-cognition-cognitive-command.md) separates source findings, author interpretations and the note’s inference. This release reuses the existing source audit; it is not a fresh full-source examination, systematic review, study replication or raw-data analysis.
 - `open`: concept formation, the explanatory role of practices in standards, the wider applicability of the criterion, and mathematical ontology remain unresolved. No empirical or formal-verification label applies to the philosophical argument.
 
 ## Sources and provenance
 
-The author’s [note](note.md) is the exact approved text first published on RGD.cx on 24 October 2026. SHA-256: `38dcff5ae06f7dc9228bd62316469f1cb20079d9e768f9f7bc90346078278aec`. The source map gives the six DOI references, relevant pages or sections, their roles and access limits. Third-party papers are linked, not redistributed; private working notes and submission records are excluded.
+The author’s [note](note.md) is revised author version 2, submitted by email on 24 October 2026; its philosophical argument and references match the submitted revision, while public presentation and AI-disclosure formatting differ. SHA-256: `b7e22da175ae03fa03fc252da6b92653bb166655545791f96eb9ba53c61a1875`. The earlier public Ledger version remains preserved at [commit e3b0840](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/e3b084040e8d437428c0fd68278cec5b6fdafa56/artifacts/numerical-cognition-cognitive-command/note.md) (SHA-256 `38dcff5ae06f7dc9228bd62316469f1cb20079d9e768f9f7bc90346078278aec`). The source map gives the eight references, relevant pages or sections, their roles and access limits. Third-party papers are linked, not redistributed; private working notes and submission records are excluded.
 
 ## Authorship, chronology and prior work
 
 Richard George Davis is the author. OpenAI GPT models accessed through Codex generated and revised substantial portions and assisted source checking, argument reconstruction and critique. The author reviewed the qualified argument in plain language and retained its uncertainties; this is not independent specialist or journal review. The exact disclosure is in the note.
 
-Wright’s criterion is discussed through Shapiro, not through a new direct audit of Wright’s original formulations. Pantsar supplies the philosophical account under examination; Winter and Yoshimi discuss ontology and embodied cognition; Benacerraf motivates the truth/knowledge problem; Frank et al. and Pitt et al. supply the bounded cognitive findings. The note does not originate these questions or methods. The two-requirement reconstruction is offered as a clarification, with no field-level novelty or priority verdict.
+The revised note adds a bounded comparison of Wright’s 2001 primary treatment (pp. 85–86) and Pantsar’s 2023 later distinction between experienced objectivity and cognitive command (§§2, 5); this is not a fresh full literature review or new study. Pantsar supplies the philosophical account under examination; Winter and Yoshimi discuss ontology and embodied cognition; Benacerraf motivates the truth/knowledge problem; Frank et al. and Pitt et al. supply the bounded cognitive findings. Wright’s criterion is also discussed through Shapiro; the later Wright and Pantsar texts refine context rather than establish novelty. The note does not originate these questions or methods. The two-requirement reconstruction is offered as a clarification, with no field-level novelty or priority verdict.
 
 | Event | Date and zone | Evidence | What it establishes |
 |---|---|---|---|
-| Approved public-note version | 24 October 2026, Africa/Johannesburg | SHA-256 above | Exact version, not first conception |
+| Revised author version 2 | 24 October 2026, Africa/Johannesburg | SHA-256 above; submitted by email to *Philosophia Mathematica* | Exact public author copy; submission does not establish acceptance or peer review |
+| Original public author version | 24 October 2026, Africa/Johannesburg | [Ledger commit e3b0840](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/e3b084040e8d437428c0fd68278cec5b6fdafa56/artifacts/numerical-cognition-cognitive-command/note.md) | Preserved version 0.1.0, not first conception |
 | RGD.cx publication | 24 October 2026, Africa/Johannesburg | [Published page](https://rgd.cx/articles/from-numerical-cognition-to-cognitive-command); [site source commit](https://github.com/RichardGeorgeDavis/rgd.cx/commit/9186b90944a4a633f529b88c5cb1c7a51c16c3ea) | First recorded public appearance of this note; not a scholarly acceptance |
 | Ledger entry | 24 October 2026, Africa/Johannesburg | [File history](https://github.com/RichardGeorgeDavis/research-artifact-ledger/commits/main/artifacts/numerical-cognition-cognitive-command/README.md) | Versioned repository appearance, not proof of priority or correctness |
 
@@ -57,10 +58,11 @@ No independent human specialist review or journal peer review is recorded. Prior
 
 ## Publication, reuse and corrections
 
-The author authorised this Ledger addition on 24 October 2026. This is an author-created exploratory note, not an accepted manuscript or a journal submission. No open licence is assigned; public visibility does not grant broader reuse rights. No third-party PDFs, images, datasets or source code are included. Report corrections through the [issue tracker](https://github.com/RichardGeorgeDavis/research-artifact-ledger/issues), identifying the version and affected passage. Future corrections should preserve this version’s history and distinguish source corrections from changes of author position.
+The author authorised this public update on 24 October 2026. This is an author-created exploratory note; its revised author version was submitted by email, and submission does not establish acceptance or peer review. No open licence is assigned; public visibility does not grant broader reuse rights. No third-party PDFs, images, datasets or source code are included. Report corrections through the [issue tracker](https://github.com/RichardGeorgeDavis/research-artifact-ledger/issues), identifying the version and affected passage. Future corrections should preserve this version’s history and distinguish source corrections from changes of author position.
 
 ## Change history
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
-| 0.1.0 / 24 October 2026 | Initial Ledger entry with unchanged published note and source map | Author-authorised versioned record of the bounded argument, disclosure and unresolved questions |
+| 0.2.0 / 24 October 2026 | Updated public note to revised author version 2; expanded source map and corrected submission and review-status description | Author-authorised update; preserves the prior note at commit e3b0840 |
+| 0.1.0 / 24 October 2026 | Initial Ledger entry with the earlier public author note and source map | Author-authorised versioned record of the bounded argument, disclosure and unresolved questions |

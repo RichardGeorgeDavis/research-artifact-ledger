@@ -2,7 +2,7 @@
 
 **Purpose:** a small, versioned home for selected research artifacts with explicit source trails, evidence labels, reproduction notes and correction history.
 
-**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains untagged Gaussian-moat formal endpoint and source-audit records, a conditional helix-metric application, and a bounded derivation for one prime-blind logarithmic-height profile, a philosophical working paper on experiential comparison across learning, and an exploratory note on numerical cognition and cognitive command.** These additions do not claim a new theorem, general predictor, scientific theory or field-level novelty.
+**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains untagged Gaussian-moat formal endpoint and source-audit records, a conditional helix-metric application, and a bounded derivation for one prime-blind logarithmic-height profile, a philosophical working paper on experiential comparison across learning, and an exploratory note on numerical cognition and cognitive command, now updated on `main` to revised author version 2 (submitted; acceptance and peer review are not established).** These additions do not claim a new theorem, general predictor, scientific theory or field-level novelty.
 
 ## What this repository can and cannot show
 
@@ -12,7 +12,7 @@ Research artifacts added later must identify their question, bounded claim, sour
 
 ## Published artifacts
 
-- [From Numerical Cognition to Cognitive Command](artifacts/numerical-cognition-cognitive-command/README.md) — exploratory research note; scoped `source review` and `open` questions. Preserves concept formation, the role of learned practices in standards and AI disclosure; not independently human-reviewed or peer-reviewed. Present on `main`; not included in a tagged release.
+- [From Numerical Cognition to Cognitive Command](artifacts/numerical-cognition-cognitive-command/README.md) — exploratory research note; scoped `source review` and `open` questions. Updated to revised author version 2, submitted by email on 24 October 2026; submission does not establish acceptance or peer review. Preserves concept formation, the role of learned practices in standards and full AI disclosure; not independently human-reviewed. Present on `main`; not included in a tagged release.
 
 - [When a Perspective Grows](artifacts/when-a-perspective-grows/README.md) — philosophical working paper; scoped `source review`, `synthetic demonstration` and `open` questions. Exact-arithmetic examples are reproducible; the philosophical thesis is not independently verified or peer reviewed. Meredith is cited at abstract scope only. Present on `main`; not included in a tagged release.
 

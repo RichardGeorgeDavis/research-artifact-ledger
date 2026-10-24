@@ -2,7 +2,7 @@
 
 ## Unreleased — 2026-10-24
 
-- Added From Numerical Cognition to Cognitive Command as an exploratory research note with its unchanged published text and source-to-claim map. Distinguishes two cognitive-command requirements, a strongest objection and conditional reply; concept formation and the role of practices in standards remain open. Full AI disclosure and absence of independent human specialist/journal review are explicit. No refutation, new empirical result or novelty claim is made.
+- Updated From Numerical Cognition to Cognitive Command to revised author version 2, submitted by email on 24 October 2026. The philosophical argument and references match the submitted revision; public presentation and AI-disclosure formatting differ. Added Wright (2001, pp. 85–86) and Pantsar (2023, §§2, 5) to the source map as bounded later-source context. The original public version remains at commit e3b0840. Submission does not establish acceptance or peer review; no independent human specialist review, refutation, new empirical result or novelty claim is made.
 
 - Added When a Perspective Grows, an author philosophical working paper, with a source-to-claim map and exact-arithmetic reproduction script for its stipulated geometry and conditional choice model. Calculations do not validate experiential interpretation or establish novelty. The record preserves AI disclosure, abstract-only access to Meredith, the strongest unresolved objection and absence of independent human philosophical review.
 
