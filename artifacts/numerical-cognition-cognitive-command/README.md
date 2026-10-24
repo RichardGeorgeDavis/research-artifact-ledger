@@ -6,7 +6,7 @@ Status: `open`; scoped component: `source review`
 
 Version: `0.2.0` · Last updated: 24 October 2026 · Author: Richard George Davis
 
-**Revised exploratory author version, submitted by email to *Philosophia Mathematica* on 24 October 2026; submission does not establish acceptance or peer review.** Read the [complete note](note.md) or the [earlier RGD.cx publication](https://rgd.cx/articles/from-numerical-cognition-to-cognitive-command). This Ledger copy updates the public author version; the submitted manuscript and PDF remain outside this repository. The full AI disclosure is retained in the note.
+**Revised exploratory author version, submitted by email to *Philosophia Mathematica* on 24 October 2026; submission does not establish acceptance or peer review.** Read the [complete note](note.md) or the [RGD.cx publication](https://rgd.cx/articles/from-numerical-cognition-to-cognitive-command). This Ledger copy updates the public author version; the submitted manuscript and PDF remain outside this repository. The full AI disclosure is retained in the note.
 
 ## Question and intended use
 
@@ -36,6 +36,7 @@ The revised note adds a bounded comparison of Wright’s 2001 primary treatment 
 | Revised author version 2 | 24 October 2026, Africa/Johannesburg | SHA-256 above; submitted by email to *Philosophia Mathematica* | Exact public author copy; submission does not establish acceptance or peer review |
 | Original public author version | 24 October 2026, Africa/Johannesburg | [Ledger commit e3b0840](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/e3b084040e8d437428c0fd68278cec5b6fdafa56/artifacts/numerical-cognition-cognitive-command/note.md) | Preserved version 0.1.0, not first conception |
 | RGD.cx publication | 24 October 2026, Africa/Johannesburg | [Published page](https://rgd.cx/articles/from-numerical-cognition-to-cognitive-command); [site source commit](https://github.com/RichardGeorgeDavis/rgd.cx/commit/9186b90944a4a633f529b88c5cb1c7a51c16c3ea) | First recorded public appearance of this note; not a scholarly acceptance |
+| RGD.cx revised author version 2 | 24 October 2026, Africa/Johannesburg | [Published page](https://rgd.cx/articles/from-numerical-cognition-to-cognitive-command); [site source commit](https://github.com/RichardGeorgeDavis/rgd.cx/commit/8fb4558f119925682b7162b8636863f636c4fbf4) | Current live public version; does not establish scholarly acceptance or peer review |
 | Ledger entry | 24 October 2026, Africa/Johannesburg | [File history](https://github.com/RichardGeorgeDavis/research-artifact-ledger/commits/main/artifacts/numerical-cognition-cognitive-command/README.md) | Versioned repository appearance, not proof of priority or correctness |
 
 ## Method and inspection
