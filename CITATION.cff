@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 message: >-
-  If you cite this repository, please cite the version you used and include its
-  release DOI when one is available.
+  For the latest tagged release, cite the version and its release DOI when
+  available. For an artifact on main that is not included in a tagged release,
+  cite the specific commit and artifact path.
 title: "Research Artifact Ledger"
 authors:
   - family-names: Davis
@@ -12,12 +13,14 @@ url: https://github.com/RichardGeorgeDavis/research-artifact-ledger
 abstract: >-
   A versioned repository for bounded research artifacts with explicit source
   trails, evidence labels, reproduction notes, limitations, and correction
-  history. Version 0.2.0 includes a reproduced finite negative prime-ranking
-  screen; no general predictor or novelty claim is made. Untagged additions on main
-  include a philosophical working paper with scoped source review, synthetic
-  demonstrations and unresolved evidential questions, an exploratory note on
-  numerical cognition and cognitive command updated on main to a revised author
-  version submitted by email (submission does not establish acceptance or peer review),
-  and a bounded source review of neutral-scalar wormhole transmission observables;
-  these additions make no empirical or physical, field-level novelty, human-review
-  or peer-review claim. Cite a commit when using main.
+  history. Version 0.2.0 contains a reproduced finite negative prime-ranking
+  screen; it makes no general predictor or novelty claim. Current main also
+  contains untagged public records: a descriptive BFT first-event comparison;
+  Gaussian-moat formal endpoint and bounded source-audit records; a conditional
+  helix-metric application; a bounded prime-blind logarithmic-height derivation;
+  a philosophical working paper with synthetic demonstrations and unresolved
+  evidential questions; an exploratory numerical-cognition note; a bounded
+  neutral-scalar wormhole source review; and a bounded source review of
+  matched-CMB-circle limits on global topology. These records do not claim peer
+  review, broad verification, field-level novelty, or new empirical or physical
+  results. Cite a commit when citing untagged content on main.

@@ -78,7 +78,7 @@ Reviewer: not independently reviewed by a qualified philosopher for this artifac
 
 | Version/date | Change | Reason |
 |---|---|---|
-| 0.1.0 / 24 October 2026 | Local candidate package and exact-arithmetic companion | Prepare an inspectable ledger entry without public release |
+| 0.1.0 / 24 October 2026 | Public working-paper artifact and exact-arithmetic companion | Published on main; not included in tagged release v0.2.0 |
 
 ## Publication and reuse
 

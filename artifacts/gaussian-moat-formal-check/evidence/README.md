@@ -4,6 +4,8 @@ Published 2026-10-12. The five machine-output files are byte-for-byte copies of 
 
 The [bounded source-audit update](source-audit-update-20261012.md) records three later source-level reviews and a report-only challenge. These reviews add no machine outputs and did not run Lean or Lake.
 
+The [2026-10-16 source-audit update](source-audit-update-20261016.md) records three additional bounded source-review interfaces, including endpoint conversion, an inverse-limit application and an accurate-band application. It is a summary of retained review records, not a fresh proof audit or reproduction; full proof assurance remains open.
+
 The [2026-10-18 source-audit update](source-audit-update-20261018.md) records three further bounded Mathlib declaration reviews and a separate source-map challenge. These reviews add no machine outputs and did not run Lean or Lake.
 
 ## Claim-to-evidence map

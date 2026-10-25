@@ -2,7 +2,7 @@
 
 **Purpose:** a small, versioned home for selected research artifacts with explicit source trails, evidence labels, reproduction notes and correction history.
 
-**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains untagged Gaussian-moat formal endpoint and source-audit records, a conditional helix-metric application, a bounded derivation for one prime-blind logarithmic-height profile, a philosophical working paper on experiential comparison across learning, an exploratory note on numerical cognition and cognitive command (revised author version 2, submitted; acceptance and peer review are not established), a source-review note on neutral-scalar transmission through a traversable wormhole, and a source-review note on matched-CMB-circle topology limits.** These additions do not claim a new theorem, general predictor, scientific theory, empirical or physical result, or field-level novelty.
+**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains public artifacts not included in a tagged release:** the finite BFT first-event comparison; Gaussian-moat formal endpoint and source-audit records; a conditional helix-metric application; a bounded prime-blind logarithmic-height derivation; a philosophical working paper on experiential comparison across learning; an exploratory numerical-cognition note (revised author version 2, submitted; acceptance and peer review are not established); a neutral-scalar wormhole source review; and a bounded source review of matched-CMB-circle constraints on global topology. These records do not claim a new theorem, general predictor, scientific theory, empirical or physical result, or field-level novelty.
 
 ## What this repository can and cannot show
 
@@ -10,7 +10,7 @@ Each public commit and release records what this repository contained at that po
 
 Research artifacts added later must identify their question, bounded claim, sources, evidence class, method, reproducibility steps, limitations and review status. Established background, reproduced work, new derivations, synthetic examples, local applications, conjectures and open questions must not be blended into one verification label. For priority-sensitive records, distinguish claim-level authorship, prior work, first documented private note (if retained), first public record and the scope of any priority statement.
 
-## Published artifacts
+## Public artifacts on main
 
 - [From Numerical Cognition to Cognitive Command](artifacts/numerical-cognition-cognitive-command/README.md) — exploratory research note; scoped `source review` and `open` questions. Updated to revised author version 2, submitted by email on 24 October 2026; submission does not establish acceptance or peer review. Preserves concept formation, the role of learned practices in standards and full AI disclosure; not independently human-reviewed. Present on `main`; not included in a tagged release.
 
@@ -25,6 +25,11 @@ Research artifacts added later must identify their question, bounded claim, sour
 - [A half-area cross-section is not a generic transmission probability](artifacts/neutral-scalar-wormhole-transmission/README.md) — `source review`; a bounded interpretation of two version-pinned theoretical papers distinguishing fixed-frequency resonance, period/all-time `A/2` observables and finite-time packet delivery. No empirical or physical claim, field-level novelty claim, human review or peer review is made. Present on `main`; not included in the latest tagged release.
 
 - [What matched-CMB-circle nulls constrain about global topology](artifacts/cmb-matched-circle-topology/README.md) — `source review`; a bounded interpretation of two version-pinned papers distinguishing Planck's back-to-back matched-circle search and separate low-ℓ likelihood limits from Petersen et al.'s observer-centred constraints across nine orientable Euclidean families. No CMB analysis was reproduced; no global-topology verdict, novelty or priority claim, human specialist review or peer review is made. Present on `main`; not included in the latest tagged release.
+
+
+## Why the repository has releases
+
+A version tag and GitHub release give a repository state an identifier for version-specific citation and inspection. Release v0.1.0 records the initial template; v0.2.0 packages the reproduced singular-series screen. Releases are selective snapshots, not peer review or a quality certification, and later public artifacts can remain on main without a new release. These releases are not marked immutable by GitHub, so do not describe them as tamper-proof archives. Cite the tag for a released version; for a later untagged artifact, cite the relevant commit and artifact path.
 
 ## Status labels
 
@@ -43,7 +48,7 @@ Research artifacts added later must identify their question, bounded claim, sour
 2. Link material claims to primary sources, data, code, derivations or prior artifacts.
 3. Include enough information to reproduce or independently inspect the result, with rights and privacy reviewed.
 4. State negative results, limits, unresolved objections and what evidence would change the conclusion.
-5. Add a dated entry to [`HISTORY.md`](HISTORY.md), update citation metadata and provide a stable release tag when making a release. Corrections can be reported through the [repository issue tracker](https://github.com/RichardGeorgeDavis/research-artifact-ledger/issues).
+5. Add a dated entry to [`HISTORY.md`](HISTORY.md) and keep citation metadata accurate. When issuing a release, provide a version tag and release entry for that snapshot; do not imply the tag is immutable unless the hosting platform confirms it. Corrections can be reported through the [repository issue tracker](https://github.com/RichardGeorgeDavis/research-artifact-ledger/issues).
 
 ## Scope and reuse
 
