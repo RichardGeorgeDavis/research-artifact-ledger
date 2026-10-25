@@ -1,5 +1,9 @@
 # Release history
 
+## Unreleased — 2026-10-25
+
+- Added [A half-area cross-section is not a generic transmission probability](artifacts/neutral-scalar-wormhole-transmission/README.md), a `source review` of two version-pinned theoretical papers. It distinguishes fixed-frequency resonance, period-averaged and all-time `A/2` cross-sections, and finite-time packet delivery. The record makes no empirical or physical claim, field-level novelty or priority claim, human review or peer-review claim. It is present on `main` only and is not included in the latest tagged release (`v0.2.0`).
+
 ## Unreleased — 2026-10-24
 
 - Updated the numerical-cognition artifact chronology after the RGD.cx page went live with revised author version 2; retained the original RGD.cx source-commit and Ledger-version records.

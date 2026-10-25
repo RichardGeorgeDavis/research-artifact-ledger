@@ -2,7 +2,7 @@
 
 **Purpose:** a small, versioned home for selected research artifacts with explicit source trails, evidence labels, reproduction notes and correction history.
 
-**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains untagged Gaussian-moat formal endpoint and source-audit records, a conditional helix-metric application, and a bounded derivation for one prime-blind logarithmic-height profile, a philosophical working paper on experiential comparison across learning, and an exploratory note on numerical cognition and cognitive command, now updated on `main` to revised author version 2 (submitted; acceptance and peer review are not established).** These additions do not claim a new theorem, general predictor, scientific theory or field-level novelty.
+**Latest tagged release:** `v0.2.0`, containing the template and one reproduced, bounded negative finding: a finite singular-series shortlist screen for immediate-next-prime retrieval. **Current `main` also contains untagged Gaussian-moat formal endpoint and source-audit records, a conditional helix-metric application, a bounded derivation for one prime-blind logarithmic-height profile, a philosophical working paper on experiential comparison across learning, an exploratory note on numerical cognition and cognitive command (revised author version 2, submitted; acceptance and peer review are not established), and a source-review note on neutral-scalar transmission through a traversable wormhole.** These additions do not claim a new theorem, general predictor, scientific theory, empirical or physical result, or field-level novelty.
 
 ## What this repository can and cannot show
 
@@ -21,6 +21,8 @@ Research artifacts added later must identify their question, bounded claim, sour
 - [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) — `formalised`; an OpenAI-authored theorem checked at a pinned source revision, with chronology and trust limits. Its 2026-10-12 and 2026-10-18 source-audit updates remain bounded and leave the full proof open. Present on `main`; not yet included in a tagged release.
 - [Gaussian-moat bound under an address-controlled helix metric](artifacts/gaussian-moat-helix-metric-corollary/README.md) — `provisional application`; a conditional one-way graph-containment derivation from the Gaussian-moat endpoint, with zero-height and unrestricted-enumeration counterexamples. It is not Lean-formalised or a field-level novelty claim.
 - [A prime-blind logarithmic height gives an infinite tail path](artifacts/prime-blind-log-height/README.md) — `bounded derivation`; one fixed spiral convention, one height function and a conclusion conditional on the stated prime-number theorem input. Exact prior art and qualified human mathematical review remain unresolved; no novelty claim is made. Present on `main`; not included in a tagged release.
+
+- [A half-area cross-section is not a generic transmission probability](artifacts/neutral-scalar-wormhole-transmission/README.md) — `source review`; a bounded interpretation of two version-pinned theoretical papers distinguishing fixed-frequency resonance, period/all-time `A/2` observables and finite-time packet delivery. No empirical or physical claim, field-level novelty claim, human review or peer review is made. Present on `main`; not included in the latest tagged release.
 
 ## Status labels
 
