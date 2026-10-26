@@ -4,6 +4,8 @@ The source maps maintained in this folder cover the following public artifacts o
 
 - [BFT first-event prime census](bft-first-event-census.md) — source roles, bounded claim and prior-work comparison.
 - [BFT verification scope](bft-verification-scope.md) — what the public verifier checks and what it does not establish.
+- [Decimal carry states and prime-wheel phases](carry-wheel-phase-alignment.md) — generalized CRT, sieve background and the finite state enumeration.
+- [Prime Clockwork event-sieve comparison](prime-clockwork-event-sieve.md) — source representation, earlier lineage, benchmark code and retained run evidence.
 - [Singular-series shortlist screen](singular-series-screen.md) — mathematical background and the author-created finite calculation.
 - [Prime-blind logarithmic height](prime-blind-log-height.md) — sources for the conditional bounded derivation.
 - [When a Perspective Grows](when-a-perspective-grows.md) — claim-level source roles, access limits and synthetic examples.

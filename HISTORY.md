@@ -2,6 +2,13 @@
 
 ## Unreleased — 2026-10-26
 
+- Added [Decimal carry states and prime-wheel phases](artifacts/carry-wheel-phase-alignment/README.md), a bounded derivation of the joint decimal/mod-30 and decimal/mod-210 state periods, compatibility condition, survivor counts and carry rejection. The finite script checks complete cycles for `k=1,2,3`; the derivation uses standard generalized CRT and sieve facts. No new theorem, prime test, novelty or learning claim is made.
+- Added [A prime clockwork recast as an event-driven sieve](artifacts/prime-clockwork-event-sieve/README.md), a reproduced, bounded Python comparison through 20,000. Event scheduling beat the minimal clockwork scan in the retained run, while a standard segmented sieve was substantially faster. The public script was rerun on 26 October and matched outputs and operation counts; timings are recorded separately. Full benchmark controls remain incomplete and no general performance or novelty claim is made.
+
+Both artifacts are untagged additions on `main`; neither changes the latest tagged release (`v0.2.0`). No licence is assigned.
+
+## Unreleased — 2026-10-26
+
 - Added [What matched-CMB-circle nulls constrain about global topology](artifacts/cmb-matched-circle-topology/README.md), a `source review` of two version-pinned papers. It distinguishes Planck's back-to-back matched-circle search and separate low-ℓ likelihood results from Petersen et al.'s observer-centred translation of earlier temperature-circle nulls across nine orientable Euclidean families. No CMB map, likelihood, code or numerical result was reproduced. The record does not identify the actual global topology, rule out shorter loops elsewhere, or make a cosmological discovery, novelty, priority, human specialist review or peer-review claim. It is present on `main` only and is not included in the latest tagged release (`v0.2.0`).
 
 ## Unreleased — 2026-10-25

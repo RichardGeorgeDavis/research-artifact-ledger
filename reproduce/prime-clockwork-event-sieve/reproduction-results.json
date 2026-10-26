@@ -1,0 +1,74 @@
+{
+  "N": 20000,
+  "segment_width": 4096,
+  "repeats": 5,
+  "per_run_time_cap_seconds": 30,
+  "tracemalloc_memory_threshold_bytes": 268435456,
+  "python": "3.14.7 (main, Aug  5 2026, 10:29:49) [Clang 21.0.0 (clang-2100.1.1.101)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "validation": {
+    "clockwork": {
+      "equal_to_independent_trial_division": true,
+      "prime_count": 2262
+    },
+    "event_heap": {
+      "equal_to_independent_trial_division": true,
+      "prime_count": 2262
+    },
+    "segmented": {
+      "equal_to_independent_trial_division": true,
+      "prime_count": 2262
+    }
+  },
+  "counters": {
+    "clockwork": {
+      "clock_updates": 24068809
+    },
+    "event_heap": {
+      "composite_marks": 35485,
+      "heap_pushes_pops": 73232
+    },
+    "segmented": {
+      "composite_marks": 35485,
+      "segment_width": 4096,
+      "base_prime_count": 34
+    }
+  },
+  "timings": {
+    "clockwork": {
+      "seconds": [
+        1.0097517090000565,
+        1.0445231670000794,
+        1.0306643339999937,
+        1.0945004160000735,
+        1.2056127920000108
+      ],
+      "median_seconds": 1.0445231670000794
+    },
+    "event_heap": {
+      "seconds": [
+        0.021833874999856562,
+        0.022447999999940293,
+        0.02134895799986225,
+        0.021850083000117593,
+        0.023361709000027986
+      ],
+      "median_seconds": 0.021850083000117593
+    },
+    "segmented": {
+      "seconds": [
+        0.0005878750000647415,
+        0.0005917500000123255,
+        0.0005903750000015862,
+        0.0007231250001495937,
+        0.0006037079999714479
+      ],
+      "median_seconds": 0.0005917500000123255
+    }
+  },
+  "tracemalloc_peak_bytes": {
+    "clockwork": 169352,
+    "event_heap": 193184,
+    "segmented": 90567
+  }
+}
