@@ -8,6 +8,8 @@ The [2026-10-16 source-audit update](source-audit-update-20261016.md) records th
 
 The [2026-10-18 source-audit update](source-audit-update-20261018.md) records three further bounded Mathlib declaration reviews and a separate source-map challenge. These reviews add no machine outputs and did not run Lean or Lake.
 
+The [2026-10-26 mass and Main update](source-audit-update-20261026-mass-main.md) records the fixed-tuple all-`X` mass/density replay and the conditional symbolic Main caller map. It adds no machine outputs and does not claim alternative Lean elaboration or theorem-wide assurance.
+
 ## Claim-to-evidence map
 
 | Claim | Evidence | Limit |
