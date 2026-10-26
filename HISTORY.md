@@ -11,6 +11,10 @@ Both artifacts are untagged additions on `main`; neither changes the latest tagg
 
 - Added [What matched-CMB-circle nulls constrain about global topology](artifacts/cmb-matched-circle-topology/README.md), a `source review` of two version-pinned papers. It distinguishes Planck's back-to-back matched-circle search and separate low-ℓ likelihood results from Petersen et al.'s observer-centred translation of earlier temperature-circle nulls across nine orientable Euclidean families. No CMB map, likelihood, code or numerical result was reproduced. The record does not identify the actual global topology, rule out shorter loops elsewhere, or make a cosmological discovery, novelty, priority, human specialist review or peer-review claim. It is present on `main` only and is not included in the latest tagged release (`v0.2.0`).
 
+## Unreleased — 2026-10-26
+
+- Added [A source-text conflict in one cosmological BIC comparison](artifacts/bic-sign-convention-conflict/README.md), a `source review` of the Wang–Mota Version of Record and arXiv v2. It records an unresolved sign-direction inconsistency in the printed BIC definition and interpretation; no correction, model ranking, fit reproduction, novelty, human specialist review or peer-review claim is made. It is present on `main` only and is not included in the latest tagged release (`v0.2.0`).
+
 ## Unreleased — 2026-10-25
 
 - Added [A half-area cross-section is not a generic transmission probability](artifacts/neutral-scalar-wormhole-transmission/README.md), a `source review` of two version-pinned theoretical papers. It distinguishes fixed-frequency resonance, period-averaged and all-time `A/2` cross-sections, and finite-time packet delivery. The record makes no empirical or physical claim, field-level novelty or priority claim, human review or peer-review claim. It is present on `main` only and is not included in the latest tagged release (`v0.2.0`).
