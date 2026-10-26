@@ -62,3 +62,5 @@ Both artifacts are untagged additions on `main`; neither changes the latest tagg
 - Created a public repository structure and a reusable research-artifact record template.
 - No research findings, scientific theory, novelty claim or validation result are included in this release.
 - No open licence is assigned to this initial release.
+
+- 2026-10-26: Added [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) — `source review`; a bounded comparison of endpoint, cosmological mass-sum and oscillation-ordering claims, preserving dataset, model, prior, statistical and publication-status limits. No new fit, direct ordering measurement, model-independent verdict, human specialist review or peer review is claimed.
