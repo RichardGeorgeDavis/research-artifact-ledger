@@ -1,3 +1,7 @@
+## Unreleased — 2026-10-26
+
+- Updated [When a Perspective Grows](artifacts/when-a-perspective-grows/README.md) from public author paper v1 to v2.4; extended its bounded source map with longitudinal/response-shift and autobiographical-memory references. Kept the exact v1 snapshot at its introducing commit, reran the unchanged exact-arithmetic script, and made no new tag. The revision remains an unreviewed working paper: its contribution is a critical synthesis, not a new validation method or established original result; memory does not verify past phenomenal character.
+
 # Release history
 
 ## Unreleased — 2026-10-26
