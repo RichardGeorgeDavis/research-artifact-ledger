@@ -1,0 +1,11 @@
+# Bounded explicit tuple for separated parameters — 26 October 2026
+
+At the pinned [OpenAI Math revision `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb), a source-level arithmetic refinement exhibits `I=(1427/120030000)·1431!·2567!/3999!`, `γ=I/8`, `c_dense=I/(32 log 4)`, `δ=I/48`, `a=I/192`, `K=5000`, and `t=I/(160000 log 4)` for the scalar interface of [`SeparatedParameters.lean`](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/NumberTheory/GaussianMoat/SeparatedParameters.lean#L168-L205).
+
+The identity `1431!·2567!/3999! = 1/(3999·C(3998,1431))` and `1≤C(3998,1431)≤2^3998` give `I=1427/(120030000·3999·C(3998,1431))`, `0<I<1`, and `1/I<2^4037`, since `120030000·3999/1427<2^39`. Thus `0<a=I/192<1`, `2a=I/96≤δ`, `t>0`, and `K>0`.
+
+[`WindowParameters.lean`](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/NumberTheory/GaussianMoat/WindowParameters.lean#L12-L18) defines `topCoefficient(a)=10^-240·a`. The first separated-parameter inequality `a≤2^K·topCoefficient(a)` reduces to `10^240≤2^5000`, because `10^240=(10^3)^80<2^800<2^5000`.
+
+The second inequality `4 log(4)/(2^K−1)≤(topCoefficient(a)/4)/10000` is equivalent, after multiplying by positive denominators, to `2^5000−1≥30720000·log(4)·10^240/I`. Since `log(4)<2`, `30720000·log(4)<2^26`, `10^240<2^800`, and `1/I<2^4037`, its right side is `<2^4863<2^5000−1`. An independent AI challenge of the named public sources and exact arithmetic found no counterexample or missing scalar tuple condition. Requested model/effort: `gpt-6.1-sol / high`; serving telemetry was unavailable.
+
+This fixes the existential scalar `K` in the conditional `PrimeMass → DenseBins → SeparatedParameters` alternative construction. The challenge did not recheck the preceding all-`X` mass premise or prove the later eventual finite-set witness. It does not show that unchanged `Main.lean` selects this tuple, complete an alternative Main proof, establish tuple-specific downstream cutoffs, or provide Lean elaboration/build, cache/kernel validation, theorem-wide assurance, novelty or independent human review. No source theorem, data or code was changed or reproduced.

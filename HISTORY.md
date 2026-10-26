@@ -72,3 +72,7 @@ Both artifacts are untagged additions on `main`; neither changes the latest tagg
 - No open licence is assigned to this initial release.
 
 - 2026-10-26: Added [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) — `source review`; a bounded comparison of endpoint, cosmological mass-sum and oscillation-ordering claims, preserving dataset, model, prior, statistical and publication-status limits. No new fit, direct ordering measurement, model-independent verdict, human specialist review or peer review is claimed.
+
+## Unreleased — 2026-10-26
+
+- Gaussian-moat artifact 0.1.6 adds a bounded arithmetic refinement exhibiting `a=I/192`, `δ=I/48`, `K=5000` and `t=I/(160000 log 4)` for the scalar inequalities in the pinned `SeparatedParameters` interface. An independent public-source AI challenge found no arithmetic counterexample. The result remains conditional on the preceding all-`X` mass premise and eventual finite-set witness; it does not show unchanged Main selects the tuple, complete an alternative proof, provide downstream cutoffs, or establish Lean/build or theorem-wide assurance. No human specialist review or novelty claim is made.
