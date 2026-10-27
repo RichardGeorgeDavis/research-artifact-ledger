@@ -1,3 +1,7 @@
+## Unreleased — 2026-10-27
+
+- Added [What a neutrinoless double-beta null search can establish about neutrino nature](artifacts/dirac-majorana-null-search/README.md), a bounded `source review` distinguishing the KamLAND-Zen combined 400+800 half-life limit from its separate 800-only profile-likelihood and Feldman–Cousins limits. It records the conditional light-Majorana-exchange effective-mass range, explains why the null result does not determine Dirac versus Majorana nature, and notes an apparent NuFIT phase-label mismatch while retaining its invariant effective-mass definition and unchanged free-phase envelope. An independent AI public-source challenge checked the cited claims. No new fit, physical verdict, human specialist review, peer review, novelty or priority claim is made. The artifact is an untagged addition on `main`; no licence is assigned.
+
 ## Unreleased — 2026-10-26
 
 - Updated [When a Perspective Grows](artifacts/when-a-perspective-grows/README.md) from public author paper v1 to v2.4; extended its bounded source map with longitudinal/response-shift and autobiographical-memory references. Kept the exact v1 snapshot at its introducing commit, reran the unchanged exact-arithmetic script, and made no new tag. The revision remains an unreviewed working paper: its contribution is a critical synthesis, not a new validation method or established original result; memory does not verify past phenomenal character.
