@@ -28,7 +28,7 @@ NuFIT 6.0 states that its Majorana phase matrix does not enter oscillations and 
 
 ## Evidence class and review status
 
-The evidence class is `source review`. The coordinator checked the final published KamLAND-Zen paper and versioned NuFIT source, including a visual inspection of the relevant NuFIT PDF equations. An independent AI public-source challenge reviewed the named public packet and source links at the requested setting `gpt-6.1-sol / high`; serving telemetry was unavailable. The challenge confirmed the combined and 800-only limit distinctions, the conditional mass conversion, the non-inference from a null result, and the apparent NuFIT phase-label sign mismatch. No human specialist review or peer review of this synthesis is claimed.
+The evidence class is `source review`. The coordinator checked the final published KamLAND-Zen paper and versioned NuFIT source, including a visual inspection of the relevant NuFIT PDF equations. Two independent AI public-source challenges reviewed the named public packet and source links; both requests specified `gpt-6.1-sol / high`, while serving telemetry was unavailable. The reviewers confirmed the combined and 800-only limit distinctions, the conditional mass conversion, the non-inference from a null result, and the apparent NuFIT phase-label sign mismatch. No human specialist review or peer review of this synthesis is claimed.
 
 No experimental fit, detector-data analysis, likelihood, nuclear-matrix-element conversion, mass-ordering analysis, or physical particle-nature verdict was reproduced. This note establishes no field-level novelty, priority or Infinity Research connection.
 
@@ -64,14 +64,14 @@ This bounded note is authored by Richard George Davis with AI-assisted source an
 
 ## Independent review
 
-Reviewer: one independent AI public-source challenge; requested setting `gpt-6.1-sol / high`; serving telemetry unavailable. Date: 2026-10-27.
+Reviewers: two independent AI public-source challenges; both requests specified `gpt-6.1-sol / high`; serving telemetry unavailable. Date: 2026-10-27.
 
 Scope: distinguish the combined and 800-only limits; verify the light-Majorana mass conversion assumptions; check the non-inference from a null result; verify Majorana-phase independence in oscillations; and check the displayed NuFIT effective-mass equations and phase conventions.
 
-Findings: the reviewer confirmed the combined 400+800 limit and separate 800-only profile-likelihood/Feldman–Cousins values, the conditional mass-limit range, and that the null result does not determine particle nature. It identified that NuFIT Eq. (5.4) uses `αᵢ−δCP` whereas substitution from Eq. (2.1) into invariant Eq. (5.2) yields `αᵢ+δCP` after factoring out a common phase. The reviewer and coordinator found the complete free-phase envelope unchanged. No fit or human specialist review occurred.
+Findings: the reviewers confirmed the combined 400+800 limit and separate 800-only profile-likelihood/Feldman–Cousins values, the conditional mass-limit range, and that the null result does not determine particle nature. They identified that NuFIT Eq. (5.4) uses `αᵢ−δCP` whereas substitution from Eq. (2.1) into invariant Eq. (5.2) yields `αᵢ+δCP` after factoring out a common phase. The reviewers and coordinator found the complete free-phase envelope unchanged. No fit or human specialist review occurred.
 
 ## Change history
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
-| 0.1.0 / 2026-10-27 | Initial bounded source-review artifact | Version-pinned public sources, coordinator source inspection and an independent AI public-source challenge; conditional interpretation and equation-convention limits are stated above. |
+| 0.1.0 / 2026-10-27 | Initial bounded source-review artifact | Version-pinned public sources, coordinator source inspection and two independent AI public-source challenges; conditional interpretation and equation-convention limits are stated above. |
