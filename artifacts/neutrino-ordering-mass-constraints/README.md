@@ -2,9 +2,9 @@
 
 Status: `source review`
 
-Version: `0.1.0`
+Version: `0.1.1`
 
-Last updated: `2026-10-26`
+Last updated: `2026-10-28`
 
 Author: Richard George Davis, with AI-assisted source analysis and writing.
 
@@ -20,6 +20,8 @@ This note is for readers comparing laboratory mass limits, cosmological mass-sum
 
 The selected sources constrain different quantities and support conditional, dataset- and model-dependent statements. KATRIN’s direct endpoint result constrains an effective electron-flavour mass. Cosmological analyses constrain or compare the sum of masses under specified datasets, cosmologies, priors and statistical procedures. A mass-sum limit may be compared with an oscillation-implied ordering floor, while a Bayesian ordering odds result additionally depends on parameterisation, priors and likelihood construction. These are not interchangeable forms of direct ordering measurement.
 
+Within the NuFIT three-flavour convention, oscillations constrain the mass-squared splittings `Δm²21` and signed `Δm²3ℓ`; normal ordering uses `ℓ=1` with positive `Δm²3ℓ`, while inverted ordering uses `ℓ=2` with negative `Δm²3ℓ`. Oscillation measurements are insensitive to a common shift of all mass levels, apart from the lower bound implied for the heaviest states. They therefore inform relative mass structure and ordering comparisons but do not determine the absolute mass scale.
+
 Several selected peer-reviewed cosmological analyses report tension with the inverted-ordering mass floor under their stated assumptions. The selected papers do not provide a model-independent ordering determination or a new combined fit. The selected 2026 preliminary Bari oscillation release reports differing ordering preferences across overlapping data combinations. One unreviewed preprint reports much larger combined odds but contains an unresolved arithmetic inconsistency in its oscillation contribution; its odds are not repaired or independently validated here.
 
 ## Evidence class and review status
@@ -30,7 +32,7 @@ The evidence class is `source review`. The coordinator inspected the version-pin
 
 | Source | Version/date | Role and locator | Access and rights |
 |---|---|---|---|
-| Esteban et al., NuFIT 6.0, JHEP 12 (2024) 216, [arXiv:2410.05380v2](https://arxiv.org/abs/2410.05380v2) | v2, 28 October 2025 | §5, Eqs. (15), (17)–(20): oscillation mass-squared differences, effective tritium mass and cosmological mass sum | Linked and paraphrased. The later [NuFIT 6.1 release notes](https://www.nu-fit.org/sites/default/files/v61.release-notes.pdf) are listed for context; that PDF was not retrieved in the independent review. |
+| Esteban et al., NuFIT 6.0, JHEP 12 (2024) 216, [arXiv:2410.05380v2](https://arxiv.org/abs/2410.05380v2) | v2, 28 October 2025 | §2, Eq. (2), and §5, Eqs. (15), (17)–(20): signed mass-splitting convention, absolute-offset limit, effective tritium mass and cosmological mass sum | Linked and paraphrased. The later [NuFIT 6.1 release notes](https://www.nu-fit.org/sites/default/files/v61.release-notes.pdf) are listed for context; that PDF was not retrieved in the independent review. |
 | KATRIN Collaboration, Science 388 (2025), [arXiv:2406.13516](https://arxiv.org/abs/2406.13516) | 2025; 259 measurement days | Abstract and reported endpoint result: effective electron-antineutrino mass limit `mν < 0.45 eV` at 90% CL | Linked and paraphrased; no data or figures reused. |
 | Elbers et al., Phys. Rev. D 112, 083513 (2025), DOI [10.1103/w9pk-xsk7](https://doi.org/10.1103/w9pk-xsk7), [APS record](https://journals.aps.org/prd/abstract/10.1103/w9pk-xsk7), [arXiv:2503.14744v3](https://arxiv.org/abs/2503.14744v3) | v3, 2025 | Separate cosmological mass-sum bound and ordering comparison, including its data, model, parameterisation and prior qualifications | Linked and paraphrased; no tables or figures reused. |
 | Ivanov et al., Phys. Rev. D 114, 063526 (2026), DOI [10.1103/sjff-yj2t](https://doi.org/10.1103/sjff-yj2t), [APS record](https://journals.aps.org/prd/abstract/10.1103/sjff-yj2t), [arXiv:2601.16165v3](https://arxiv.org/abs/2601.16165v3) | v3 / published 2026 | §4.3 and §5: mass-sum limits and posterior-derived comparison with ordering floors | Linked and paraphrased; no tables or figures reused. |
@@ -93,4 +95,5 @@ Findings: the observable comparison is descriptive only when the quantities and 
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.1 / 2026-10-28 | Added the NuFIT mass-splitting convention and common-offset limitation to clarify why oscillation data do not determine absolute mass | Item418 coordinator read of NuFIT 6.0 v2 §2 Eq. (2) and §5; no new fit, physical conclusion or independent challenge is claimed. |
 | 0.1.0 / 2026-10-26 | Initial bounded source-review artifact | Version-pinned public sources, coordinator source review and an independent AI public-source challenge; unresolved limits are stated above. |
