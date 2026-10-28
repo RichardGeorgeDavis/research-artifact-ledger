@@ -2,7 +2,7 @@
 
 Status: `source review`
 
-Version: `0.1.2`
+Version: `0.1.3`
 
 Last updated: `2026-10-28`
 
@@ -20,7 +20,7 @@ This note is for readers comparing laboratory mass limits, cosmological mass-sum
 
 The selected sources constrain different quantities and support conditional, dataset- and model-dependent statements. KATRIN’s direct endpoint result constrains an effective electron-flavour mass. Cosmological analyses constrain or compare the sum of masses under specified datasets, cosmologies, priors and statistical procedures. A mass-sum limit may be compared with an oscillation-implied ordering floor, while a Bayesian ordering odds result additionally depends on parameterisation, priors and likelihood construction. These are not interchangeable forms of direct ordering measurement.
 
-Within the NuFIT three-flavour convention, oscillations constrain the mass-squared splittings `Δm²21` and signed `Δm²3ℓ`; normal ordering uses `ℓ=1` with positive `Δm²3ℓ`, while inverted ordering uses `ℓ=2` with negative `Δm²3ℓ`. Oscillation probabilities depend on differences of squared masses. Adding a common constant to every squared mass leaves those differences unchanged; adding the same constant to each mass itself would not. Oscillation data therefore constrain relative mass structure and can imply a lower floor, but do not by themselves determine the absolute mass scale (for example, the lightest mass in the stated three-neutrino model). They therefore inform relative mass structure and ordering comparisons but do not determine the absolute mass scale.
+Within the NuFIT three-flavour convention, oscillations constrain the mass-squared splittings `Δm²21` and signed `Δm²3ℓ`; normal ordering uses `ℓ=1` with positive `Δm²3ℓ`, while inverted ordering uses `ℓ=2` with negative `Δm²3ℓ`. Oscillation probabilities depend on differences of squared masses. Adding a common constant to every squared mass leaves those differences unchanged; adding the same constant to each mass itself would not. Oscillation data therefore constrain relative mass structure and can imply a lower floor, but do not by themselves determine the absolute mass scale (for example, the lightest mass in the stated three-neutrino model).
 
 Several selected peer-reviewed cosmological analyses report tension with the inverted-ordering mass floor under their stated assumptions. The selected papers do not provide a model-independent ordering determination or a new combined fit. The selected 2026 preliminary Bari oscillation release reports differing ordering preferences across overlapping data combinations. One unreviewed preprint reports much larger combined odds but contains an unresolved arithmetic inconsistency in its oscillation contribution; its odds are not repaired or independently validated here.
 
@@ -95,6 +95,7 @@ Findings: the observable comparison is descriptive only when the quantities and 
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.3 / 2026-10-28 | Removed a duplicated sentence in the supported-claim summary | Loop review found repeated wording; no evidence, data, fit or physical conclusion changed. |
 | 0.1.2 / 2026-10-28 | Clarified that the invariant shift is a common additive constant in the squared masses, not in the masses themselves | Item419 algebra check of the wording against the mass-squared-difference definition; no data, fit or physical conclusion changed. |
 | 0.1.1 / 2026-10-28 | Added the NuFIT mass-splitting convention and common-offset limitation to clarify why oscillation data do not determine absolute mass | Item418 coordinator read of NuFIT 6.0 v2 §2 Eq. (2) and §5; no new fit, physical conclusion or independent challenge is claimed. |
 | 0.1.0 / 2026-10-26 | Initial bounded source-review artifact | Version-pinned public sources, coordinator source review and an independent AI public-source challenge; unresolved limits are stated above. |
