@@ -1,7 +1,7 @@
 # A synthetic angular-scattering comparison for two sheet-response models
 
 **Status:** `synthetic demonstration` and `bounded derivation`
-**Version:** `0.1.0`
+**Version:** `0.1.1`
 **Prepared:** 2026-10-28
 **Author:** Richard George Davis
 **AI assistance:** AI assisted the model formulation, derivation, calculation script and drafting; a separate AI reviewer checked the derivation and finite results.
@@ -14,7 +14,7 @@ At one fixed frequency \(\omega_0\), can a declared TE plane-wave model with an 
 
 For the selected dimensionless sheet response and the four stated angles, the complex reflection and transmission amplitudes agree at normal incidence by construction and differ at the three sampled oblique angles from the named angle-independent local-sheet comparator. Both declared models have a reciprocal symmetric two-port scattering matrix and satisfy the stated passivity checks over this finite table.
 
-This is a synthetic calculation with author-selected coefficients. It is not a material measurement, fitted model, physical demonstration, unique identification of nonlocality, new theorem, or field-novelty claim.
+This is a synthetic calculation with coefficients selected during AI-assisted work solely to define the example. It is not a material measurement, fitted model, physical demonstration, unique identification of nonlocality, new theorem, or field-novelty claim.
 
 ## Model and derivation
 
@@ -60,7 +60,7 @@ The script uses only the Python standard library and requires Python 3.9 or late
 
 The equations are derived here from the explicitly stated plane-wave and sheet-current boundary conditions. Spatially dispersive metasurfaces and their model-specific reciprocity relations are established background; for example, Pfeiffer and Grbic discuss how the reciprocal relation for their spatially dispersive metasurface connects opposite transverse wavevectors. Their paper does not validate this toy model or imply a universal same-angle symmetric scattering matrix: [Pfeiffer and Grbic, *Physical Review Letters* 117, 077401 (2016)](https://doi.org/10.1103/PhysRevLett.117.077401).
 
-The response coefficients and the finite comparison are author-selected. No systematic prior-art or novelty search was performed, and no priority claim is made. The first retained private record is dated 2026-10-22; that date does not establish first conception or priority.
+The response coefficients and finite comparison were selected during AI-assisted work solely to define this toy example. No systematic prior-art or novelty search was performed, and no priority claim is made. The first retained private record is dated 2026-10-22; that date does not establish first conception or priority.
 
 ## Review status and limitations
 
@@ -72,6 +72,7 @@ A physical discriminator would require a named material and geometry, a frequenc
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.1 / 2026-10-28 | Corrected the attribution of model selection | The coefficients were selected during AI-assisted work; no numerical result or derivation changed. |
 | 0.1.0 / 2026-10-28 | Initial public record of F36-T1 | Private finite derivation and independent mathematical challenge dated 2026-10-22; no physical or novelty claim. |
 
 This artifact has no open licence. Public visibility does not grant broader reuse permission.
