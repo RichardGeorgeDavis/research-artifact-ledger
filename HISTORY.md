@@ -1,3 +1,9 @@
+## Artifact release — When a Perspective Grows v2.6 — 2026-11-05
+
+- Released the final combined author manuscript [v2.6](artifacts/when-a-perspective-grows/paper.md) under artifact-specific tag `when-a-perspective-grows-v2.6`. Updated the existing artifact rather than creating a duplicate. Preserved public v1/v2.4 through commit-pinned links.
+- Added the worked Goldstone application, developed the calibration argument, combined the formal clarification into Appendix A, and supplied separate sensitivity analysis with a rational-arithmetic checker. Updated the source map and artifact citation metadata.
+- The release remains unreviewed by an independent human philosopher and is not peer reviewed. No empirical calibration, field-level novelty, journal acceptance or open reuse licence is claimed. The tag records a repository snapshot; only the named artifact is the subject of this release.
+
 ## Unreleased — 2026-10-28
 
 - Corrected [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) to version `0.1.3` by removing a duplicated sentence; no evidence, data, fit or physical conclusion changed. The change is untagged on `main`; no licence is assigned.

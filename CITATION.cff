@@ -2,7 +2,8 @@ cff-version: 1.2.0
 message: >-
   For the latest tagged release, cite the version and its release DOI when
   available. For an artifact on main that is not included in a tagged release,
-  cite the specific commit and artifact path.
+  cite the specific commit and artifact path. For an artifact-specific release,
+  use that artifact’s CITATION.cff and release tag.
 title: "Research Artifact Ledger"
 authors:
   - family-names: Davis
@@ -18,8 +19,7 @@ abstract: >-
   contains untagged public records: a descriptive BFT first-event comparison;
   Gaussian-moat formal endpoint and bounded source-audit records; a conditional
   helix-metric application; a bounded prime-blind logarithmic-height derivation;
-  a philosophical working paper with synthetic demonstrations and unresolved
-  evidential questions; an exploratory numerical-cognition note; a bounded
+  an exploratory numerical-cognition note; a bounded
   neutral-scalar wormhole source review; and a bounded source review of
   matched-CMB-circle limits on global topology; a bounded carry/prime-wheel
   derivation; and a reproduced finite Prime Clockwork event-sieve comparison.
@@ -28,4 +28,6 @@ abstract: >-
   physical measurement, unique-identification or novelty claim. These records
   do not claim peer review, broad verification, field-level
   novelty, or new empirical or physical results. Cite a commit when citing
-  untagged content on main.
+  untagged content on main. The final author release of When a Perspective
+  Grows has artifact-specific tag when-a-perspective-grows-v2.6; use its
+  own citation metadata for the manuscript.

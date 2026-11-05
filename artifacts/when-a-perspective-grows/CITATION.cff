@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Cite this final author release; it is not peer reviewed."
+title: "When a Perspective Grows: paper and reproducibility package"
+authors:
+  - family-names: Davis
+    given-names: Richard George
+version: "2.6"
+date-released: 2026-11-05
+type: software
+url: https://github.com/RichardGeorgeDavis/research-artifact-ledger/tree/when-a-perspective-grows-v2.6/artifacts/when-a-perspective-grows
+abstract: >-
+  A critical synthesis of experiential comparison across learning, with a
+  worked category-learning application, conditional mathematical examples
+  and a formal clarification of candidate elimination. Phenomenal calibration,
+  domain applicability and historical novelty remain unresolved.
+preferred-citation:
+  type: report
+  title: "When a Perspective Grows: Experience, learning and the warrant for comparison"
+  authors:
+    - family-names: Davis
+      given-names: Richard George
+  version: "2.6"
+  year: 2026
+  month: 11
+  date-published: 2026-11-05
+  url: https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/when-a-perspective-grows-v2.6/artifacts/when-a-perspective-grows/paper.md
+  notes: "Final author release; not peer reviewed."
