@@ -1,3 +1,7 @@
+## Unreleased — 2026-11-05
+
+- Updated [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) to version `0.1.8` with the exact complete sufficient threshold at `D=d=1`: `M_*(1,1)=6W·100^W`, where `W=ceil⁺((log 5+1)/r)+1`. A `gpt-6.1-sol / high` independent AI public-source challenge found no missing guard or ceiling issue. The identity remains conditional on the separately derived item379 pointwise density premise and is not Lean elaboration, compilation or theorem-wide assurance. The update is untagged on `main`; no licence is assigned.
+
 ## Artifact release — When a Perspective Grows v2.6 — 2026-11-05
 
 - Released the final combined author manuscript [v2.6](artifacts/when-a-perspective-grows/paper.md) under artifact-specific tag `when-a-perspective-grows-v2.6`. Updated the existing artifact rather than creating a duplicate. Preserved public v1/v2.4 through commit-pinned links.
