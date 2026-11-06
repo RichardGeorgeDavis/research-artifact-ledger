@@ -1,5 +1,6 @@
 ## Unreleased — 2026-11-06
 
+- Updated [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) to version `0.1.10` with public third-party exact-pin Comparator replay reports from Toledo, MathVet and Reilly. The reports support acceptance of the encoded `GaussianMoat` endpoint at the pinned revision; our local Comparator remains unrun, and paper-to-Lean correspondence, full proof validity and cache/source authentication remain unestablished. The note adds public links but reproduces no proof, code or data; the update is untagged and no licence is assigned.
 - Updated [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) to version `0.1.9` with a source-level exact evaluation of the prescribed sufficient Main threshold for every real `D>=1` and rational `d>=D`: `M*(D,d)=max(6W·100^W, ceil+(X_int(d)))`. An independent AI public-source challenge checked the geometry, all ten caller guards, ceilings, smoothing and density comparison, and the rounded switch boundary. The result remains conditional on the separate pointwise density derivation; it is not Lean elaboration/build or theorem-wide assurance. The update is untagged on `main`; no licence is assigned.
 
 ## Unreleased — 2026-11-05

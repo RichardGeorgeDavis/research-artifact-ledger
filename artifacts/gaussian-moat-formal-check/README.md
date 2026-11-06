@@ -2,7 +2,7 @@
 
 Status: `formalised`
 
-Version: `0.1.9`
+Version: `0.1.10`
 
 Last updated: `2026-11-06`
 
@@ -35,13 +35,15 @@ OAI.GaussianMoat.fullMain : OAI.GaussianMoat.MainEndpoint ∧ OAI.GaussianMoat.U
 'OAI.GaussianMoat.fullMain' depends on axioms: [propext, Classical.choice, Quot.sound]
 ```
 
-The pinned comparator configuration names the same theorem and permits the same three axioms. This is a configuration match; the comparator harness itself was not run.
+The pinned comparator configuration names the same theorem and permits the same three axioms. Our local comparator harness was not run. Three public third-party records report replay of the `GaussianMoat` challenge at this exact source pin, including acceptance by Lean and nanoda; the [dated evidence note](evidence/source-audit-update-20261106-third-party-replay.md) records the reports and their limits. These records do not establish paper-to-Lean equivalence, complete proof correctness or cache-to-source authentication.
 
 The evidence supports the labels `formalised` and `source review` for the stated scope, conditional on the imported environment and trust limits below. It does not authenticate every cached dependency against source, establish a complete independent proof audit, or determine novelty.
 
 Three further bounded source reviews and a report-level challenge are recorded in the [2026-10-12 source-audit update](evidence/source-audit-update-20261012.md). They found no defect in their listed declaration bodies, interfaces and caller substitutions; they did not run Lean/Lake or verify the entire theorem dependency chain.
 
 A separate [2026-10-18 source-audit update](evidence/source-audit-update-20261018.md) summarises three additional bounded Mathlib reviews: the lower PID basis-reduction construction, the rank-induction consumer assembly, and the `inductionOnRankAux` engine. The reviews found no mismatch in their inspected declarations and source maps. They are conditional source-level reviews, not a new build, theorem proof or independent human certification.
+
+The [6 November third-party replay note](evidence/source-audit-update-20261106-third-party-replay.md) records public reports of Comparator replay for `GaussianMoat` at the exact upstream pin. These reports concern acceptance of the encoded endpoint; they are not three independent mathematical audits. Our local Comparator remains unrun, and manuscript correspondence and dependency-trust limits remain open.
 
 ## Authorship, chronology and prior work
 
@@ -100,7 +102,7 @@ The later [2026-10-12 source-audit update](evidence/source-audit-update-20261012
 
 - The source manuscript's historical attributions have not all been independently checked against their original sources in this artifact.
 - The official cache's artifact bytes were not authenticated against every source body; complete transitive source closure remains unproved.
-- The comparator JSON was inspected, but its harness was not executed; `enable_nanoda` is false.
+- Our local comparator JSON was inspected, but the local harness was not executed; `enable_nanoda` is false in that configuration. Third-party same-pin replay reports are listed separately in the 6 November evidence note; they do not change the local-run status or settle manuscript correspondence or transitive proof trust.
 - The listed entropy/support, ordered-accounting, quotient/lattice/component and analytic prime-mass source slices have bounded AI source reviews with no defect identified in the inspected scope. Imported dependencies, uninspected portions and downstream implications remain outside complete independent review; see the dated source-audit update for exact boundaries.
 - The 2026-10-18 PID basis-reduction and rank-induction slices likewise have bounded AI source reviews at a pinned Mathlib revision. The PID review read the directly used helper bodies for `generator_submoduleImage_dvd_of_mem`, `mkFinConsOfLE` and `mkFinCons`; their lower-level dependencies remain trusted. The exact source maps and limits are in the dated update. No Lean/Lake run, complete imported-proof audit, cache authentication or complete Family-028 assurance is claimed.
 - The 2026-10-26 scalar tuple note is superseded in scope by the later mass/Main update. The 28 October update estimates the scale of its derived `X_res` and a lower bound for `W*(D)`. The 5 November update evaluates `M_*` at `D=d=1`, and the 6 November update gives its exact source-level expression for all `D>=1,d>=D`; both remain conditional on item379's separate pointwise density derivation and are not Lean elaborated or compiled. Executable `COST`/`BATCH`, cache/kernel and theorem-wide assurance remain open. Serving telemetry was unavailable; no independent human or specialist review is claimed.
@@ -113,7 +115,10 @@ The later [2026-10-12 source-audit update](evidence/source-audit-update-20261012
 |---|---|---|---|---|
 | [OpenAI Math family 028 manuscript](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026/build/main.tex) | Manuscript dated 2026-09-26; pinned repository commit above | Statement, authorship and historical claims | Theorem statement, title-page date, introduction | Public source |
 | [Lean Main module](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/NumberTheory/GaussianMoat/Main.lean) | Same source commit | Formal endpoint declaration | `OAI.GaussianMoat.fullMain` | Public source |
-| [Comparator configuration](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/GaussianMoat.json) | Same source commit | Expected theorem and permitted axiom set | Target, permitted axioms and checker setting | Public configuration; harness not run |
+| [Comparator configuration](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/GaussianMoat.json) | Same source commit | Expected theorem and permitted axiom set | Target, permitted axioms and checker setting | Public configuration; our harness was not run |
+| [Toledo cert-machine exact-pin record](https://github.com/carlostoledo1891/cert-machine/blob/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-kernel.json#L6168-L6202) | cert-machine commit `9814e4c`; upstream OpenAI/math pin `fd4aeeb2` | Third-party Comparator replay record | `GaussianMoat`, Lean plus stock nanoda, exit 0 | Public report; trust and sandbox limits stated in the evidence note |
+| [MathVet challenge-status record](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/challenge-status.csv#L150) | MathVet commit `14c7f91`; same upstream pin | Third-party sandboxed Comparator status | `OAI.GaussianMoat.fullMain`, `comparator-sandboxed-pass` | Public status record; not a manuscript proof audit |
+| [Reilly corpus replay record](https://github.com/jmreilly1113/siegel-zeros-audit/blob/main/results/2026-10-20-corpus-summary-final.tsv#L96) | Corpus snapshot accessed 2026-11-06; same upstream pin | Third-party dual-kernel replay report | `GaussianMoat`, `ACCEPT_BOTH`, exit 0 | Public report; may overlap with other corpus records |
 | Local execution record and outputs | Dated 2026-10-11 to 2026-10-12 (Africa/Johannesburg) | Run evidence, bounded reviews and trust disposition | Build and axiom result | Selected machine outputs are published in the evidence bundle; full working record remains private |
 | Author-derived exact-onset update | 2026-11-05 | Fixed-instance source-level derivation at `D=d=1` | Exact `M_*` comparison | Reproducible from the pinned formulas and inequalities in the linked update |
 | Author-derived all-domain threshold update | 2026-11-06 | Source-level evaluation for all real `D>=1` and rational `d>=D` | Exact `M_*(D,d)` comparison | Reproducible from the pinned formulas and inequalities in the linked update |
@@ -134,5 +139,6 @@ No third-party text, data or code is reproduced here beyond short technical iden
 | 0.1.7 / 2026-10-26 | Added the fixed-tuple all-`X` mass/density replay and an independently challenged symbolic Main caller map | The source/math evidence supports a conditional alternative proof map. No alternative Lean theorem, numerical cutoff, executable cost, cache/kernel validation or theorem-wide assurance is claimed. |
 | 0.1.8 / 2026-11-05 | Added the exact complete sufficient threshold at `D=d=1` | An independent AI public-source challenge found no missing guard or ceiling issue. The result remains conditional on item379's pointwise density derivation and is not Lean elaboration/build or theorem-wide assurance. |
 | 0.1.9 / 2026-11-06 | Added the exact source-defined sufficient threshold over all real `D>=1` and rational `d>=D` | An independent AI public-source challenge found no invalid inequality or omitted guard. The result remains conditional on item379's pointwise density derivation and is not Lean elaboration/build or theorem-wide assurance. |
+| 0.1.10 / 2026-11-06 | Added public third-party exact-pin Comparator replay records | Toledo, MathVet and Reilly report replay/acceptance of the encoded endpoint at the pinned revision. Our local Comparator was not run; the reports do not establish paper-to-Lean correspondence, full proof validity or cache/source authentication. |
 
 Additional endpoint, inverse-limit and first accurate-band review coverage is summarised in the [16 October note](evidence/source-audit-update-20261016.md). These remain source reviews with no new build or full proof assurance.

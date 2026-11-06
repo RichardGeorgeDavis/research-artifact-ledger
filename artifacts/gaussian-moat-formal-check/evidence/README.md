@@ -8,6 +8,8 @@ The [2026-10-16 source-audit update](source-audit-update-20261016.md) records th
 
 The [2026-10-18 source-audit update](source-audit-update-20261018.md) records three further bounded Mathlib declaration reviews and a separate source-map challenge. These reviews add no machine outputs and did not run Lean or Lake.
 
+The [2026-11-06 third-party replay update](source-audit-update-20261106-third-party-replay.md) records public Comparator replay reports for the exact `GaussianMoat` source pin. These are distinct from our local endpoint build; our local Comparator harness remains unrun. The reports concern acceptance of the encoded endpoint and do not establish manuscript correspondence, complete proof correctness or cache-to-source authenticity.
+
 The [2026-10-26 mass and Main update](source-audit-update-20261026-mass-main.md) records the fixed-tuple all-`X` mass/density replay and the conditional symbolic Main caller map. The [2026-10-28 cutoff-scale update](source-audit-update-20261028-cutoff-scale.md) evaluates the derived `X_res` scale and the lower scale of the prescribed finite-window width, conditional on that separately reviewed ordinary-mathematics premise. Neither update adds machine outputs or claims alternative Lean elaboration or theorem-wide assurance.
 
 ## Claim-to-evidence map
@@ -43,6 +45,6 @@ The execution record states that the build wrapper failed after Main succeeded b
 
 ## Review and chronology
 
-The previous AI-assisted consistency review did not rerun Lean or the comparator, and was not independent human certification. Its requested model settings were not runtime-verifiable. The comparator configuration permits the reported axiom set; the comparator harness was not run. Complete transitive proof review remains open.
+The previous AI-assisted consistency review did not rerun Lean or the comparator, and was not independent human certification. Its requested model settings were not runtime-verifiable. The comparator configuration permits the reported axiom set; our local comparator harness was not run. The third-party exact-pin replay reports are recorded in the dated update and do not establish complete transitive proof review, which remains open.
 
 The ledger entry first appeared in commit [b506310](https://github.com/RichardGeorgeDavis/research-artifact-ledger/commit/b506310c4540bdc6cfc6db3f2f33feff0830b91f). This bundle appears later. Git metadata records repository chronology but is not a certified timestamp or proof of first conception. The theorem is attributed to OpenAI; this ledger records our bounded check.
