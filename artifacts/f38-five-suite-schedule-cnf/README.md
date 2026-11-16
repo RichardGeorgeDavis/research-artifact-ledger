@@ -1,9 +1,13 @@
 # A checkable CNF encoding of a five-suite QA schedule
 
 **Status:** `synthetic demonstration` and `independently checked`
+
 **Version:** `0.1.0`
+
 **Prepared:** 2026-11-16
+
 **Author:** Richard George Davis
+
 **AI assistance:** AI assisted the formula generation, verifier code and drafting. A separately dispatched AI reviewer checked the exact encoding, model count, schedule mapping and bounded prior-art description. No independent human specialist review or peer review is claimed.
 
 ## Claim and use
