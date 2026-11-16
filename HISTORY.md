@@ -1,3 +1,7 @@
+## Unreleased — 2026-11-16
+
+- Added [A zero-opacity FLAM3 setting changes a fixed-seed trajectory](artifacts/flam3-fixed-seed-final-opacity/README.md), with a two-sample C witness, pinned upstream source trail, independent AI arithmetic cross-check and reproduction runner. The result concerns the named fixed seed and compiled source subset.
+
 ## Unreleased — 2026-11-10
 
 - Added [A prime-log phase orbit has the full worst-case phase-cloning domain](artifacts/prime-log-phase-orbit/README.md), a self-contained bounded derivation combining the equal-amplitude phase-state cloning framework with unique factorisation and continuous-time torus density. An independent high-effort model challenge found the all-time fidelity argument valid at its stated scope. No finite-window comparison, prime prediction, physical mechanism, novelty, priority, human specialist review, peer review, tag or open licence is claimed. This addition is untagged on `main`.
