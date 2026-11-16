@@ -1,0 +1,7 @@
+Exhaustive Boolean assignments: 131072
+Satisfying assignments: 19
+Distinct decoded schedules: 19
+Exact match to the 19 canonical F38 schedules: yes
+Auxiliary variables: 0
+Clauses: 53
+Maximum clause width: 5

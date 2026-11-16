@@ -1,5 +1,7 @@
 ## Unreleased — 2026-11-16
 
+- Added [A checkable CNF encoding of a five-suite QA schedule](artifacts/f38-five-suite-schedule-cnf/README.md), a fixed 17-variable, 53-clause perfect-matching encoding with a standard-library verifier that exhaustively checks all 131,072 assignments and recovers the 19 frozen schedules. The pairwise matching pattern is established prior work; this is a source-specific finite worked instance, not a new encoding method, solver benchmark, complexity result or field-novelty claim. No tag or licence was added.
+
 - Added [A zero-opacity FLAM3 setting changes a fixed-seed trajectory](artifacts/flam3-fixed-seed-final-opacity/README.md), with a two-sample C witness, pinned upstream source trail, independent AI arithmetic cross-check and reproduction runner. The result concerns the named fixed seed and compiled source subset.
 
 ## Unreleased — 2026-11-10
