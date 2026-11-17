@@ -1,3 +1,8 @@
+## Artifact release — When a Perspective Grows v2.7 — 2026-11-17
+
+- Updated the existing artifact under tag `when-a-perspective-grows-v2.7`; v2.6 and earlier tags remain unchanged. The paper adds a present-led attempt to approach one's earlier point of view, uses generic singular they for hypothetical learners, and tightens the numerical response constraint, Goldstone task description and wine recollection wording. The calculations and supporting sensitivity analysis are unchanged.
+- The release remains an unreviewed author manuscript, not a peer-reviewed or journal-accepted article. No empirical calibration, field-level novelty, historical priority or open reuse licence is claimed.
+
 ## Unreleased — 2026-11-16
 
 - Corrected the artifact metadata spacing so GitHub renders each disclosure as a separate paragraph. Claim scope, files and verification are unchanged.

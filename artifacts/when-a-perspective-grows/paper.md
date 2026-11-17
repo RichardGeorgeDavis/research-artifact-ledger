@@ -2,9 +2,9 @@
 
 ## Experience, learning and the warrant for comparison
 
-Richard George Davis · Final author release · Version 2.6 · 5 November 2026
+Richard George Davis · Final author release · Version 2.7 · 17 November 2026
 
-This final author release supersedes the earlier public v2.4 working paper, which remains preserved in the version history. It is not a journal-accepted manuscript and has not been peer reviewed. Critical responses are welcome, particularly on whether the proposed standard adds to existing measurement theory and what could justify its assumptions about experiential comparison.
+This final author release supersedes public version 2.6, which remains preserved in the version history. It is not a journal-accepted manuscript and has not been peer reviewed. Critical responses are welcome, particularly on whether the proposed standard adds to existing measurement theory and what could justify its assumptions about experiential comparison.
 
 ### Abstract
 
@@ -39,15 +39,15 @@ The argument proceeds through three questions: what are we comparing, what does 
 
 ## 1. The learner in the measurement
 
-Suppose someone learns a word for a feeling she has previously struggled to explain. She begins using it. Later, asked whether her experience has changed, she says that it has become more distinct.
+Suppose someone learns a word for a feeling they have previously struggled to explain. They begin using it. Later, asked whether their experience has changed, they say that it has become more distinct.
 
-The German word *Fernweh*, for longing for distant places, gives this possibility a concrete form.[26](https://www.duden.de/rechtschreibung/Fernweh) Someone who learns it may gain a useful name for a familiar feeling or begin noticing a pattern she previously left undifferentiated. Whether the experience itself changes is a further question. Needing a phrase rather than a single word did not, by itself, make the feeling unavailable to her.
+The German word *Fernweh*, for longing for distant places, gives this possibility a concrete form.[26](https://www.duden.de/rechtschreibung/Fernweh) Someone who learns it may gain a useful name for a familiar feeling or begin noticing a pattern they previously left undifferentiated. Whether the experience itself changes is a further question. Needing a phrase rather than a single word did not, by itself, make the feeling unavailable to them.
 
-Her report of greater distinctness could describe several developments. The feeling might have changed. She might now attend to a feature she previously overlooked. She might classify familiar episodes differently, or have acquired a more convenient way to report them. Learning could produce several of these changes together.
+Their report of greater distinctness could describe several developments. The feeling might have changed. They might now attend to a feature they previously overlooked. They might classify familiar episodes differently, or have acquired a more convenient way to report them. Learning could produce several of these changes together.
 
 Negro already identifies a central difficulty here. In discussing learning and expertise, he distinguishes changed experience from changed judgement and stresses how difficult it is to separate them.[9, §3.2, pp. 14–15](https://doi.org/10.1007/s11229-025-05103-6) The ambiguity is not a discovery of this paper. His discussion challenges a defence of metaphysical structuralism—the view that an experience’s complete character is determined by its relations to other experiences. My concern is the narrower inference from measurements before and after learning to the preservation of a specified experiential relation. The question is what would warrant that inference without assuming an answer to the ambiguity he identifies.
 
-We should also ask what has happened to the comparison itself. The person making it is no longer in quite the same position as before. The vocabulary, distinctions and standards she uses to answer may be among the things she has learned. We cannot assume that learning acts only on the object of measurement while politely leaving the measuring procedure alone.
+We should also ask what has happened to the comparison itself. The person making it is no longer in quite the same position as before. The vocabulary, distinctions and standards they use to answer may be among the things they have learned. We cannot assume that learning acts only on the object of measurement while politely leaving the measuring procedure alone.
 
 This problem bears on a larger philosophical question. If we can describe relations among experiences, perhaps we can understand something about another perspective without having its experiences. But a perspective need not stay fixed while we investigate it. A person may acquire expertise or a genuinely new experiential capacity. How can we tell whether the relations we previously described still characterise what that person experiences?
 
@@ -77,7 +77,7 @@ This distinction does not require a metaphysics in which relations constitute co
 
 ### 2.1 Different senses of a growing perspective
 
-A perspective can grow in several senses. A person might acquire a new kind of experience, become better at understanding an experience already familiar to her, or acquire an additional warranted fact about it. These developments can occur together, but one does not establish the others. Being able to describe a feeling more fluently is different from having a new feeling; grasping an existing fact more fully is different from knowing an additional fact. Learning a new belief about an experience also need not change the phenomenal concept through which it is thought about. Neither improved task performance nor the elimination of a candidate, by itself, settles whether a concept has changed or only beliefs associated with its use. No identity criterion for phenomenal concepts is supplied here.
+A perspective can grow in several senses. A person might acquire a new kind of experience, become better at understanding an experience already familiar to them, or acquire an additional warranted fact about it. These developments can occur together, but one does not establish the others. Being able to describe a feeling more fluently is different from having a new feeling; grasping an existing fact more fully is different from knowing an additional fact. Learning a new belief about an experience also need not change the phenomenal concept through which it is thought about. Neither improved task performance nor the elimination of a candidate, by itself, settles whether a concept has changed or only beliefs associated with its use. No identity criterion for phenomenal concepts is supplied here.
 
 Cath distinguishes knowing further truths about possible experiences from having better experiential access to the same coarse-grained answers.[25, §3.3](https://doi.org/10.1080/00048402.2018.1433697) This gives us a reason to ask what has improved before counting the improvement.[^cath-degrees] The distinction also connects the present paper with the separate clarification *Phenomenal Precision and the Separation of Possibilities*.[23] That note asks whether eliminating candidate accounts of an experience must add a property shared by every remaining instance. Appendix A supplies the formal example, condition and possible repairs without requiring the reader to consult that manuscript.
 
@@ -111,7 +111,7 @@ Here, preservation means that the specified relation holds at the compared stage
 
 ### 4.1 Colour: the same patches, a different comparison
 
-Colour makes the need to specify the target especially clear. The light reaching the eye, the differences someone can discriminate, the categories she uses, the speed of her decisions, her memory for a patch and the way its colour appears are different subjects of inquiry. Learning two names where she previously used one could change her sorting or descriptions without establishing a new range of colour experience or sensitivity to a new range of light. Conversely, failure to establish a change in appearance would not establish that appearance stayed unchanged.
+Colour makes the need to specify the target especially clear. The light reaching a person's eye, the differences they can discriminate, the categories they use, the speed of their decisions, their memory for a patch and how the colour appears to them are different subjects of inquiry. Learning two names for shades they previously grouped under one could change their sorting or descriptions without establishing a new range of colour experience or sensitivity to a new range of light. Conversely, failure to establish a change in appearance would not establish that appearance stayed unchanged.
 
 Goldstone’s categorisation experiments provide a concrete precedent for this distinction. Training affected later same/different discrimination, with effects depending on the dimensions and category assignments. Goldstone also stresses that those judgements involve memory and attention.[29, pp. 179, 197–199] These findings establish changes in discrimination performance under the tested conditions; they do not by themselves settle whether a particular experienced resemblance changed. The running three-patch comparison is a hypothetical illustration, not a reconstruction of those experiments. Section 6.3 separately works through what Goldstone’s fourth experiment does and does not establish.
 
@@ -197,7 +197,7 @@ Now consider a further task on which the following constraints are warranted. Th
 |---|---|
 | Appearance comparison selects the closer option with probability 0.9 after learning | A warranted calibration of that accuracy for the relevant comparison; 0.9 is stipulated here, not an observed estimate. |
 | The category-route probability w is at most 0.1 on the further task | A constraint on w that is not obtained merely by fitting the target answers to the preferred account. Instructions or the absence of spoken labels alone do not establish this bound. |
-| The further task does not reverse the ordering under investigation | An account of task and attention effects adequate to connect its results to the target comparison. |
+| The same option still feels closer on the further task as on the target comparison | An account of task and attention effects adequate to connect its results to the target comparison. |
 
 These are requirements for using the numerical example, not three validated tests. Calibration transfer, task contrasts or other evidence could contribute if their interpretations were supported. There is no requirement that the support be exclusively neural, or that experience be isolated from every cognitive influence.
 
@@ -226,7 +226,7 @@ A bounded application must identify which uncertainty the available evidence act
 
 ### 6.3 A worked application: learning colour categories
 
-Goldstone’s fourth experiment supplies a real learning case to which these distinctions can be applied.[29, Experiment 4, pp. 192–197] Eighty participants were divided equally among four groups. Using sixteen squares varying in brightness and saturation, three groups learned categories based on brightness, saturation or both; the fourth received no categorisation training. All groups then completed the same same–different discrimination task. The assessment below interprets the published design and results; it is not a reanalysis of the data or a reconstruction of the hypothetical three-patch task.
+Goldstone’s fourth experiment supplies a real learning case to which these distinctions can be applied.[29, Experiment 4, pp. 192–197] Eighty participants were divided equally among four groups. Using sixteen squares varying in brightness and saturation, three groups learned categories based on brightness, saturation or both; the fourth received no categorisation training. All four groups then completed the same discrimination task, judging each pair “same” or “different”. The assessment below interprets the published design and results; it is not a reanalysis of the data or a reconstruction of the hypothetical three-patch task.
 
 The comparison was between training groups and an untrained control group, not a measurement of each participant’s experienced similarity before and after learning. Goldstone measured discrimination sensitivity using d′, which takes account of both correct “different” responses to different squares and false “different” responses to identical squares. This matters because the groups also differed in their tendency to answer “same”. A difference in raw response frequency should not simply be read as improved discrimination, much less as a change in how far apart the colours feel.
 
@@ -249,11 +249,13 @@ The application therefore retains a published learning effect, identifies an ins
 
 The endpoint question concerns evidence at two stages; the worked study shows what a post-training group comparison leaves open. Retrospective comparison asks how present recollection and an earlier record can contribute when the earlier episode is no longer available for inspection.
 
-Consider a hypothetical learner returning to a familiar wine after a tasting course. Assume for this illustration that the wine presented and the tasting conditions are unchanged. She now describes its acidity and texture, where an earlier note said only “pleasant”. Perhaps those features were present but went unnamed; perhaps her attention changed; perhaps the taste itself is different for her now. The brief old note cannot settle which account is right. Its silence about acidity is not evidence enough that acidity was absent from her experience.
+We can try to place ourselves where we stood then; that effort may bring the earlier point of view closer, but it begins from the present.
+
+Consider a hypothetical learner returning to a familiar wine after a tasting course. Assume for this illustration that the wine presented and the tasting conditions are unchanged. They now describe its acidity and texture, where an earlier note said only “pleasant”. Perhaps those features were present but went unnamed; perhaps their attention changed; perhaps the taste itself is different for them now. The brief old note cannot settle which account is right. Its silence about acidity is not evidence enough that acidity was absent from their experience.
 
 Memory adds another difficulty to retrospective comparisons. The person who learned can still refer to an earlier experience and may remember it accurately. But the present recollection is not the earlier episode made available for a second inspection. The subject now compares a current experience with a recollection of a past one. If learning has changed the concepts or standards used in that comparison, a confident retrospective report cannot, on its own, tell us which differences belong to the earlier experience and which belong to its present interpretation.
 
-This distinguishes reference from reinspection. It does not follow that the subject has become incapable of understanding her past, or that every new experience must alter every old memory. The narrower difficulty is evidential: the earlier episode cannot be retested as an episode occurring then. Repeating its stimulus produces a later encounter, while remembering it produces present evidence about the earlier one. Neither makes the temporal distance disappear.
+This distinguishes reference from reinspection. It does not follow that the subject has become incapable of understanding their past, or that every new experience must alter every old memory. The narrower difficulty is evidential: the earlier episode cannot be retested as an episode occurring then. Repeating its stimulus produces a later encounter, while remembering it produces present evidence about the earlier one. Neither makes the temporal distance disappear.
 
 Consider a listener returning to a familiar song. A lyric once understood as describing another person's wrongdoing may now prompt consideration of the listener's own responsibility. The changed reading illustrates a possible change in interpretation; it does not establish that either moral assessment is correct. Nor does remembering the earlier response reproduce the earlier experience for direct reinspection. The song, its present interpretation and the remembered earlier interpretation remain distinct objects of comparison.
 
@@ -263,7 +265,7 @@ A third-person image need not mean that the event has been disowned: Libby and E
 
 Contemporaneous reports provide a third kind of evidence. A note made before learning may preserve an earlier judgement without preserving the experience itself. Later recollection may help interpret that note; a repeated stimulus may permit a new comparison. A longitudinal account should distinguish these sources and justify how they are connected. Their agreement can support a local conclusion, but it cannot be treated as independent confirmation if the sources share the later classification being investigated.
 
-The new tasting, her present recollection and the old note answer different questions. Tasting again gives her a present experience. Recollection supplies present evidence about the earlier occasion. The note preserves something she reported then. None can simply stand in for the others. If the aim is to compare the experienced acidity at the two occasions, the investigator must justify how these sources bear on that target. If the aim is only to establish that she now uses a richer description, the new vocabulary may suffice. The difference is the claim being made, not whether learning was valuable.
+The new tasting, the wine learner’s present recollection and the old note answer different questions. Tasting again gives them a present experience. Recollection supplies present evidence about the earlier occasion. The note preserves something they reported then. None can simply stand in for the others. If the aim is to compare the experienced acidity at the two occasions, the investigator must justify how these sources bear on that target. If the aim is only to establish that they now use a richer description, the new vocabulary may suffice. The difference is the claim being made, not whether learning was valuable.
 
 The question is therefore what grounds the particular comparison across the transition. Where learning gives us reason to doubt a measurement or its target interpretation, those doubts need an answer. Where a common target and adequate measurements are already supported at both stages, there is no automatic further obstacle simply because the learner has changed.
 
@@ -428,7 +430,7 @@ The common lesson is to specify what kind of improvement a comparison can establ
 
 22. De Brigard, Felipe. 2024. “Episodic Memory without Autonoetic Consciousness.” *Philosophical Transactions of the Royal Society B* 379(1913): 20230410. [Full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC11496718/); [DOI](https://doi.org/10.1098/rstb.2023.0410).
 
-23. Davis, Richard George. 2026. *Phenomenal Precision and the Separation of Possibilities*. Unpublished philosophical clarification, draft 1.8, 26 October. The central formal argument and its conditional limits are reproduced in Appendix A; the separate manuscript retains the fuller source discussion and objections.
+23. Davis, Richard George. 2026. *Phenomenal Precision and the Separation of Possibilities*. Unpublished philosophical clarification, draft 1.8, 26 October. The central formal argument and its conditional limits are reproduced in Appendix A; the archived manuscript retains the fuller source discussion and objections.
 
 24. Lee, Andrew Y. 2023. “Knowing what it’s like.” *Philosophical Perspectives* 37(1): 187–209. [Publisher record](https://doi.org/10.1111/phpe.12187); [author manuscript](https://andrewyuanlee.com/knowing-what-its-like.pdf). Published §§6.1–6.2; author-manuscript numbering differs.
 

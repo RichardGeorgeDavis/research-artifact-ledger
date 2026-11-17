@@ -2,7 +2,7 @@
 
 Status: `source review`, `synthetic demonstration`, `open`
 
-Paper version: **2.6** · Artifact record: **0.3.0** · Released: **5 November 2026** · Author: Richard George Davis
+Paper version: **2.7** · Artifact record: **0.4.0** · Released: **17 November 2026** · Author: Richard George Davis
 
 This is the final author release of the combined manuscript, not a journal-accepted or peer-reviewed article. “Final” identifies this released edition; it does not close the research questions or prevent a documented correction. No field-level novelty or historical-priority claim is made.
 
@@ -20,7 +20,7 @@ Appendix A distinguishes eliminating candidate characterisations from adding uni
 
 ## Files and provenance
 
-- [Final manuscript v2.6](paper.md): self-contained main argument, Appendix A, thirty references and AI assistance disclosure.
+- [Final manuscript v2.7](paper.md): self-contained main argument, Appendix A, thirty references and AI assistance disclosure.
 - [Supporting sensitivity analysis](sensitivity-analysis.md): separate self-contained treatment of the conditional model’s parameter bounds.
 - [Reproduction script](reproduce.py): exact finite geometry and rational baseline checks.
 - [Sensitivity checker](check_sensitivity.py): exact rational endpoint and separation checks for the supporting analysis.
@@ -29,7 +29,7 @@ Appendix A distinguishes eliminating candidate characterisations from adding uni
 - [Earlier public v2.4](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/b22476e6b33459bff7d525ef60fb6f3ca10a4ea1/artifacts/when-a-perspective-grows/paper.md).
 - [Earlier public v1](https://github.com/RichardGeorgeDavis/research-artifact-ledger/tree/cf61260a820c0ecb325473badc77874eaac44017/artifacts/when-a-perspective-grows).
 
-Paper SHA256: `60d706d97bd79c0d6802fe726059e25bef2a16ff45c90968ba87b710163451f3`
+Paper SHA256: `4972577120f601ed48957c6b22974cbf0e29cf41cf2ae2481f0c7d71360dfd9c`
 
 Supporting analysis SHA256: `8a325536d5fcc4da8558377f5dc7a796739b09b6739e10028c6c55b6f388765e`
 
@@ -66,12 +66,13 @@ Richard George Davis is the author. Material OpenAI GPT assistance is disclosed 
 
 | Version/date | Change |
 |---|---|
+| Paper 2.7 / artifact 0.4.0 / 17 November 2026 | Added the bounded attempt to return to one's earlier point of view while keeping it present-led; made hypothetical learners generic with singular they; tightened the response-bound example and the Goldstone task description; clarified the present wine recollection. No empirical result or calculation changed. |
 | Paper 2.6 / artifact 0.3.0 / 5 November 2026 | Final combined author release; worked Goldstone application, developed calibration argument, retained earlier examples and self-contained formal appendix; separate sensitivity support. |
 | Paper 2.4 / artifact 0.2.0 / 26 October 2026 | Public memory and response-shift synthesis; preserved in the linked commit. |
 | Paper 1 / artifact 0.1.0 / 24 October 2026 | First public paper and exact-arithmetic companion; preserved in the introducing commit. |
 
-These dates establish public versions, not first conception, correctness or priority. The artifact-specific release tag is `when-a-perspective-grows-v2.6`; it identifies a repository snapshot, but the release claim concerns this artifact, not validation of unrelated repository contents.
+These dates establish public versions, not first conception, correctness or priority. The artifact-specific release tag is `when-a-perspective-grows-v2.7`; it identifies a repository snapshot, but the release claim concerns this artifact, not validation of unrelated repository contents.
 
 ## Publication, corrections and reuse
 
-The author authorised this Ledger release on 5 November 2026. Third-party papers are cited, not redistributed. No open licence is assigned; public visibility does not grant broader reuse rights. Corrections should identify the version and passage through the [issue tracker](https://github.com/RichardGeorgeDavis/research-artifact-ledger/issues). Earlier releases remain available in version history.
+The author authorised this Ledger release on 17 November 2026. Third-party papers are cited, not redistributed. No open licence is assigned; public visibility does not grant broader reuse rights. Corrections should identify the version and passage through the [issue tracker](https://github.com/RichardGeorgeDavis/research-artifact-ledger/issues). Earlier releases remain available in version history.
