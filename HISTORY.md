@@ -1,3 +1,9 @@
+# Release and addition history
+
+## Unreleased — 2026-11-18
+
+- Corrected the public artifact index, release-scope descriptions, source-map index and source-map version; clarified the human/AI reviewer distinction; moved the neutrino-ordering history entry to its correct date; and updated the Gaussian-moat, F38 and synthetic-sheet documentation version records and the Gaussian evidence checksum. These are documentation and evidence-integrity corrections only; no mathematical result, source assessment, proof run, dataset or calculation changed.
+
 ## Artifact release — When a Perspective Grows v2.7 — 2026-11-17
 
 - Updated the existing artifact under tag `when-a-perspective-grows-v2.7`; v2.6 and earlier tags remain unchanged. The paper adds a present-led attempt to approach one's earlier point of view, uses generic singular they for hypothetical learners, and tightens the numerical response constraint, Goldstone task description and wine recollection wording. The calculations and supporting sensitivity analysis are unchanged.
@@ -21,7 +27,7 @@
 
 ## Unreleased — 2026-11-05
 
-- Updated [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) to version `0.1.8` with the exact complete sufficient threshold at `D=d=1`: `M_*(1,1)=6W·100^W`, where `W=ceil⁺((log 5+1)/r)+1`. A `gpt-6.1-sol / high` independent AI public-source challenge found no missing guard or ceiling issue. The identity remains conditional on the separately derived item379 pointwise density premise and is not Lean elaboration, compilation or theorem-wide assurance. The update is untagged on `main`; no licence is assigned.
+- Updated [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) to version `0.1.8` with the exact complete sufficient threshold at `D=d=1`: `M_*(1,1)=6W·100^W`, where `W=ceil⁺((log 5+1)/r)+1`. A `gpt-6.1-sol / high` independent AI public-source challenge found no missing guard or ceiling issue. The identity remains conditional on the separately derived pointwise-density derivation ([2026-10-26 mass/Main update](artifacts/gaussian-moat-formal-check/evidence/source-audit-update-20261026-mass-main.md)) and is not Lean elaboration, compilation or theorem-wide assurance. The update is untagged on `main`; no licence is assigned.
 
 ## Artifact release — When a Perspective Grows v2.6 — 2026-11-05
 
@@ -35,8 +41,8 @@
 - Added [A synthetic angular-scattering comparison for two sheet-response models](artifacts/nonlocal-sheet-angular-toy/README.md), a finite model-conditional derivation with a standard-library reproduction script and explicit identifiability limits. The coefficients were selected during AI-assisted work solely to define this synthetic example; an independent AI mathematical check reproduced the private table and full two-port passivity identities. No physical measurement, unique identification, novelty, human specialist review or peer review is claimed. The artifact is untagged on `main`; no licence is assigned.
 - Corrected [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) to version `0.1.2`: clarified that adding a common constant to all squared masses preserves the oscillation splittings, while adding the same constant to each mass does not. This is a wording correction; no data or physical conclusion changed. The change is untagged on `main`; no licence is assigned.
 - Updated [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) to version `0.1.1`. Added a source-qualified explanation of the NuFIT three-flavour mass-splitting convention and why oscillations do not determine a common absolute-mass offset; no fit, new physical result, or independent review is claimed. The change is untagged on `main`; no licence is assigned.
-- Updated [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) with a bounded fixed-tuple scale calculation: the separately derived `X_res` is about `9.6×10^1912`, and the prescribed finite-window width has a five-point lower bound around `7.3×10^2533` for `D≥1`. An independent AI challenge found no arithmetic error and the source-boundary caveat is explicit: this is conditional on the separate item379 ordinary-mathematics derivation, not a Lean-certified cutoff or full Main evaluation. No new theorem, sharpness, practical-impossibility, human specialist review or peer-review claim is made. The update is untagged on `main`; no licence is assigned.
-- Corrected the F36-T1 artifact from version `0.1.0` to `0.1.1` to disclose that AI assistance included model selection as well as derivation, code and drafting. The numerical table and claim scope are unchanged.
+- Updated [Gaussian-moat theorem: bounded Lean endpoint check](artifacts/gaussian-moat-formal-check/README.md) with a bounded fixed-tuple scale calculation: the separately derived `X_res` is about `9.6×10^1912`, and the prescribed finite-window width has a five-point lower bound around `7.3×10^2533` for `D≥1`. An independent AI challenge found no arithmetic error and the source-boundary caveat is explicit: this is conditional on the separate pointwise-density derivation ([2026-10-26 mass/Main update](artifacts/gaussian-moat-formal-check/evidence/source-audit-update-20261026-mass-main.md)), not a Lean-certified cutoff or full Main evaluation. No new theorem, sharpness, practical-impossibility, human specialist review or peer-review claim is made. The update is untagged on `main`; no licence is assigned.
+- Corrected the [synthetic angular-scattering artifact](artifacts/nonlocal-sheet-angular-toy/README.md) from version `0.1.0` to `0.1.1` to disclose that AI assistance included model selection as well as derivation, code and drafting. The numerical table and claim scope are unchanged.
 
 ## Unreleased — 2026-10-27
 
@@ -46,26 +52,27 @@
 
 - Updated [When a Perspective Grows](artifacts/when-a-perspective-grows/README.md) from public author paper v1 to v2.4; extended its bounded source map with longitudinal/response-shift and autobiographical-memory references. Kept the exact v1 snapshot at its introducing commit, reran the unchanged exact-arithmetic script, and made no new tag. The revision remains an unreviewed working paper: its contribution is a critical synthesis, not a new validation method or established original result; memory does not verify past phenomenal character.
 
-# Release history
+- 2026-10-26: Added [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) — `source review`; a bounded comparison of endpoint, cosmological mass-sum and oscillation-ordering claims, preserving dataset, model, prior, statistical and publication-status limits. No new fit, direct ordering measurement, model-independent verdict, human specialist review or peer review is claimed.
+
 
 ## Unreleased — 2026-10-26
 
 - Added [Decimal carry states and prime-wheel phases](artifacts/carry-wheel-phase-alignment/README.md), a bounded derivation of the joint decimal/mod-30 and decimal/mod-210 state periods, compatibility condition, survivor counts and carry rejection. The finite script checks complete cycles for `k=1,2,3`; the derivation uses standard generalized CRT and sieve facts. No new theorem, prime test, novelty or learning claim is made.
 - Added [A prime clockwork recast as an event-driven sieve](artifacts/prime-clockwork-event-sieve/README.md), a reproduced, bounded Python comparison through 20,000. Event scheduling beat the minimal clockwork scan in the retained run, while a standard segmented sieve was substantially faster. The public script was rerun on 26 October and matched outputs and operation counts; timings are recorded separately. Full benchmark controls remain incomplete and no general performance or novelty claim is made.
 
-Both artifacts are untagged additions on `main`; neither changes the latest tagged release (`v0.2.0`). No licence is assigned.
+Both artifacts are on `main` without separate artifact-specific releases. The repository-wide `v0.2.0` release remains unchanged. No licence is assigned.
 
 ## Unreleased — 2026-10-26
 
-- Added [What matched-CMB-circle nulls constrain about global topology](artifacts/cmb-matched-circle-topology/README.md), a `source review` of two version-pinned papers. It distinguishes Planck's back-to-back matched-circle search and separate low-ℓ likelihood results from Petersen et al.'s observer-centred translation of earlier temperature-circle nulls across nine orientable Euclidean families. No CMB map, likelihood, code or numerical result was reproduced. The record does not identify the actual global topology, rule out shorter loops elsewhere, or make a cosmological discovery, novelty, priority, human specialist review or peer-review claim. It is present on `main` only and is not included in the latest tagged release (`v0.2.0`).
+- Added [What matched-CMB-circle nulls constrain about global topology](artifacts/cmb-matched-circle-topology/README.md), a `source review` of two version-pinned papers. It distinguishes Planck's back-to-back matched-circle search and separate low-ℓ likelihood results from Petersen et al.'s observer-centred translation of earlier temperature-circle nulls across nine orientable Euclidean families. No CMB map, likelihood, code or numerical result was reproduced. The record does not identify the actual global topology, rule out shorter loops elsewhere, or make a cosmological discovery, novelty, priority, human specialist review or peer-review claim. It is present on `main` only and is not the subject of an artifact-specific release; the repository-wide `v0.2.0` release predates this addition.
 
 ## Unreleased — 2026-10-26
 
-- Added [A source-text conflict in one cosmological BIC comparison](artifacts/bic-sign-convention-conflict/README.md), a `source review` of the Wang–Mota Version of Record and arXiv v2. It records an unresolved sign-direction inconsistency in the printed BIC definition and interpretation; no correction, model ranking, fit reproduction, novelty, human specialist review or peer-review claim is made. It is present on `main` only and is not included in the latest tagged release (`v0.2.0`).
+- Added [A source-text conflict in one cosmological BIC comparison](artifacts/bic-sign-convention-conflict/README.md), a `source review` of the Wang–Mota Version of Record and arXiv v2. It records an unresolved sign-direction inconsistency in the printed BIC definition and interpretation; no correction, model ranking, fit reproduction, novelty, human specialist review or peer-review claim is made. It is present on `main` only and is not the subject of an artifact-specific release; the repository-wide `v0.2.0` release predates this addition.
 
 ## Unreleased — 2026-10-25
 
-- Added [A half-area cross-section is not a generic transmission probability](artifacts/neutral-scalar-wormhole-transmission/README.md), a `source review` of two version-pinned theoretical papers. It distinguishes fixed-frequency resonance, period-averaged and all-time `A/2` cross-sections, and finite-time packet delivery. The record makes no empirical or physical claim, field-level novelty or priority claim, human review or peer-review claim. It is present on `main` only and is not included in the latest tagged release (`v0.2.0`).
+- Added [A half-area cross-section is not a generic transmission probability](artifacts/neutral-scalar-wormhole-transmission/README.md), a `source review` of two version-pinned theoretical papers. It distinguishes fixed-frequency resonance, period-averaged and all-time `A/2` cross-sections, and finite-time packet delivery. The record makes no empirical or physical claim, field-level novelty or priority claim, human review or peer-review claim. It is present on `main` only and is not the subject of an artifact-specific release; the repository-wide `v0.2.0` release predates this addition.
 
 ## Unreleased — 2026-10-24
 
@@ -115,7 +122,6 @@ Both artifacts are untagged additions on `main`; neither changes the latest tagg
 - No research findings, scientific theory, novelty claim or validation result are included in this release.
 - No open licence is assigned to this initial release.
 
-- 2026-10-26: Added [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) — `source review`; a bounded comparison of endpoint, cosmological mass-sum and oscillation-ordering claims, preserving dataset, model, prior, statistical and publication-status limits. No new fit, direct ordering measurement, model-independent verdict, human specialist review or peer review is claimed.
 
 ## Unreleased — 2026-10-26
 
