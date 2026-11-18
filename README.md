@@ -15,6 +15,8 @@ Research artifacts added later must identify their question, bounded claim, sour
 
 ## Public artifacts on main
 
+- [A sample-size factor missing from a displayed relative-lift variance](artifacts/relative-lift-sample-size-factor/README.md) — `source review`; the currently served article figure omits sample-size divisors defined in its preceding figure. A bounded delta-method derivation and current Eppo comparison support a correction under independent-groups assumptions; no historical-version, author-intent, implementation or downstream-use claim is made.
+
 - [A zero-opacity FLAM3 setting changes a fixed-seed trajectory](artifacts/flam3-fixed-seed-final-opacity/README.md) — `reproduced`; with identical ISAAC states, an enabled zero-opacity final gate shifts the sequence of recurrent selections in a two-sample test at a pinned upstream revision. Includes source trail and a macOS reproduction runner.
 
 - [From Numerical Cognition to Cognitive Command](artifacts/numerical-cognition-cognitive-command/README.md) — exploratory research note; scoped `source review` and `open` questions. Updated to revised author version 2, submitted by email on 24 October 2026; submission does not establish acceptance or peer review. Preserves concept formation, the role of learned practices in standards and full AI disclosure; not independently human-reviewed. Present on `main`; no artifact-specific release has been issued.

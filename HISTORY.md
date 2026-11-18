@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-11-18
 
+- Added [A sample-size factor missing from a displayed relative-lift variance](artifacts/relative-lift-sample-size-factor/README.md), a bounded source review of the currently accessible Fulton article figures. The displayed variance omits divisors for the treatment and control sample counts defined in the preceding figure; a first-order independent-means derivation and current Eppo documentation support the corrected expression. Two independent AI public-source challenges checked the transcription and derivation. The frozen course PDF remains unrecovered, and no author-intent, historical Eppo, implementation, downstream-use, novelty, priority or peer-review claim is made. No figure is redistributed; no tag or licence is added.
+
 - Corrected the public artifact index, release-scope descriptions, source-map index and source-map version; clarified the human/AI reviewer distinction; moved the neutrino-ordering history entry to its correct date; and updated the Gaussian-moat, F38 and synthetic-sheet documentation version records and the Gaussian evidence checksum. These are documentation and evidence-integrity corrections only; no mathematical result, source assessment, proof run, dataset or calculation changed.
 
 ## Artifact release — When a Perspective Grows v2.7 — 2026-11-17
