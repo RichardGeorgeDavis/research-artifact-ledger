@@ -2,9 +2,11 @@
 
 **Status:** `synthetic demonstration` and `independently checked`
 
-**Version:** `0.1.0`
+**Version:** `0.1.1`
 
 **Prepared:** 2026-11-16
+
+**Record updated:** 2026-11-18
 
 **Author:** Richard George Davis
 
@@ -76,3 +78,4 @@ The original F38 result compares sequential sampling laws and is not changed by 
 | Version/date | Change | Reason and evidence |
 | --- | --- | --- |
 | 0.1.0 / 2026-11-16 | Initial standalone encoding and exhaustive verifier | Exact finite model count and frozen schedule set checked by standard-library enumeration and independent AI challenge. |
+| 0.1.1 / 2026-11-18 | Clarified reviewer type in the public status record | The independent check was performed by AI; no human specialist review is claimed. Formula, verifier, finite count and evidence are unchanged. |

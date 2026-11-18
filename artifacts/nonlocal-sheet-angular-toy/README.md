@@ -1,8 +1,10 @@
 # A synthetic angular-scattering comparison for two sheet-response models
 
 **Status:** `synthetic demonstration` and `bounded derivation`
-**Version:** `0.1.1`
+**Version:** `0.1.2`
 **Prepared:** 2026-10-28
+
+**Record updated:** 2026-11-18
 **Author:** Richard George Davis
 **AI assistance:** AI assisted the model formulation, derivation, calculation script and drafting; a separate AI reviewer checked the derivation and finite results.
 
@@ -72,7 +74,8 @@ A physical discriminator would require a named material and geometry, a frequenc
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.2 / 2026-11-18 | Replaced the private work-item label in the change history | The public record now identifies the synthetic example directly; equations, table and evidence are unchanged. |
 | 0.1.1 / 2026-10-28 | Corrected the attribution of model selection | The coefficients were selected during AI-assisted work; no numerical result or derivation changed. |
-| 0.1.0 / 2026-10-28 | Initial public record of F36-T1 | Private finite derivation and independent mathematical challenge dated 2026-10-22; no physical or novelty claim. |
+| 0.1.0 / 2026-10-28 | Initial public record of the synthetic angular-scattering example | Private finite derivation and independent mathematical challenge dated 2026-10-22; no physical or novelty claim. |
 
 This artifact has no open licence. Public visibility does not grant broader reuse permission.
