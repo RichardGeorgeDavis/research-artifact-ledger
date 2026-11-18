@@ -1,9 +1,11 @@
 # Sources
 
-The source maps maintained in this folder cover the following public artifacts on main. Some artifact records keep their source discussion inside their own README or evidence files. These maps explain which sources support each bounded claim and where access, review or verification remains limited. Their presence does not mean an artifact is included in a tagged release.
+This index lists source-map documents for public artifacts on `main`; some artifacts keep their source discussion in their own README or evidence files. A source map's presence is separate from whether its artifact is the subject of a release.
 
 - [BFT first-event prime census](bft-first-event-census.md) — source roles, bounded claim and prior-work comparison.
 - [BFT verification scope](bft-verification-scope.md) — what the public verifier checks and what it does not establish.
+- [FLAM3 fixed-seed final-opacity example](flam3-fixed-seed-final-opacity.md) — pinned implementation sources and the bounded witness.
+- [Prime-log phase orbit](prime-log-phase-orbit.md) — claim-to-source map for the bounded phase-orbit derivation.
 - [Decimal carry states and prime-wheel phases](carry-wheel-phase-alignment.md) — generalized CRT, sieve background and the finite state enumeration.
 - [Prime Clockwork event-sieve comparison](prime-clockwork-event-sieve.md) — source representation, earlier lineage, benchmark code and retained run evidence.
 - [Singular-series shortlist screen](singular-series-screen.md) — mathematical background and the author-created finite calculation.
