@@ -21,7 +21,7 @@ See the [artifact](../artifacts/when-a-perspective-grows/README.md) and [paper](
 The script was generated with AI assistance for this artifact. Rerunning it checks only the stated finite/rational calculations. No new empirical study, raw-data reanalysis, independent human review or field-level novelty assessment is established.
 
 
-## Longitudinal, calibration and memory sources (current v2.6 locations)
+## Longitudinal, calibration and memory sources (current paper v2.7; mapping added in v2.6)
 
 | Source | Paper section / role | Evidence boundary |
 |---|---|---|
