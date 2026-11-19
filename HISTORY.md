@@ -1,5 +1,9 @@
 # Release and addition history
 
+## Unreleased — 2026-11-19
+
+- Updated [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) with NuFIT 6.1's source-reported ordering comparison for IC23 without SK atmospheric data and IC24 with SK atmospheric data. Added the official parameter-table and release-note provenance and distinguished the changed IceCube inputs from the SK inclusion. The bounded review used official-source indexed text after direct PDF retrieval and screenshot attempts failed; no fit, posterior odds, absolute-mass or cosmological result was reproduced or inferred.
+
 ## Unreleased — 2026-11-18
 
 - Added [A sample-size factor missing from a displayed relative-lift variance](artifacts/relative-lift-sample-size-factor/README.md), a bounded source review of the currently accessible Fulton article figures. The displayed variance omits divisors for the treatment and control sample counts defined in the preceding figure; a first-order independent-means derivation and current Eppo documentation support the corrected expression. Two independent AI public-source challenges checked the transcription and derivation. The frozen course PDF remains unrecovered, and no author-intent, historical Eppo, implementation, downstream-use, novelty, priority or peer-review claim is made. No figure is redistributed; no tag or licence is added.

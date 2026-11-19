@@ -2,9 +2,9 @@
 
 Status: `source review`
 
-Version: `0.1.3`
+Version: `0.1.4`
 
-Last updated: `2026-10-28`
+Last updated: `2026-11-19`
 
 Author: Richard George Davis, with AI-assisted source analysis and writing.
 
@@ -32,7 +32,9 @@ The evidence class is `source review`. The coordinator inspected the version-pin
 
 | Source | Version/date | Role and locator | Access and rights |
 |---|---|---|---|
-| Esteban et al., NuFIT 6.0, JHEP 12 (2024) 216, [arXiv:2410.05380v2](https://arxiv.org/abs/2410.05380v2) | v2, 28 October 2025 | §2, Eq. (2), and §5, Eqs. (15), (17)–(20): signed mass-splitting convention, absolute-offset limit, effective tritium mass and cosmological mass sum | Linked and paraphrased. The later [NuFIT 6.1 release notes](https://www.nu-fit.org/sites/default/files/v61.release-notes.pdf) are listed for context; that PDF was not retrieved in the independent review. |
+| Esteban et al., NuFIT 6.0, JHEP 12 (2024) 216, [arXiv:2410.05380v2](https://arxiv.org/abs/2410.05380v2) | v2, 28 October 2025 | §2, Eq. (2), and §5, Eqs. (15), (17)–(20): signed mass-splitting convention, absolute-offset limit, effective tritium mass and cosmological mass sum | Linked and paraphrased; no data, tables or figures are redistributed. Analyses citing this version remain tied to their stated NuFIT 6.0 inputs. |
+| Esteban et al., NuFIT 6.1, [official parameter table](https://www.nu-fit.org/sites/default/files/v61.tbl-parameters.pdf) and [release notes](https://www.nu-fit.org/sites/default/files/v61.release-notes.pdf) | 2025; fit based on data available in November 2025 | Parameter table p.1: ordering labels for `IC23 without SK atmospheric data` and `IC24 with SK atmospheric data`; release notes p.2: corresponding atmospheric inputs | Linked and paraphrased. The table is a source-reported three-neutrino oscillation-fit comparison. The November 2026 challenge reviewer extracted the official PDFs in memory from the exact URLs; the coordinator also cross-checked indexed official-source text. No fit or likelihood was reproduced. |
+| Esteban et al., NuFIT 6.0, JHEP 12 (2024) 216, [arXiv:2410.05380v2](https://arxiv.org/abs/2410.05380v2) | v2, 28 October 2025 | §2, Eq. (2), and §5, Eqs. (15), (17)–(20): signed mass-splitting convention, absolute-offset limit, effective tritium mass and cosmological mass sum | Linked and paraphrased; no data, tables or figures are redistributed. Earlier analyses that cite NuFIT 6.0 remain tied to their stated source version. |
 | KATRIN Collaboration, Science 388 (2025), [arXiv:2406.13516](https://arxiv.org/abs/2406.13516) | 2025; 259 measurement days | Abstract and reported endpoint result: effective electron-antineutrino mass limit `mν < 0.45 eV` at 90% CL | Linked and paraphrased; no data or figures reused. |
 | Elbers et al., Phys. Rev. D 112, 083513 (2025), DOI [10.1103/w9pk-xsk7](https://doi.org/10.1103/w9pk-xsk7), [APS record](https://journals.aps.org/prd/abstract/10.1103/w9pk-xsk7), [arXiv:2503.14744v3](https://arxiv.org/abs/2503.14744v3) | v3, 2025 | Separate cosmological mass-sum bound and ordering comparison, including its data, model, parameterisation and prior qualifications | Linked and paraphrased; no tables or figures reused. |
 | Ivanov et al., Phys. Rev. D 114, 063526 (2026), DOI [10.1103/sjff-yj2t](https://doi.org/10.1103/sjff-yj2t), [APS record](https://journals.aps.org/prd/abstract/10.1103/sjff-yj2t), [arXiv:2601.16165v3](https://arxiv.org/abs/2601.16165v3) | v3 / published 2026 | §4.3 and §5: mass-sum limits and posterior-derived comparison with ordering floors | Linked and paraphrased; no tables or figures reused. |
@@ -58,6 +60,7 @@ This is a manual source-inspection method. No fit, posterior, Bayes factor, conf
 | Ivanov et al.: `Σmν < 0.049 eV` (ΛCDM), `<0.077 eV` (`w0wa`CDM), 95% | Three-degenerate-mass limits; posterior comparisons with ordering floors | A conditional cosmological mass-sum result and author-reported floor tensions, including an approximately 2.3σ tension with the normal floor under ΛCDM | A joint NuFIT ordering likelihood or an independent frequentist ordering test from the quoted 3.5σ/2.4σ translations |
 | Jimenez et al.: large combined Bayesian ordering odds | Unreviewed preprint combines oscillation evidence with DESI cosmological likelihoods taken at face value; truncated-Gaussian/KDE reconstruction and several priors | A report of the authors’ conditional analysis and a strong dependence on prior measure | Validated odds: §2.1 states `Δχ²=9.4` while §3.3 says `exp(Δχ²/2)≈21`; `exp(9.4/2)≈110`. The input or intended correction is unresolved. |
 | Bari Group: `Δχ²=15.34` (labelled 3.92σ), 2.00σ NO for one JUNO combination and 1.62σ IO for a listed combination without JUNO | Preliminary oscillation-only public release; it labels significance using `sqrt(Δχ²)` | A source-specific comparison showing reported preference depends on the selected combination | Cosmological mass-sum evidence or additive independent significance; the combinations overlap and are preliminary |
+| NuFIT 6.1 (2025): normal ordering is labelled best fit in both configurations; inverted ordering is labelled `Δχ²=1.5` for `IC23 without SK atmospheric data` and `Δχ²=5.9` for `IC24 with SK atmospheric data` | Source-reported three-neutrino global oscillation fits with different atmospheric-data treatments; IC23 uses 8-year IceCube/DeepCore data (2011–2019), while IC24 uses a 9.3-year input (2012–2021) and includes an SK I–V atmospheric χ² map | A configuration-dependent oscillation-fit ordering comparison | An absolute-mass measurement, Bayesian ordering odds, a cosmological mass-sum result, an independently reproduced fit, or a model-independent ordering determination; the difference between configurations cannot be attributed solely to adding SK atmospheric data |
 | Chudaykin, Ivanov and Philcox: `Σmν<0.0730 eV` for ΛCDM; `<0.0903 eV` for `w0wa`CDM, 95% | Three degenerate masses, `Mν>0`; CMB + DR2 BAO + DR1 power for the first; CMB + BAO + power + bispectrum monopole + Pantheon+ for the second; simulation-based priors | Conditional model- and prior-dependent limits; the authors say 0.090 eV formally disfavors the inverted floor by about 2σ | A joint oscillation-ordering likelihood or a claim that simulation-based priors universally tighten limits. The ΛCDM result is weaker than their conservative-prior comparison, and HOD/systematics caveats remain. |
 
 Together the selected sources support conditional, dataset-specific preference or tension statements. They do not establish a model-independent consensus ordering result. They do not determine the CP phase or whether neutrinos are Dirac or Majorana particles.
@@ -69,7 +72,7 @@ Together the selected sources support conditional, dataset-specific preference o
 - Mass-sum comparisons against ordering floors are conditional and distinct from a joint ordering likelihood or direct ordering measurement.
 - The Jimenez preprint’s `Δχ²`/Bayes-factor arithmetic discrepancy is unresolved. No correction or presumed author intent is supplied.
 - Bari Group results remain preliminary; their listed data combinations overlap and should not be combined as independent evidence.
-- The independent review could not retrieve the NuFIT 6.1 release PDF. This artifact uses NuFIT 6.0 §5 for the displayed observable equations and treats 6.1 only as contextual release-note information.
+- The 26 October independent review did not retrieve the NuFIT 6.1 release PDF. A later bounded public-source challenge verified the official table labels and values from indexed official-source text; direct PDF retrieval and visual rendering were unavailable, and no NuFIT likelihood or fit was independently reproduced. This update does not replace the NuFIT 6.0 inputs cited by other selected analyses.
 - No analysis code, likelihood, chain, cosmological dataset, CMB map or laboratory data was reproduced. Paper-reported limits and odds are source-reported, not independently recalculated.
 - No specialist human or peer review, new physical result, new fit, field-level novelty or priority claim is made. This is not an Infinity Research result or a full literature review.
 
@@ -81,6 +84,7 @@ This artifact is authored by Richard George Davis with AI-assisted source analys
 |---|---|---|---|
 | Source versions checked | As listed above | Linked versioned records and publication metadata | Identity of the cited texts used for this comparison, within the stated source-access limits |
 | Coordinator source review and independent AI challenge | 2026-10-26 | Dated source-review record and bounded challenge result | Date and scope of this documented review, not first conception or priority |
+| NuFIT 6.1 bounded source update | 2026-11-19 | Official parameter table p.1 and release notes p.2, checked in a coordinator review and an independent public-source challenge | Adds the source-reported configuration comparison and its access limits; no fit reproduction or priority claim |
 | First public appearance of this artifact | Ledger commit history | Commit that adds this artifact | Public repository chronology only; not priority or originality |
 
 ## Independent review
@@ -91,10 +95,19 @@ Scope: observable mapping; dataset/model/statistical interpretation in selected 
 
 Findings: the observable comparison is descriptive only when the quantities and methods remain distinct. The reviewer verified the Elbers and PRD IV/V dataset details, the Bari values and overlap caveat, and the Jimenez arithmetic mismatch. It did not retrieve the NuFIT 6.1 release PDF. No likelihood was independently reproduced; no human specialist review occurred.
 
+## Independent public-source challenge — 2026-11-19
+
+Scope: official NuFIT 6.1 parameter-table labels, configuration-specific `Δχ²` values, atmospheric input distinctions in the release notes, and whether the existing artifact should receive an additive update.
+
+Findings: normal ordering is labelled best fit in both table configurations; inverted ordering is labelled `Δχ²=1.5` for IC23 without SK atmospheric data and `Δχ²=5.9` for IC24 with SK atmospheric data. The release notes specify different IceCube/DeepCore data spans and identify the SK I–V χ² map in the latter configuration. The comparison is therefore not attributable solely to adding SK. The values are reported oscillation-fit comparisons, not posterior odds, an absolute-mass measurement or a cosmological mass-sum result.
+
+Review route and limits: one independent public-source challenge requested `gpt-6.1-sol / high` and a separate coordinator subagent independently checked the same named public sources; serving telemetry was unavailable. The first reviewer extracted the official PDFs in memory from the exact source URLs after a local certificate-chain issue; the separate subagent and coordinator also checked the official-source indexed text. The coordinator's direct PDF fetch timed out and its screenshot attempt returned HTTP 502. No coordinator-side visual PDF rendering, likelihood, fit or data reproduction is claimed. No human specialist review or peer review is claimed.
+
 ## Change history
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.4 / 2026-11-19 | Added the NuFIT 6.1 configuration-specific oscillation ordering comparison and source/access limits | Official parameter table and release notes, checked through two independent public-source challenges; no fit or likelihood was reproduced. |
 | 0.1.3 / 2026-10-28 | Removed a duplicated sentence in the supported-claim summary | Loop review found repeated wording; no evidence, data, fit or physical conclusion changed. |
 | 0.1.2 / 2026-10-28 | Clarified that the invariant shift is a common additive constant in the squared masses, not in the masses themselves | Item419 algebra check of the wording against the mass-squared-difference definition; no data, fit or physical conclusion changed. |
 | 0.1.1 / 2026-10-28 | Added the NuFIT mass-splitting convention and common-offset limitation to clarify why oscillation data do not determine absolute mass | Item418 coordinator read of NuFIT 6.0 v2 §2 Eq. (2) and §5; no new fit, physical conclusion or independent challenge is claimed. |
