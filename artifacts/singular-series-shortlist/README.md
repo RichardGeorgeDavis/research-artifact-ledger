@@ -16,7 +16,7 @@ On one fixed block of 10,000 consecutive prime origins, did ranking the first ei
 
 This is a bounded methods result for readers evaluating a particular prime-ranking heuristic. It is not a practical prime-generation recommendation.
 
-For a reader-facing account of this screen and the separate BFT first-event census, see [A Clever Prime Score Can Still Lose to the Wheel](https://rgd.cx/articles/a-clever-prime-score-can-still-lose-to-the-wheel) on RGD.cx. A dated follow-up explains this record's version 0.2.1 documentation corrections: [What Changed in the Prime-Ranking Screen Record](https://rgd.cx/articles/what-changed-in-the-prime-ranking-screen-record).
+For a reader-facing account of this screen and the separate BFT first-event census, see [A Clever Prime Score Can Still Lose to the Wheel](https://rgd.cx/articles/a-clever-prime-score-can-still-lose-to-the-wheel) on RGD.cx. That article now carries a dated note explaining the version 0.2.1 documentation corrections without changing the code or reported counts.
 
 ## Claim supported
 
