@@ -30,7 +30,7 @@ The first origin is `1,743,433`. The test uses 10,000 consecutive prime origins,
 
 The empty product is 1. Exact rational arithmetic ranks candidates by descending score, with smaller integers breaking ties. The method emits the top five. It does not test candidate primality while ranking.
 
-The wheel-order control emits the first five candidates in ascending order. The rounded-log-density control rounds `ln(p)` to the nearest positive even integer `r`, then ranks the same eight candidates by increasing `|h-r|`, with smaller integers breaking ties. The runner raises if a computed logarithm is exactly at, or within `10⁻⁷⁰` of, an odd-integer midpoint; no origin in this tested block is near that guard. It emits five candidates. All methods use the same pool and output budget.
+The wheel-order control emits the first five candidates in ascending order. The rounded-log-density control rounds `ln(p)` to the nearest positive even integer `r`, then ranks the same eight candidates by increasing `|h-r|`, with smaller integers breaking ties. The runner raises when the 80-digit computed logarithm is exactly at an odd-integer midpoint or differs from one by less than `10⁻⁷⁰`; no origin in this tested block is near that guard. It emits five candidates. All methods use the same pool and output budget.
 
 The primary measure is paired exact-successor inclusion at five outputs, counted over all 10,000 origins. The 495 cases where the successor falls outside the eight-candidate pool remain misses. The rounded-log control is a fixed density-inspired reference; neither it nor the singular-series score is a calibrated probability for a fixed endpoint.
 
