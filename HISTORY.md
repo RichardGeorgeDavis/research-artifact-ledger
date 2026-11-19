@@ -2,7 +2,7 @@
 
 ## Unreleased — 2026-11-19
 
-- Updated [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) with NuFIT 6.1's source-reported ordering comparison for IC23 without SK atmospheric data and IC24 with SK atmospheric data. Added the official parameter-table and release-note provenance and distinguished the changed IceCube inputs from the SK inclusion. The bounded review used official-source indexed text after direct PDF retrieval and screenshot attempts failed; no fit, posterior odds, absolute-mass or cosmological result was reproduced or inferred.
+- Updated [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) with NuFIT 6.1's source-reported ordering comparison for IC23 without SK atmospheric data and IC24 with SK atmospheric data. Added the official parameter-table and release-note provenance and distinguished the changed IceCube inputs from the SK inclusion. The independent challenge extracted the official PDFs in memory; the coordinator cross-checked official indexed text but could not fetch or render the PDFs directly. No fit, posterior odds, absolute-mass or cosmological result was reproduced or inferred.
 
 ## Unreleased — 2026-11-18
 
