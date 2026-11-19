@@ -2,7 +2,7 @@
 
 ## Bounded finding
 
-Three public audit records report a Comparator replay of OpenAI Math's `GaussianMoat` challenge at upstream revision [`fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb). Toledo's [pinned cert-machine census row](https://github.com/carlostoledo1891/cert-machine/blob/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-kernel.json#L6168-L6202) identifies family 028, records Comparator exit 0, and says Lean's default kernel and stock nanoda accept the solution. MathVet's [challenge-status row](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/challenge-status.csv#L150) records a `comparator-sandboxed-pass` for `OAI.GaussianMoat.fullMain` at that pin using `landrun` in real best-effort mode. Reilly's [corpus replay row](https://github.com/jmreilly1113/siegel-zeros-audit/blob/main/results/2026-10-20-corpus-summary-final.tsv#L96) records `GaussianMoat` as `ACCEPT_BOTH`, with Lean and nanoda accepting and exit 0.
+Three public audit records report a Comparator replay of OpenAI Math's `GaussianMoat` challenge at upstream revision [`fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`](https://github.com/openai/math/tree/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb). Toledo's [pinned cert-machine census row](https://github.com/carlostoledo1891/cert-machine/blob/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-kernel.json#L6168-L6202) identifies family 028, records Comparator exit 0, and says Lean's default kernel and stock nanoda accept the solution. MathVet's [challenge-status row](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/challenge-status.csv?plain=1#L151) records a `comparator-sandboxed-pass` for `OAI.GaussianMoat.fullMain` at that pin using `landrun` in real best-effort mode. Reilly's [corpus replay row](https://github.com/jmreilly1113/siegel-zeros-audit/blob/main/results/2026-10-20-corpus-summary-final.tsv?plain=1#L97) records `GaussianMoat` as `ACCEPT_BOTH`, with Lean and nanoda accepting and exit 0.
 
 These are three publicly inspectable records, not three independent mathematical proof audits; the records may derive from overlapping challenge runs. They support external replay of the encoded endpoint at the named revision, not paper-to-Lean equivalence, correctness of every imported proof, cache-to-source authentication, theorem novelty or full proof validity. The existing local build remains a distinct run. Its own Comparator harness was not executed.
 
@@ -19,6 +19,6 @@ No local Lean or Comparator run was performed for this update. The existing clai
 ## Sources
 
 - Toledo, cert-machine exact-pin row, commit `9814e4c06281e34a113ce853d7d99ccce160b750`, lines 6168–6202.
-- MathVet, challenge-status source snapshot, commit `14c7f918cd336d0da03a02aae5a0eed4a429d4db`, line 150.
-- Reilly, corpus summary, line 96; repository snapshot as accessed 2026-11-06.
+- MathVet, challenge-status source snapshot, commit `14c7f918cd336d0da03a02aae5a0eed4a429d4db`, line 151.
+- Reilly, corpus summary, line 97; repository snapshot as accessed 2026-11-06.
 - OpenAI Math source pin `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb`.
