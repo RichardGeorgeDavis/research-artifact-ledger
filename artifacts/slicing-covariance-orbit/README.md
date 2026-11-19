@@ -10,6 +10,8 @@
 
 Can a two-boundary mode comparison reject only one declared real time-alignment nuisance without mistaking a principal-log branch cut for a physical mismatch? This finite example distinguishes a local log-chart residual from an exact global exponential-orbit check and shows why output-only reconstruction cannot identify an independent horizon amplitude.
 
+For a reader-facing explanation of the finite example, see [When a time shift looks like a mismatch](https://rgd.cx/articles/when-a-time-shift-looks-like-a-mismatch) on RGD.cx.
+
 ## Claim supported
 
 Let `H_j` denote the horizon coefficient and `O_j` the leading rescaled null-infinity coefficient for the same direct-branch `Ψ̃₄` mode in the tested representation. Let `F_j` be the fixed, nonzero baseline transfer before applying a relative endpoint shift `d=f(1)-f(0)`. With matched nonzero coefficients, fixed conventions and one shared real `d`, define the direct-branch exponent `a_j=2icω_j` and ratio `R_j=O_j/(F_jH_j)`. The declared alignment orbit is `R_j=exp(a_jd)` for every mode. If at least one reference mode has `Re(a_k)≠0`, its magnitude fixes the only possible real offset, `d*=log|R_k|/Re(a_k)`. Direct substitution in every complex ratio, including the reference, is then a necessary-and-sufficient exact membership check for this one-parameter orbit.
