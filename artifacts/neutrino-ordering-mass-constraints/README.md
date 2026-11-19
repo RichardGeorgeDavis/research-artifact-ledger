@@ -72,7 +72,7 @@ Together the selected sources support conditional, dataset-specific preference o
 - Mass-sum comparisons against ordering floors are conditional and distinct from a joint ordering likelihood or direct ordering measurement.
 - The Jimenez preprint’s `Δχ²`/Bayes-factor arithmetic discrepancy is unresolved. No correction or presumed author intent is supplied.
 - Bari Group results remain preliminary; their listed data combinations overlap and should not be combined as independent evidence.
-- The 26 October independent review did not retrieve the NuFIT 6.1 release PDF. A later bounded public-source challenge verified the official table labels and values from indexed official-source text; direct PDF retrieval and visual rendering were unavailable, and no NuFIT likelihood or fit was independently reproduced. This update does not replace the NuFIT 6.0 inputs cited by other selected analyses.
+- The 26 October independent review did not retrieve the NuFIT 6.1 release PDF. For the 19 November follow-up, one independent reviewer reported extracting the official PDFs into its context from the exact URLs; the coordinator could not fetch or visually render them. The later bounded challenge also checked the official indexed text. No NuFIT likelihood or fit was independently reproduced. This update does not replace the NuFIT 6.0 inputs cited by other selected analyses.
 - No analysis code, likelihood, chain, cosmological dataset, CMB map or laboratory data was reproduced. Paper-reported limits and odds are source-reported, not independently recalculated.
 - No specialist human or peer review, new physical result, new fit, field-level novelty or priority claim is made. This is not an Infinity Research result or a full literature review.
 
