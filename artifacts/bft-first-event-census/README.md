@@ -2,7 +2,7 @@
 
 **Status:** `reproduced finite comparison` (descriptive; not prospective validation)
 
-Version: `0.1.1`
+Version: `0.1.2`
 
 Last updated: `2026-11-19`
 
@@ -43,9 +43,9 @@ From the repository root, run:
 sh reproduce/bft-first-event-census/verify_bundle.sh
 ```
 
-The command requires Python 3.14.7, matching the frozen run. It decompresses the archived streams to a temporary directory and runs the verifier without modifying the score stream. The expected aggregate output is in `evidence/verification-summary.json`.
+The command requires a Python 3.14.7 runtime whose full `sys.version` string matches the frozen value in [`evidence/freeze.json`](evidence/freeze.json), including the build date and compiler text. The verifier checks this string and a digest derived from it; it does not hash the interpreter executable. It decompresses the archived streams to a temporary directory and runs the verifier without modifying the score stream. The expected aggregate output is in `evidence/verification-summary.json`.
 
-The public `freeze.json` is a documented derivative of the private freeze record: it changes only the manifest hash and state description to bind this public manifest. The frozen source hashes and interpreter string are retained. The private source record remains canonical.
+The public `freeze.json` is a documented derivative of the private freeze record: it changes only the manifest hash and state description to bind this public manifest. The frozen source hashes and exact interpreter version string are retained; no interpreter executable hash is claimed. The private source record remains canonical.
 
 ## Sources and prior work
 
@@ -55,7 +55,7 @@ The BFT construction is based on Banks, Ford and Tao's probabilistic model for l
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
-| 0.1.1 / 2026-11-19 | Clarified the secondary 210-integer window metric | The pinned verifier scores each method's single proposal for primality inside `(p, p + 210]`; it does not search the entire window. Counts and primary comparison are unchanged. |
+| 0.1.2 / 2026-11-19 | Clarified the frozen interpreter-version requirement and verification scope | The verifier compares the full `sys.version` string and a digest derived from it; it does not hash the interpreter executable. No benchmark was rerun. |\n| 0.1.1 / 2026-11-19 | Clarified the secondary 210-integer window metric | The pinned verifier scores each method's single proposal for primality inside `(p, p + 210]`; it does not search the entire window. Counts and primary comparison are unchanged. |
 
 ## Corrections and contact
 
