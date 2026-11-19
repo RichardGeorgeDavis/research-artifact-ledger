@@ -2,7 +2,7 @@
 
 Status: `formalised`
 
-Version: `0.1.12`
+Version: `0.1.13`
 
 Last updated: `2026-11-19`
 
@@ -117,8 +117,8 @@ The later [2026-10-12 source-audit update](evidence/source-audit-update-20261012
 | [Lean Main module](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/NumberTheory/GaussianMoat/Main.lean) | Same source commit | Formal endpoint declaration | `OAI.GaussianMoat.fullMain` | Public source |
 | [Comparator configuration](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/ComparatorChallenges/GaussianMoat.json) | Same source commit | Expected theorem and permitted axiom set | Target, permitted axioms and checker setting | Public configuration; our harness was not run |
 | [Toledo cert-machine exact-pin record](https://github.com/carlostoledo1891/cert-machine/blob/9814e4c06281e34a113ce853d7d99ccce160b750/certs/openai-math-kernel.json#L6168-L6202) | cert-machine commit `9814e4c`; upstream OpenAI/math pin `fd4aeeb2` | Third-party Comparator replay record | `GaussianMoat`, Lean plus stock nanoda, exit 0 | Public report; trust and sandbox limits stated in the evidence note |
-| [MathVet challenge-status record](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/challenge-status.csv#L150) | MathVet commit `14c7f91`; same upstream pin | Third-party sandboxed Comparator status | `OAI.GaussianMoat.fullMain`, `comparator-sandboxed-pass` | Public status record; not a manuscript proof audit |
-| [Reilly corpus replay record](https://github.com/jmreilly1113/siegel-zeros-audit/blob/main/results/2026-10-20-corpus-summary-final.tsv#L96) | Corpus snapshot accessed 2026-11-06; same upstream pin | Third-party dual-kernel replay report | `GaussianMoat`, `ACCEPT_BOTH`, exit 0 | Public report; may overlap with other corpus records |
+| [MathVet challenge-status record](https://github.com/mathvet/mathvet/blob/14c7f918cd336d0da03a02aae5a0eed4a429d4db/reviews/openai-math/challenge-status.csv?plain=1#L151) | MathVet commit `14c7f91`; same upstream pin | Third-party sandboxed Comparator status | `OAI.GaussianMoat.fullMain`, `comparator-sandboxed-pass` | Public status record; not a manuscript proof audit |
+| [Reilly corpus replay record](https://github.com/jmreilly1113/siegel-zeros-audit/blob/main/results/2026-10-20-corpus-summary-final.tsv?plain=1#L97) | Corpus snapshot accessed 2026-11-06; same upstream pin | Third-party dual-kernel replay report | `GaussianMoat`, `ACCEPT_BOTH`, exit 0 | Public report; may overlap with other corpus records |
 | Local execution record and outputs | Dated 2026-10-11 to 2026-10-12 (Africa/Johannesburg) | Run evidence, bounded reviews and trust disposition | Build and axiom result | Selected machine outputs are published in the evidence bundle; full working record remains private |
 | Author-derived exact-onset update | 2026-11-05 | Fixed-instance source-level derivation at `D=d=1` | Exact `M_*` comparison | Reproducible from the pinned formulas and inequalities in the linked update |
 | Author-derived all-domain threshold update | 2026-11-06 | Source-level evaluation for all real `D>=1` and rational `d>=D` | Exact `M_*(D,d)` comparison | Reproducible from the pinned formulas and inequalities in the linked update |
@@ -129,6 +129,7 @@ No third-party text, data or code is reproduced here beyond short technical iden
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.13 / 2026-11-19 | Corrected two line-specific third-party replay citations | Raw pinned records show the GaussianMoat entries at MathVet line 151 and Reilly line 97; the prior anchors pointed one row earlier. Replay claims are unchanged. |
 | 0.1.0 / 2026-10-12 | Initial bounded formal endpoint record | Pinned offline build, separate endpoint/axiom query, bounded challenge and mechanical review; claim limits stated above. |
 | 0.1.1 / 2026-10-12 | Published retained evidence bundle | Original output hashes match earlier receipts; packaging did not rerun Lean. |
 | 0.1.2 / 2026-10-12 | Added a scoped inventory of all eleven configured compatibility patches and corrected the warning explanation | Each retained tracked package diff matches its pinned patch and passes reverse-check; cache artifact authenticity and missing exit receipts remain unresolved. |
