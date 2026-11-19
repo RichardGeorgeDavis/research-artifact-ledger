@@ -1,5 +1,9 @@
 # Release and addition history
 
+## Unreleased — 2026-11-20
+
+- Prime-blind log-height artifact 0.2.0 adds a worked contrast with a separate prime-dependent height construction. Both yield an infinite tail at every positive cutoff, but the first builds shrinking gaps into the height after selecting prime addresses, while the fixed `log(n+1)` result uses the stated prime-distribution input to obtain shrinking gaps. This is a bounded project comparison, not a novelty claim, classification, effective threshold or prime-prediction method; exact prior art and qualified human mathematical review remain unresolved.
+
 ## Unreleased — 2026-11-19
 
 - Added [A finite slicing-covariance orbit test for two boundary modes](artifacts/slicing-covariance-orbit/README.md), a synthetic, source-mapped derivation with a standalone standard-library verifier. An independent AI challenge checked equations 13, 132, 136–145, source conventions and finite arithmetic. It tests only one shared real alignment offset; no physical data, QNM computation, detector inference, novelty, priority, human review, peer review, tag or licence is claimed.
