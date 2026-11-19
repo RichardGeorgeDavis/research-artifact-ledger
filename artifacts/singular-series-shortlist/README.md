@@ -2,9 +2,9 @@
 
 Status: `reproduced`
 
-Version: `0.2.0`
+Version: `0.2.1`
 
-Last updated: `2026-10-08`
+Last updated: `2026-11-19`
 
 Author: Richard George Davis
 
@@ -30,7 +30,7 @@ The first origin is `1,743,433`. The test uses 10,000 consecutive prime origins,
 
 The empty product is 1. Exact rational arithmetic ranks candidates by descending score, with smaller integers breaking ties. The method emits the top five. It does not test candidate primality while ranking.
 
-The wheel-order control emits the first five candidates in ascending order. The rounded-log-density control rounds `ln(p)` to the nearest positive even integer `r`, breaking exact rounding ties downwards, then ranks the same eight candidates by increasing `|h-r|`, with smaller integers breaking ties. It emits five candidates. All methods use the same pool and output budget.
+The wheel-order control emits the first five candidates in ascending order. The rounded-log-density control rounds `ln(p)` to the nearest positive even integer `r`, then ranks the same eight candidates by increasing `|h-r|`, with smaller integers breaking ties. The runner raises if a computed logarithm is exactly at, or within `10⁻⁷⁰` of, an odd-integer midpoint; no origin in this tested block is near that guard. It emits five candidates. All methods use the same pool and output budget.
 
 The primary measure is paired exact-successor inclusion at five outputs, counted over all 10,000 origins. The 495 cases where the successor falls outside the eight-candidate pool remain misses. The rounded-log control is a fixed density-inspired reference; neither it nor the singular-series score is a calibrated probability for a fixed endpoint.
 
@@ -52,7 +52,7 @@ The tested implementation used a cooperative forecast/reveal process boundary, n
 
 ## Limitations and what would change the claim
 
-This is one contiguous finite block and one fixed rule, window and output budget. The result does not establish a general failure of singular-series methods, disprove the Hardy–Littlewood prime-tuple conjecture, estimate prime probabilities, or support a conclusion about other blocks, score variants or candidate budgets. The pair singular series concerns average translated prime-pair structure; it does not model the absence of intervening primes required for an immediate-successor claim. The observed output counts also do not establish statistical significance.
+This is one contiguous finite block and one fixed rule, window and output budget. The result does not establish a general failure of singular-series methods, disprove the Hardy–Littlewood prime-tuple conjecture, estimate prime probabilities, or support a conclusion about other blocks, score variants or candidate budgets. The pair singular-series factor describes local-density structure for a fixed offset in the Hardy–Littlewood prime-pair framework; Pintz's cited source proves averages over added offsets in prime-tuple sets. Neither the fixed-offset factor nor those average results encode the absence of primes between `p` and `p+h`, which an immediate-successor claim requires. The observed output counts also do not establish statistical significance.
 
 Changing the block, score, window, budget or claim would require a new predeclared contract and a fresh exposure audit. No follow-on test is implied by this result.
 
@@ -88,4 +88,5 @@ Prior checks: a separate implementation verifier passed on the private run; pre-
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.2.1 / 2026-11-19 | Corrected the rounded-log midpoint guard description and sharpened the singular-series source boundary. | Two independent public-only challenges found no in-block metric or implementation discrepancy, but identified the documentation/code tie-handling mismatch. None of the tested origins is near the guard; reported counts are unchanged. |
 | 0.2.0 / 2026-10-08 | Published the bounded negative screen and standalone reproduction script. | Reproduction matched all declared outcome checks; limitations and evidence status are stated above. |
