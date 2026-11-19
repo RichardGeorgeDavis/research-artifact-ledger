@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-11-19
 
+- Added [A finite slicing-covariance orbit test for two boundary modes](artifacts/slicing-covariance-orbit/README.md), a synthetic, source-mapped derivation with a standalone standard-library verifier. An independent AI challenge checked equations 13, 132, 136–145, source conventions and finite arithmetic. It tests only one shared real alignment offset; no physical data, QNM computation, detector inference, novelty, priority, human review, peer review, tag or licence is claimed.
+
 - Added [Equal extension counts do not guarantee subquery consistency](artifacts/sampler-subquery-consistency-toy/README.md), a finite synthetic example of an input-sensitive sampler whose original conditional pair distribution differs from the projection of uniform full-assignment samples on a simplified equal-fibre formula. The exact arithmetic and theorem-boundary mapping were independently challenged by AI against the cited NeurIPS papers. This is a teaching example of the 2020 paper's explicit subquery-consistency assumption, not a contradiction of Barbarik2/Barbarik3, an exact kernel run, evidence about a deployed sampler, a general impossibility theorem, or a novelty claim. No licence is assigned.
 
 - Clarified the BFT frozen-run environment and completion checks in artifact version `0.1.2`: the exact build-specific `sys.version` is checked without hashing the interpreter executable, and an incomplete valid score prefix can return `DATA_VERIFIED_UNSCORED` with normal exit. The frozen source-map/manifest inputs remain unchanged; an addendum records the corrected scope.

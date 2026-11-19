@@ -14,3 +14,5 @@ This index lists source-map documents for public artifacts on `main`; some artif
 - [When a Perspective Grows](when-a-perspective-grows.md) — claim-level source roles, access limits and synthetic examples.
 - [Numerical cognition and cognitive command](numerical-cognition-cognitive-command.md) — source roles and bounded support for the exploratory note.
 - [Neutral-scalar wormhole transmission](neutral-scalar-wormhole-transmission.md) — version-pinned source map for resonance, A/2 observables and finite-time interpretation.
+- [Sampler subquery-consistency toy](sampler-subquery-consistency-toy.md) — source map and theorem-boundary notes for the finite equal-fibre teaching example.
+- [Finite slicing-covariance orbit test](slicing-covariance-orbit.md) — source mapping and limits for the matched-boundary synthetic ratio test.
