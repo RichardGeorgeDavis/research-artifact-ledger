@@ -15,19 +15,12 @@ abstract: >-
   A versioned repository for bounded research artifacts with explicit source
   trails, evidence labels, reproduction notes, limitations, and correction
   history. Version 0.2.0 contains a reproduced finite negative prime-ranking
-  screen; it makes no general predictor or novelty claim. Current main also
-  contains untagged public records: a descriptive BFT first-event comparison;
-  Gaussian-moat formal endpoint and bounded source-audit records, including a conditional source-level exact evaluation of the sufficient Main threshold for all real D>=1 and rational d>=D; a conditional
-  helix-metric application; a bounded prime-blind logarithmic-height derivation;
-  an exploratory numerical-cognition note; a bounded
-  neutral-scalar wormhole source review; and a bounded source review of
-  matched-CMB-circle limits on global topology; a bounded carry/prime-wheel
-  derivation; and a reproduced finite Prime Clockwork event-sieve comparison.
-  These records also include a synthetic angular-scattering comparison of
-  two declared sheet-response models. It is model-conditional and makes no
-  physical measurement, unique-identification or novelty claim. These records
-  do not claim peer review, broad verification, field-level
-  novelty, or new empirical or physical results. Cite a commit when citing
-  untagged content on main. The final author release of When a Perspective
-  Grows has artifact-specific tag when-a-perspective-grows-v2.7; use its
-  own citation metadata for the manuscript.
+  screen; it makes no general predictor or novelty claim. Current main contains
+  additional untagged public artifacts. See the repository README for the
+  current artifact index and each artifact record for its evidence scope,
+  limitations and review status. These records do not claim peer review, broad
+  verification, field-level novelty, or new empirical or physical results.
+  Cite a commit when citing untagged content on main. The final author release
+  of When a Perspective Grows has artifact-specific tag
+  when-a-perspective-grows-v2.7; use its own citation metadata for the
+  manuscript.
