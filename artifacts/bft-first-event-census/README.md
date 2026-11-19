@@ -43,19 +43,19 @@ From the repository root, run:
 sh reproduce/bft-first-event-census/verify_bundle.sh
 ```
 
-The command requires a Python 3.14.7 runtime whose full `sys.version` string matches the frozen value in [`evidence/freeze.json`](evidence/freeze.json), including the build date and compiler text. The verifier checks this string and a digest derived from it; it does not hash the interpreter executable. It decompresses the archived streams to a temporary directory and runs the verifier without modifying the score stream. The expected aggregate output is in `evidence/verification-summary.json`.
+The command requires a Python 3.14.7 runtime whose full `sys.version` string matches the frozen value in [`evidence/freeze.json`](evidence/freeze.json), including the build date and compiler text. The verifier checks this string and a digest derived from it; it does not hash the interpreter executable. It decompresses the archived streams to a temporary directory and runs the verifier without modifying the score stream. Its default mode accepts a valid exact prefix of the archived score events; an incomplete prefix can return exit status 0 with `verification: DATA_VERIFIED_UNSCORED`. The wrapper does not compare the output with `evidence/verification-summary.json`. For the complete retained archive, check `verification: PASS`, `score_events: 6,222`, and the reported totals against that saved summary; a normal exit alone does not certify full score verification.
 
 The public `freeze.json` is a documented derivative of the private freeze record: it changes only the manifest hash and state description to bind this public manifest. The frozen source hashes and exact interpreter version string are retained; no interpreter executable hash is claimed. The private source record remains canonical.
 
 ## Sources and prior work
 
-The BFT construction is based on Banks, Ford and Tao's probabilistic model for large prime gaps. Their paper studies large gaps; it does not claim the deterministic next-prime ranking rule evaluated here. This experiment's exact bounded claim and comparison are mapped in [`sources/bft-first-event-census.md`](../../sources/bft-first-event-census.md). A bounded search did not identify a direct equivalent first-event next-prime ranker, but that search was not comprehensive and supports no novelty claim.
+The BFT construction is based on Banks, Ford and Tao's probabilistic model for large prime gaps. Their paper studies large gaps; it does not claim the deterministic next-prime ranking rule evaluated here. This experiment's exact bounded claim and comparison are mapped in [`sources/bft-first-event-census.md`](../../sources/bft-first-event-census.md). The frozen verifier/source-map scope and its 19 November 2026 clarification are documented in [`sources/bft-verification-scope.md`](../../sources/bft-verification-scope.md) and the [scope correction addendum](../../sources/bft-verification-scope-correction-20261119.md). A bounded search did not identify a direct equivalent first-event next-prime ranker, but that search was not comprehensive and supports no novelty claim.
 
 ## Change history
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
-| 0.1.2 / 2026-11-19 | Clarified the frozen interpreter-version requirement and verification scope | The verifier compares the full `sys.version` string and a digest derived from it; it does not hash the interpreter executable. No benchmark was rerun. |\n| 0.1.1 / 2026-11-19 | Clarified the secondary 210-integer window metric | The pinned verifier scores each method's single proposal for primality inside `(p, p + 210]`; it does not search the entire window. Counts and primary comparison are unchanged. |
+| 0.1.2 / 2026-11-19 | Clarified the frozen interpreter-version requirement and verification status | The verifier compares the full `sys.version` string and a digest derived from it; incomplete valid score prefixes return `DATA_VERIFIED_UNSCORED`, and the wrapper does not compare the saved aggregate. No benchmark was rerun. |\n| 0.1.1 / 2026-11-19 | Clarified the secondary 210-integer window metric | The pinned verifier scores each method's single proposal for primality inside `(p, p + 210]`; it does not search the entire window. Counts and primary comparison are unchanged. |
 
 ## Corrections and contact
 
