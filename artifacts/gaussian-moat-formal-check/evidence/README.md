@@ -8,7 +8,9 @@ The [2026-10-16 source-audit update](source-audit-update-20261016.md) records th
 
 The [2026-10-18 source-audit update](source-audit-update-20261018.md) records three further bounded Mathlib declaration reviews and a separate source-map challenge. These reviews add no machine outputs and did not run Lean or Lake.
 
-The [2026-11-06 third-party replay update](source-audit-update-20261106-third-party-replay.md) records public Comparator replay reports for the exact `GaussianMoat` source pin. These are distinct from our local endpoint build; our local Comparator harness remains unrun. The reports concern acceptance of the encoded endpoint and do not establish manuscript correspondence, complete proof correctness or cache-to-source authenticity.
+The [2026-11-06 third-party replay update](source-audit-update-20261106-third-party-replay.md) records public Comparator replay reports for the exact `GaussianMoat` source pin. These are distinct from our local endpoint build; our local Comparator harness remains unrun. The reports concern acceptance of the encoded endpoint and do not establish complete proof correspondence, complete proof correctness or cache-to-source authenticity.
+
+The [2026-11-19 manuscript–endpoint comparison](source-audit-update-20261119-manuscript-endpoint-correspondence.md) records a bounded comparison of the pinned manuscript and Lean endpoint statements, hypotheses and parameters. It found no mismatch at that scope. It does not establish proof-route identity, equality/evaluation of witness expressions, full paper-to-proof correspondence, or complete proof assurance; it adds no machine outputs and did not run Lean or Lake.
 
 The [2026-10-26 mass and Main update](source-audit-update-20261026-mass-main.md) records the fixed-tuple all-`X` mass/density replay and the conditional symbolic Main caller map. The [2026-10-28 cutoff-scale update](source-audit-update-20261028-cutoff-scale.md) evaluates the derived `X_res` scale and the lower scale of the prescribed finite-window width, conditional on that separately reviewed ordinary-mathematics premise. Neither update adds machine outputs or claims alternative Lean elaboration or theorem-wide assurance.
 
@@ -17,6 +19,7 @@ The [2026-10-26 mass and Main update](source-audit-update-20261026-mass-main.md)
 | Claim | Evidence | Limit |
 |---|---|---|
 | Main target completed | [lake-build.log](lake-build.log), final two lines | Cached dependencies were used; 8,964 jobs does not mean 8,964 fresh source compilations |
+| Top-level manuscript and Lean statements | [2026-11-19 comparison](source-audit-update-20261119-manuscript-endpoint-correspondence.md) | Bounded statement/hypothesis/parameter comparison; not proof-route or theorem-wide equivalence |
 | Endpoint and axiom list printed | [theorem-axioms.txt](theorem-axioms.txt) | Recorded output under the declared imported environment |
 | Exact query | [kernel-check.lean](kernel-check.lean) | Input, not an independent checker |
 | Runtime identities | [toolchain.txt](toolchain.txt), [lake-version.txt](lake-version.txt) | Runtime self-report |

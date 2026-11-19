@@ -2,9 +2,9 @@
 
 Status: `formalised`
 
-Version: `0.1.11`
+Version: `0.1.12`
 
-Last updated: `2026-11-18`
+Last updated: `2026-11-19`
 
 Artifact author: Richard George Davis
 
@@ -43,7 +43,7 @@ Three further bounded source reviews and a report-level challenge are recorded i
 
 A separate [2026-10-18 source-audit update](evidence/source-audit-update-20261018.md) summarises three additional bounded Mathlib reviews: the lower PID basis-reduction construction, the rank-induction consumer assembly, and the `inductionOnRankAux` engine. The reviews found no mismatch in their inspected declarations and source maps. They are conditional source-level reviews, not a new build, theorem proof or independent human certification.
 
-The [6 November third-party replay note](evidence/source-audit-update-20261106-third-party-replay.md) records public reports of Comparator replay for `GaussianMoat` at the exact upstream pin. These reports concern acceptance of the encoded endpoint; they are not three independent mathematical audits. Our local Comparator remains unrun, and manuscript correspondence and dependency-trust limits remain open.
+The [6 November third-party replay note](evidence/source-audit-update-20261106-third-party-replay.md) records public reports of Comparator replay for `GaussianMoat` at the exact upstream pin. These reports concern acceptance of the encoded endpoint; they are not three independent mathematical audits. Our local Comparator remains unrun. A separate [bounded manuscript–formal statement comparison](evidence/source-audit-update-20261119-manuscript-endpoint-correspondence.md) found no mismatch in the top-level statement, hypotheses and parameters at its pinned source scope; proof-route identity, full proof correspondence and dependency-trust limits remain open.
 
 ## Authorship, chronology and prior work
 
@@ -102,8 +102,8 @@ The later [2026-10-12 source-audit update](evidence/source-audit-update-20261012
 
 - The source manuscript's historical attributions have not all been independently checked against their original sources in this artifact.
 - The official cache's artifact bytes were not authenticated against every source body; complete transitive source closure remains unproved.
-- Our local comparator JSON was inspected, but the local harness was not executed; `enable_nanoda` is false in that configuration. Third-party same-pin replay reports are listed separately in the 6 November evidence note; they do not change the local-run status or settle manuscript correspondence or transitive proof trust.
-- The listed entropy/support, ordered-accounting, quotient/lattice/component and analytic prime-mass source slices have bounded AI source reviews with no defect identified in the inspected scope. Imported dependencies, uninspected portions and downstream implications remain outside complete independent review; see the dated source-audit update for exact boundaries.
+- Our local comparator JSON was inspected, but the local harness was not executed; `enable_nanoda` is false in that configuration. Third-party same-pin replay reports are listed separately in the 6 November evidence note; they do not change the local-run status or establish complete manuscript-to-Lean proof correspondence or transitive proof trust. The 19 November note records a narrower top-level statement comparison.
+- The listed entropy/support, ordered-accounting, quotient/lattice/component and analytic prime-mass source slices have bounded AI source reviews with no defect identified in the inspected scope. The top-level statement and parameter map is recorded separately in the 19 November update; proof-route identity, imported dependencies, uninspected portions and downstream implications remain outside complete independent review.
 - The 2026-10-18 PID basis-reduction and rank-induction slices likewise have bounded AI source reviews at a pinned Mathlib revision. The PID review read the directly used helper bodies for `generator_submoduleImage_dvd_of_mem`, `mkFinConsOfLE` and `mkFinCons`; their lower-level dependencies remain trusted. The exact source maps and limits are in the dated update. No Lean/Lake run, complete imported-proof audit, cache authentication or complete Family-028 assurance is claimed.
 - The 2026-10-26 scalar tuple note is superseded in scope by the later mass/Main update. The 28 October update estimates the scale of its derived `X_res` and a lower bound for `W*(D)`. The 5 November update evaluates `M_*` at `D=d=1`, and the 6 November update gives its exact source-level expression for all `D>=1,d>=D`; both remain conditional on separate pointwise-density derivation ([2026-10-26 mass/Main update](evidence/source-audit-update-20261026-mass-main.md)) and are not Lean elaborated or compiled. Executable `COST`/`BATCH`, cache/kernel and theorem-wide assurance remain open. Serving telemetry was unavailable; no independent human or specialist review is claimed.
 - The build and axiom output do not establish theorem novelty, a defect in the theorem, an Infinity or ordinary-prime connection, or a practical application.
@@ -142,5 +142,6 @@ No third-party text, data or code is reproduced here beyond short technical iden
 | 0.1.9 / 2026-11-06 | Added the exact source-defined sufficient threshold over all real `D>=1` and rational `d>=D` | An independent AI public-source challenge found no invalid inequality or omitted guard. The result remains conditional on pointwise-density derivation ([2026-10-26 mass/Main update](evidence/source-audit-update-20261026-mass-main.md)) and is not Lean elaboration/build or theorem-wide assurance. |
 | 0.1.10 / 2026-11-06 | Added public third-party exact-pin Comparator replay records | Toledo, MathVet and Reilly report replay/acceptance of the encoded endpoint at the pinned revision. Their records may share run origins and are not three independent mathematical audits. Our local Comparator was not run; the reports do not establish paper-to-Lean correspondence, full proof validity or cache/source authentication. |
 | 0.1.11 / 2026-11-18 | Corrected the documentation integrity manifest and public evidence navigation | The README digest now matches the current file bytes; the existing source reviews, build outputs, mathematical claims and evidence limits are unchanged. |
+| 0.1.12 / 2026-11-19 | Added a bounded manuscript-to-Lean endpoint statement comparison | The pinned top-level statement, hypotheses and parameters match at the reviewed scope. This does not establish proof-route identity, an effective witness, complete proof correspondence or theorem-wide assurance. |
 
 Additional endpoint, inverse-limit and first accurate-band review coverage is summarised in the [16 October note](evidence/source-audit-update-20261016.md). These remain source reviews with no new build or full proof assurance.
