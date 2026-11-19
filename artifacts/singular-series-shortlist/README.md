@@ -16,6 +16,8 @@ On one fixed block of 10,000 consecutive prime origins, did ranking the first ei
 
 This is a bounded methods result for readers evaluating a particular prime-ranking heuristic. It is not a practical prime-generation recommendation.
 
+For a reader-facing account of this screen and the separate BFT first-event census, see [A Clever Prime Score Can Still Lose to the Wheel](https://rgd.cx/articles/a-clever-prime-score-can-still-lose-to-the-wheel) on RGD.cx. A dated follow-up explains this record's version 0.2.1 documentation corrections: [What Changed in the Prime-Ranking Screen Record](https://rgd.cx/articles/what-changed-in-the-prime-ranking-screen-record).
+
 ## Claim supported
 
 On the declared block and under the exact rules below, singular-series ranking retrieved the immediate successor in 5,579 of 10,000 shortlists (55.79%). Wheel order did so in 8,400 (84.00%), and rounded-log density in 7,973 (79.73%). The singular-series shortlist therefore recorded 2,821 fewer hits than wheel order and 2,394 fewer than rounded-log density on this block. Under the predeclared strict-improvement rule, this tested singular-series shortlist family stops.
