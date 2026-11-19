@@ -2,9 +2,9 @@
 
 Status: `source review`
 
-Version: `0.1.0`
+Version: `0.1.1`
 
-Last updated: `2026-10-26`
+Last updated: `2026-11-19`
 
 Author: Richard George Davis, with AI-assisted source analysis and writing.
 
@@ -52,7 +52,7 @@ The bounded conclusion is that these printed passages cannot all support the sam
 
 - The comparison checks the VOR and arXiv v2 only; it is not a full correction-history or all-version audit.
 - The sign conflict does not identify the intended correction. Neither reversing the definition nor negating the values is justified by the checked text alone.
-- An independent reviewer noted a possible additional bound: if the relevant fits use identical likelihoods and CPL adds exactly two parameters, then `ΔBIC ≤ 2 ln N`; for `N=1701` this is about `14.88`, below one reported `+25.63`. This is not accepted as an additional inconsistency because the checked text does not establish that this particular reported value uses that exact sample size, the same likelihood, and exactly two additional parameters under otherwise identical conditions. The entry-specific data mapping, likelihood minima and parameter counts would be needed.
+- An independent reviewer noted a possible additional bound: if the relevant fits use identical likelihoods and CPL adds exactly two parameters, then `ΔBIC ≤ 2 ln N`; for `N=1701` this is about `14.88`, below one reported `+25.63`. This remains a conditional diagnostic: Wang–Mota §6 lists values for DESI DR2, Pantheon+, Union3 and DESY5 in that order, so `+25.63` maps to Pantheon+; §3 reports 1,701 points in that catalogue. The effective `N` used in BIC, same-likelihood conditions, actual fitted parameter counts and implemented subtraction remain unverified, so the conditional `2 ln N` comparison does not resolve the sign or intended correction.
 - Resolving the sign and any value-level discrepancy requires per-dataset likelihood minima, parameter counts, sample size and the implemented subtraction, or an attributable authoritative correction.
 - No model ranking, parameter estimate, new cosmological result, empirical conclusion, novelty, priority or field-level claim is made. No human specialist or peer review occurred.
 - No third-party table, figure, dataset, code or substantial text is reproduced. The Ledger has no open licence.
@@ -77,4 +77,5 @@ Scope: compare VOR §6 with note 49, compare the same passages in arXiv v2, and 
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.1 / 2026-11-19 | Mapped the printed `+25.63` to its named supernova compilation | Wang–Mota §§3 and 6 identify Pantheon+ and its reported catalogue size; the effective BIC sample size and implementation remain unresolved. No model ranking or sign correction is inferred. |
 | 0.1.0 / 2026-10-26 | Initial bounded source-review artifact | Publisher VOR and arXiv v2 source comparison plus an independent public-source sign-logic challenge. |

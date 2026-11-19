@@ -2,6 +2,10 @@
 
 **Status:** `reproduced finite comparison` (descriptive; not prospective validation)
 
+Version: `0.1.1`
+
+Last updated: `2026-11-19`
+
 ## Question and audience
 
 For this one fixed interval, how did the frozen Banks–Ford–Tao (BFT) first-event proposal compare with two next-prime gap-median proposals and the first integer surviving the modulus-210 sieve? This record is for readers evaluating bounded prime-ranking experiments and their comparators.
@@ -17,7 +21,7 @@ The frame contains 3,111 eligible prime origins from 10,050,248 through 10,100,2
 | Median of five unrestricted mod-30 gaps | 409 / 3,111 | 13.15% | 10.8550 |
 | Median of five gaps restricted to the first eight mod-210 survivors | 487 / 3,111 | 15.65% | 10.7715 |
 
-For the secondary question “is any prime found in the 210-integer proposal window?”, BFT, first-survivor and same-eight median each had 807 hits; unrestricted median had 685. This window result does not distinguish BFT from the simple first-survivor rule. BFT's recorded forecasting time summed to 4,068.37 seconds, versus 0.144 seconds for comparator generation. Proposal checking shared the chronological range classifier, so a complete end-to-end cost ratio cannot be attributed.
+For the secondary metric, the verifier tests whether each method's single proposed integer is prime and lies in the 210-integer window `(p, p + 210]`; it does not search the window for any prime. BFT, first-survivor and same-eight median each had 807 prime proposals; unrestricted median had 685. This result does not distinguish BFT from the simple first-survivor rule. BFT's recorded forecasting time summed to 4,068.37 seconds, versus 0.144 seconds for comparator generation. Proposal checking shared the chronological range classifier, so a complete end-to-end cost ratio cannot be attributed.
 
 ## Evidence and method
 
@@ -46,6 +50,12 @@ The public `freeze.json` is a documented derivative of the private freeze record
 ## Sources and prior work
 
 The BFT construction is based on Banks, Ford and Tao's probabilistic model for large prime gaps. Their paper studies large gaps; it does not claim the deterministic next-prime ranking rule evaluated here. This experiment's exact bounded claim and comparison are mapped in [`sources/bft-first-event-census.md`](../../sources/bft-first-event-census.md). A bounded search did not identify a direct equivalent first-event next-prime ranker, but that search was not comprehensive and supports no novelty claim.
+
+## Change history
+
+| Version/date | Change | Reason and evidence |
+|---|---|---|
+| 0.1.1 / 2026-11-19 | Clarified the secondary 210-integer window metric | The pinned verifier scores each method's single proposal for primality inside `(p, p + 210]`; it does not search the entire window. Counts and primary comparison are unchanged. |
 
 ## Corrections and contact
 

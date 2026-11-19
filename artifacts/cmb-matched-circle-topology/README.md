@@ -2,9 +2,9 @@
 
 Status: `source review`
 
-Version: `0.1.0`
+Version: `0.1.1`
 
-Last updated: `2026-10-26`
+Last updated: `2026-11-19`
 
 Artifact author: Richard George Davis, with AI-assisted source analysis and writing.
 
@@ -26,7 +26,7 @@ Planck reports no statistically significant matched-circle correlation in its te
 
 Planck's separate low-ℓ likelihood analysis must be kept distinct. The authors use a likelihood fall-off `Δln L ≈ -5` as a convenient approximation to a 3σ/99% contour, not a Bayesian posterior constraint without an upper-size prior. The marginalized limits use combined low-resolution temperature and polarization data: `R_i > 0.97 χ_rec` for T3 and `R_i > 0.56 χ_rec` for T1. The T3 profile-likelihood limit is weaker, `R_i > 0.79 χ_rec`. These are not the same statistic or data subset as the 99% polarization-only matched-circle result.
 
-Petersen et al. do not rerun the WMAP/Planck map search. They translate earlier temperature-circle non-detections across nine orientable Euclidean topology families. Their headline 98.5% bound concerns the shortest non-contractible loop through our location, relative to the comoving diameter of the last-scattering surface, and inherits the earlier search's finite detection thresholds. The authors show that shorter loops can avoid our location and, for many of the examined families, be factors of roughly 2–6 shorter than the last-scattering-surface diameter while remaining compatible with that observer-centred bound.
+Petersen et al. do not rerun the WMAP/Planck map search. They translate earlier temperature-circle non-detections across nine orientable Euclidean topology families. Their headline 98.5% bound concerns the shortest non-contractible loop through our location, relative to the comoving diameter of the last-scattering surface, and inherits the earlier search's finite detection thresholds. The authors report a topology-dependent weakening: a factor of 2 for `E₂` and `E₁₂`, a factor of 6 for `E₅`, and an arbitrarily large factor for `E₁₆`. These shorter loops can avoid our location while remaining compatible with the observer-centred bound.
 
 ## Evidence class and review status
 
@@ -88,4 +88,5 @@ Findings: no major numerical claim error was identified. The checks required the
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.1 / 2026-11-19 | Added the distinct `E₁₆` topology case to the summary | Petersen et al. §5 reports an arbitrarily large weakening for `E₁₆`; no CMB analysis or model conclusion changed. |
 | 0.1.0 / 2026-10-26 | Initial bounded source-review artifact | Two version-pinned primary sources, coordinator source reading and two independent AI source-only checks. |
