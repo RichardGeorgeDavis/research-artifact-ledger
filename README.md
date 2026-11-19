@@ -44,6 +44,7 @@ Research artifacts added later must identify their question, bounded claim, sour
 
 
 - [A checkable CNF encoding of a five-suite QA schedule](artifacts/f38-five-suite-schedule-cnf/README.md) — `synthetic demonstration` and `independently checked` (AI reviewer; no human review claimed); one fixed 17-variable graph encoding with 19 satisfying assignments, checked by exhaustive standard-library enumeration. No general encoding novelty, solver-performance or complexity claim.
+- [Equal extension counts do not guarantee subquery consistency](artifacts/sampler-subquery-consistency-toy/README.md) — `synthetic demonstration`, `bounded derivation` and `independently checked` (AI source-and-arithmetic challenge; no human review claimed); one stipulated sampler gives conditional pair mass `5/6` on the original input and projected mass `1/2` on a simplified modified formula with equal 4,095-fold fibres. This illustrates an assumption boundary; it is not an exact kernel run, theorem contradiction, deployed-sampler result or novelty claim.
 
 ## Why the repository has releases
 
