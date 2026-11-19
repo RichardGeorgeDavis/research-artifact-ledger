@@ -4,6 +4,7 @@ This index lists source-map documents for public artifacts on `main`; some artif
 
 - [BFT first-event prime census](bft-first-event-census.md) — source roles, bounded claim and prior-work comparison.
 - [BFT verification scope](bft-verification-scope.md) — what the public verifier checks and what it does not establish.
+- [BFT verification-scope clarification](bft-verification-scope-correction-20261119.md) — exact interpreter-string and complete-score verification limits; the frozen source map and manifest are unchanged.
 - [FLAM3 fixed-seed final-opacity example](flam3-fixed-seed-final-opacity.md) — pinned implementation sources and the bounded witness.
 - [Prime-log phase orbit](prime-log-phase-orbit.md) — claim-to-source map for the bounded phase-orbit derivation.
 - [Decimal carry states and prime-wheel phases](carry-wheel-phase-alignment.md) — generalized CRT, sieve background and the finite state enumeration.
