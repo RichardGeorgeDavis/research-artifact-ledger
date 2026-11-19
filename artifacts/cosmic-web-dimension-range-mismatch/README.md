@@ -65,4 +65,5 @@ An earlier independent AI public-source challenge, requested at `gpt-6.1-sol / h
 | Version/date | Change | Evidence |
 |---|---|---|
 | 0.1.2 / 2026-11-19 | Reverified the named Authorea v1 passage using indexed text at the exact hosted PDF URL; clarified that the coordinator still could not download or visually inspect the PDF. | Separate public-only review matched the cover metadata and §3 equations (3)–(4); serving telemetry unavailable. |
+| 0.1.1 / 2026-11-19 | Qualified current source-access status; retained the earlier source-attributed arithmetic discrepancy as historical pending a fresh version-matched copy. | Independent and coordinator rechecks could not retrieve Authorea v1; the earlier review record is preserved and its serving telemetry remains unavailable. |
 | 0.1.0 / 2026-11-19 | Initial bounded source-review note. | Authorea v1 indexed text as reported in the initial independent challenge; version-pinned primary-source records and direct arithmetic substitution. |
