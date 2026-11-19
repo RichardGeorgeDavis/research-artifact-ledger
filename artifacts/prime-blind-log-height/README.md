@@ -2,7 +2,7 @@
 
 Status: `bounded derivation`
 
-Version: `0.2.0`
+Version: `0.3.0`
 
 Last updated: `2026-11-20`
 
@@ -45,6 +45,8 @@ No numerical value for `K` is derived. No computation is needed to establish thi
 ## Contrast with a prime-dependent construction
 
 A separate project construction gives a useful control. Keep the same spiral addresses and ten-phase display, choose an infinite increasing sequence of Gaussian-prime addresses `n₁<n₂<...` in one phase, and set `z(nⱼ)=log(j+1)`. Extend these prescribed heights by strictly increasing linear interpolation between selected addresses, with a positive-slope prefix. The resulting height is strictly increasing and unbounded, while consecutive selected points have the same circular coordinates and vertical difference `log((j+2)/(j+1)) → 0`. Thus every positive cutoff again contains an infinite connected tail.
+
+For a concrete comparison, the positive-real-axis addresses of 3 and 23 are 28 and 2,048. Both are 8 modulo 10, so their circular coordinates agree. In the prime-dependent construction they can be assigned successive selected heights `log 2` and `log 3`, giving a vertical gap `log(3/2)`. With the fixed prime-blind height their gap is instead `log(2049/29)`. This pair illustrates how the rule assigns heights; the infinite-tail conclusion comes from the limiting gaps proved above, not from this finite example.
 
 The distinction is what supplies the shrinking gaps. In this prime-dependent construction, the height is designed after selecting the prime addresses. In the result above, `z(n)=log(n+1)` is fixed before selecting primes, and the fixed-modulus prime-distribution input proves that the selected heights become close. The two arguments establish the same qualitative tail conclusion by different mechanisms; neither classifies other height functions, gives an effective cutoff, or makes the prime-dependent construction a prime predictor. The same `p ≡ 3 mod 20` subsequence described in the derivation supplies infinitely many same-phase Gaussian-prime addresses.
 
@@ -97,5 +99,6 @@ Outcome: accepted at the stated conditional scope. This is not qualified human s
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.3.0 / 2026-11-20 | Added a concrete address-and-height comparison for the Gaussian primes 3 and 23 | The pair illustrates how the two existing constructions assign heights to same-phase addresses; it adds no premise to the infinite-tail argument and makes no novelty or classification claim. |
 | 0.2.0 / 2026-11-20 | Added a worked contrast with a separate prime-dependent construction | The constructions share the same qualitative tail conclusion but place the prime-selection information in different parts of the argument; no novelty or classification claim is added. |
 | 0.1.0 / 2026-10-13 | Initial bounded derivation | Coordinator reconstruction and separate AI challenge; prior-art limits and review status stated explicitly. |
