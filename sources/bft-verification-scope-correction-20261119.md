@@ -10,14 +10,14 @@ The frozen record retains the complete Python `sys.version` string. The verifier
 
 ## Complete score verification
 
-The verifier validates any existing score stream that is an exact prefix of independently computed score events. In its default mode, when a valid prefix is incomplete, it reports `DATA_VERIFIED_UNSCORED` and can exit normally. The public wrapper does not compare its output to the saved aggregate summary. For the retained complete archive, a full verification result has status `PASS` and 6,222 score events; a successful process exit alone is insufficient to establish that condition.
+The verifier validates any existing score stream that is an exact prefix of independently computed score events. In its default mode, when a valid prefix is incomplete, it reports `DATA_VERIFIED_UNSCORED` and can exit normally. The public wrapper does not compare its output to the saved aggregate summary. For the retained complete archive, the first JSON object printed by the wrapper must contain `"verification": "PASS"` and `"score_events": 6222`. Its second JSON object's `PASS` is only the auxiliary first-survivor equivalence check. A successful process exit alone is insufficient to establish complete score verification.
 
 The frozen source map and manifest remain unchanged. This note supplies a versioned clarification while preserving their recorded hashes.
 
 ## Pinned sources
 
-- [Verifier environment and source checks](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/77fa77d3fa4890db40883b7f77e4976783c8e242/reproduce/bft-first-event-census/bft_census_verifier.py#L227-L234)
+- [Verifier exact environment match](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/77fa77d3fa4890db40883b7f77e4976783c8e242/reproduce/bft-first-event-census/bft_census_verifier.py#L227-L234) · [Derived version-string digest check](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/77fa77d3fa4890db40883b7f77e4976783c8e242/reproduce/bft-first-event-census/bft_census_verifier.py#L287-L291)
 - [Verifier score-prefix and completion status](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/77fa77d3fa4890db40883b7f77e4976783c8e242/reproduce/bft-first-event-census/bft_census_verifier.py#L331-L349)
 - [Public wrapper invocation](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/77fa77d3fa4890db40883b7f77e4976783c8e242/reproduce/bft-first-event-census/verify_bundle.sh#L12-L17)
 - [Frozen Python version](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/77fa77d3fa4890db40883b7f77e4976783c8e242/artifacts/bft-first-event-census/evidence/freeze.json)
-- [Artifact integrity list](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/77fa77d3fa4890db40883b7f77e4976783c8e242/artifacts/bft-first-event-census/SHA256SUMS)
+- [Current artifact integrity list](../artifacts/bft-first-event-census/SHA256SUMS)
