@@ -64,21 +64,16 @@
 
 - 2026-10-26: Added [What selected absolute-mass constraints establish about neutrino ordering](artifacts/neutrino-ordering-mass-constraints/README.md) — `source review`; a bounded comparison of endpoint, cosmological mass-sum and oscillation-ordering claims, preserving dataset, model, prior, statistical and publication-status limits. No new fit, direct ordering measurement, model-independent verdict, human specialist review or peer review is claimed.
 
-
-## Unreleased — 2026-10-26
-
 - Added [Decimal carry states and prime-wheel phases](artifacts/carry-wheel-phase-alignment/README.md), a bounded derivation of the joint decimal/mod-30 and decimal/mod-210 state periods, compatibility condition, survivor counts and carry rejection. The finite script checks complete cycles for `k=1,2,3`; the derivation uses standard generalized CRT and sieve facts. No new theorem, prime test, novelty or learning claim is made.
 - Added [A prime clockwork recast as an event-driven sieve](artifacts/prime-clockwork-event-sieve/README.md), a reproduced, bounded Python comparison through 20,000. Event scheduling beat the minimal clockwork scan in the retained run, while a standard segmented sieve was substantially faster. The public script was rerun on 26 October and matched outputs and operation counts; timings are recorded separately. Full benchmark controls remain incomplete and no general performance or novelty claim is made.
 
 Both artifacts are on `main` without separate artifact-specific releases. The repository-wide `v0.2.0` release remains unchanged. No licence is assigned.
 
-## Unreleased — 2026-10-26
-
 - Added [What matched-CMB-circle nulls constrain about global topology](artifacts/cmb-matched-circle-topology/README.md), a `source review` of two version-pinned papers. It distinguishes Planck's back-to-back matched-circle search and separate low-ℓ likelihood results from Petersen et al.'s observer-centred translation of earlier temperature-circle nulls across nine orientable Euclidean families. No CMB map, likelihood, code or numerical result was reproduced. The record does not identify the actual global topology, rule out shorter loops elsewhere, or make a cosmological discovery, novelty, priority, human specialist review or peer-review claim. At the time of this entry, it was on `main` without its own artifact-specific release; later presence in a whole-repository tag snapshot does not make it a release subject.
 
-## Unreleased — 2026-10-26
-
 - Added [A source-text conflict in one cosmological BIC comparison](artifacts/bic-sign-convention-conflict/README.md), a `source review` of the Wang–Mota Version of Record and arXiv v2. It records an unresolved sign-direction inconsistency in the printed BIC definition and interpretation; no correction, model ranking, fit reproduction, novelty, human specialist review or peer-review claim is made. At the time of this entry, it was on `main` without its own artifact-specific release; later presence in a whole-repository tag snapshot does not make it a release subject.
+
+- Gaussian-moat artifact 0.1.6 adds a bounded arithmetic refinement exhibiting `a=I/192`, `δ=I/48`, `K=5000` and `t=I/(160000 log 4)` for the scalar inequalities in the pinned `SeparatedParameters` interface. An independent public-source AI challenge found no arithmetic counterexample. The 0.1.7 update adds an independently challenged all-`X` fixed-tuple mass/density reconstruction and two source-only challenges of a conditional symbolic Main caller map, correcting that bounded evidence caveat. The alternative Main theorem is not written or elaborated; numerical cutoffs, Lean/build, cache/kernel trust, theorem-wide assurance and human specialist review remain open. No novelty claim is made.
 
 ## Unreleased — 2026-10-25
 
@@ -131,8 +126,3 @@ Both artifacts are on `main` without separate artifact-specific releases. The re
 - Created a public repository structure and a reusable research-artifact record template.
 - No research findings, scientific theory, novelty claim or validation result are included in this release.
 - No open licence is assigned to this initial release.
-
-
-## Unreleased — 2026-10-26
-
-- Gaussian-moat artifact 0.1.6 adds a bounded arithmetic refinement exhibiting `a=I/192`, `δ=I/48`, `K=5000` and `t=I/(160000 log 4)` for the scalar inequalities in the pinned `SeparatedParameters` interface. An independent public-source AI challenge found no arithmetic counterexample. The 0.1.7 update adds an independently challenged all-`X` fixed-tuple mass/density reconstruction and two source-only challenges of a conditional symbolic Main caller map, correcting that bounded evidence caveat. The alternative Main theorem is not written or elaborated; numerical cutoffs, Lean/build, cache/kernel trust, theorem-wide assurance and human specialist review remain open. No novelty claim is made.
