@@ -2,7 +2,7 @@
 
 Status: `source review`
 
-Version: `0.1.0`
+Version: `0.1.1`
 
 Last updated: `2026-11-19`
 
@@ -22,7 +22,7 @@ Related primary sources use distinct measures. Einasto et al. define a scale-dep
 
 ## Evidence class and review status
 
-Evidence class: `source review`, with a direct arithmetic check of the source-stated relation. The source review inspected the specified version and primary-source passages; it did not reproduce a cosmological calculation, analyse data or assess the wider model.
+Evidence class: `source review`, with a direct arithmetic check conditional on the source inputs reported in the initial review. That initial review reported inspecting the specified version and primary-source passages; a later independent and coordinator recheck could not retrieve the named Authorea v1 text. This revision therefore does not freshly verify that the quoted exponent and equation occur in the named source. It does not reproduce a cosmological calculation, analyse data or assess the wider model.
 
 One independent public-source challenge requested `gpt-6.1-sol / high`; serving telemetry was unavailable. The reviewer confirmed the arithmetic mismatch and distinguished the selected primary-source estimators. The Authorea DOI destination returned an access challenge; its indexed v1 PDF text was available to the reviewer. A PDF screenshot attempt failed, so no visual page inspection is claimed. No human specialist review or peer review is claimed.
 
@@ -58,10 +58,11 @@ This is a bounded source-to-claim comparison authored by Richard George Davis wi
 
 ## Independent review
 
-One independent AI public-source reviewer, requested at `gpt-6.1-sol / high`, checked the arithmetic, source definitions and whether this correction has distinct reader use. The review supports a narrow source-review artifact and the qualifications above. The reviewer did not inspect private notes, reproduce any study, visually render the Authorea PDF, or assess the broader theory. Serving telemetry was unavailable; no human specialist review occurred.
+An earlier independent AI public-source challenge, requested at `gpt-6.1-sol / high`, reported confirming the arithmetic against indexed Authorea v1 text and distinguishing the selected primary-source estimators; serving telemetry was unavailable. In a later independent review requested at `gpt-6.2-astra / high`, the DOI and hosted v1 PDF could not be retrieved, so that reviewer verified the related primary-source definitions but not the exact Authorea passage or its attribution. The coordinator also could not retrieve the DOI destination or hosted PDF in this recheck. This artifact preserves the earlier source-attributed discrepancy as historical evidence, with the exact named-version passage still open for fresh verification. No private notes, study reproduction, PDF visual inspection, broader theory assessment, human specialist review or peer review is claimed; serving telemetry for the later reviewer was unavailable.
 
 ## Change history
 
 | Version/date | Change | Evidence |
 |---|---|---|
-| 0.1.0 / 2026-11-19 | Initial bounded source-review note | Authorea v1 indexed text, version-pinned primary-source records, direct arithmetic check and one independent public-source challenge. |
+| 0.1.1 / 2026-11-19 | Qualified current source-access status; retained the earlier source-attributed arithmetic discrepancy as historical pending a fresh version-matched copy. | Independent and coordinator rechecks could not retrieve Authorea v1; the earlier review record is preserved and its serving telemetry remains unavailable. |
+| 0.1.0 / 2026-11-19 | Initial bounded source-review note. | Authorea v1 indexed text as reported in the initial independent challenge; version-pinned primary-source records and direct arithmetic substitution. |
