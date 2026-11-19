@@ -2,7 +2,7 @@
 
 ## Unreleased — 2026-11-20
 
-- Prime-blind log-height artifact 0.3.0 adds a finite illustration of the existing comparison: the positive-real-axis addresses of Gaussian primes 3 and 23 are 28 and 2,048, with the same phase and different height gaps under the two rules. This explains the constructions without extending the infinite-tail proof or claiming novelty or classification.
+- Prime-blind log-height artifact 0.3.0 adds a finite illustration of the existing comparison: the positive-real-axis addresses of Gaussian primes 3 and 23 are 28 and 2,048, with the same phase and different height gaps under the two rules. This explains the constructions without extending the infinite-tail proof or claiming novelty or classification. The [companion article](https://rgd.cx/articles/two-ways-to-connect-a-tail-of-gaussian-primes) follows this pair through both constructions.
 - Prime-blind log-height artifact 0.2.0 adds a worked contrast with a separate prime-dependent height construction. Both yield an infinite tail at every positive cutoff, but the first builds shrinking gaps into the height after selecting prime addresses, while the fixed `log(n+1)` result uses the stated prime-distribution input to obtain shrinking gaps. This is a bounded project comparison, not a novelty claim, classification, effective threshold or prime-prediction method; exact prior art and qualified human mathematical review remain unresolved.
 
 ## Unreleased — 2026-11-19

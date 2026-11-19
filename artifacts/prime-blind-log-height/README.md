@@ -16,6 +16,8 @@ For the fixed square-spiral address convention and fixed ten-phase circular disp
 
 This is a bounded mathematical result about one declared display map. It helps distinguish a prime-dependent construction from a fixed height chosen without reference to prime membership. It is not a prime predictor, a statement about the original two-dimensional prime graph, or a classification of other height functions.
 
+The companion article [Two Ways to Connect a Tail of Gaussian Primes](https://rgd.cx/articles/two-ways-to-connect-a-tail-of-gaussian-primes) follows the primes 3 and 23 through both height rules.
+
 ## Claim supported
 
 Let `S: {1,2,3,...} → Z[i]` be the square spiral starting at `S(1)=0`, moving right, up, left and down in turn, with segment lengths `1,1,2,2,3,3,...`. For a fixed finite radius `R ≥ 0`, map each positive integer address `n` to
