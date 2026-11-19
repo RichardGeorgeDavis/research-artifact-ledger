@@ -2,7 +2,7 @@
 
 Status: `source review` and `bounded derivation`
 
-Version: `0.1.1`
+Version: `0.1.2`
 
 Last updated: `2026-11-19`
 
@@ -18,7 +18,7 @@ This source review is for readers comparing emergent-gravity proposals and check
 
 In preprint v3 §6.1, the authors start with an unpolarised ensemble, state the homogeneous precession equation `d⟨S⟩/dt = ω_entropy × ⟨S⟩`, and then infer `P ≃ |ω_entropy| τ_freeze`. The stated equation preserves a zero initial ensemble mean exactly, so that equation alone cannot produce the nonzero polarisation used in the subsequent estimate. For a nonzero prepared spin `P₀` and constant `ω`, the leading vector change is `ΔP = τ(ω × P₀) + O(τ²)`; pure precession preserves the spin magnitude. Thus `|ω|τ` is a small rotation angle, not generally a polarisation.
 
-In Appendix C.2.3, the text takes `d_a ≤ d_{a*}` because `a*` has maximal quantum dimension, then states `1/d_a ≤ 1/d_{a*}`. For positive dimensions the inequality reverses: `1/d_a ≥ 1/d_{a*}`. Consequently, the stated `q = 1/d_{a*}` is not an upper bound on all mode factors as written unless the relevant dimensions are equal. For a finite set of non-Abelian modes with each `d_a > 1`, the corrected bound `q = max_a(1/d_a) = 1/min_a(d_a)` is still below one; this local correction does not validate the manuscript's other assumptions or its fixed-point proof.
+In Appendix C.2.3, the text takes `d_a ≤ d_{a*}` because `a*` has maximal quantum dimension, then states `1/d_a ≤ 1/d_{a*}`. For positive dimensions the inequality reverses: `1/d_a ≥ 1/d_{a*}`. Consequently, the stated `q = 1/d_{a*}` is not an upper bound on all mode factors as written unless the relevant dimensions are equal. For a finite set of non-Abelian modes with each `d_a > 1`, the corrected bound `q = max_a(1/d_a) = 1/min_a(d_a)` is still below one; this local correction does not validate the manuscript's other assumptions or its fixed-point proof. The worked `D(S₃)` example immediately after Eq. (C.6) calls 2 the largest non-Abelian quantum dimension. Lou et al.'s published topological-data table lists simple-object dimensions `(1, 1, 2, 3, 3, 2, 2, 2)`, so the maximum is 3 and the minimum non-Abelian dimension is 2. Thus the example's `q=1/2` matches `1/min d_a`, not the stated `1/max d_a=1/3`; the numerical contraction factor is conditionally usable for this example, but its stated maximum-dimension rationale is inconsistent. This does not establish the ETRG map or fixed-point result.
 
 Section 6.1 labels `8 fm/c` as approximately `40 MeV⁻¹`; the correct natural-unit conversion is approximately `40.5 GeV⁻¹`. Substituting the correctly converted time gives about `3.4 × 10⁻⁴ GeV⁻²`, consistent with the printed central estimate `3.5 × 10⁻⁴ GeV⁻²`. The printed unit label is wrong by a factor of 1,000; this check does not establish which unit was used in any unreported calculation.
 
@@ -33,6 +33,7 @@ The preprint page labels v3 as not peer reviewed. Frontiers lists the article an
 | Source or input | Version/date | Role in this artifact | Relevant claim or section | Access or rights notes |
 |---|---|---|---|---|
 | [Yang, Yang and Mei, *Emergent Gravity from Quantum Information Flow: A Modified Dirac-Equation Perspective*](https://www.preprints.org/manuscript/202607.1698/v3) | Preprint v3, posted 28 September 2026 | Primary source for the modified Dirac coupling, spin response, STAR estimate and gravitational claims | §§3.1–3.4, 6.1, eqs. (29)–(34), (70)–(71); Appendices B.4, C.2.3 and eq. (C.6) | Preprints.org identifies v3 as latest and marks the preprint not peer reviewed. Its direct page exposes metadata and abstract to the reader used here. Full text was inspected via the text-rendering view below; equations were checked against the original version identity and the rendered text may not preserve all layout details. |
+| Lou, Shen, Chen and Hung, [*A (dummy’s) guide to working with gapped boundaries via (fermion) condensation*](https://doi.org/10.1007/JHEP02(2021)171) | JHEP 02 (2021) 171, Appendix C, D(S₃) topological-data table | Quantum dimensions of the eight simple objects | Published source table; used only to check the worked example's dimension claim. |
 | [Version-3 text-rendering view of the same Preprints.org page](https://r.jina.ai/https://www.preprints.org/manuscript/202607.1698/v3) | Retrieved 19 November 2026 | Public full-text rendering used to inspect version-3 sections and equations | §§3, 6.1, Appendix B.4, Appendix C.2.3, eq. (C.6) | Rendering proxy, not an independent source or version. Captured response: 167,545 UTF-8 characters; SHA-256 `ed4d4b2ab5401975e1e32e2e4c42dc110819039c05d23d6e958b5e341073ac19`. No full source file is redistributed here. |
 | [Frontiers in Physics article abstract](https://www.frontiersin.org/journals/physics/articles/10.3389/fphy.2026.1945804/abstract) | DOI `10.3389/fphy.2026.1945804`; accepted 28 September 2026 | Publisher metadata and abstract comparison | Abstract and article status | The abstract page states the final formatted version will be published soon. Its displayed abstract repeats the final paragraph and loses some mathematical symbols in rendering. |
 | [Preprints.org version 2](https://www.preprints.org/manuscript/202607.1698/v2) | Posted 25 August 2026 | Version-history comparison only | Abstract | v2 states `λ ∼ 10⁻⁷–10⁻⁵ GeV⁻²`, while v3 and the Frontiers abstract state `λ ∼ 10⁻⁵–10⁻³ GeV⁻²`. This records version drift; no reason for the change is inferred. |
@@ -80,7 +81,7 @@ The version-2 to version-3 shift in the abstract's `λ` interval is material for
 - No STAR data, likelihood, hydrodynamic output, uncertainty propagation, or fit was reproduced. The source's polarization range and inputs remain author-reported.
 - No independent derivation of the modified Dirac equation, Proca field dynamics, induced Newton constant, graviton mass, or emergence of spacetime was performed.
 - The scope is not a comprehensive review of prior work on spin transport, induced gravity, entropy currents, string-net models or emergent gravity. No field-level novelty, physical validation, or global no-go claim is made.
-- The Appendix C.2.3 check addresses only the direction of a reciprocal inequality and its consequence for the stated bound; the ETRG construction and fixed-point proof are not audited.
+- The Appendix C.2.3 check covers the reciprocal inequality and the `D(S₃)` worked-example dimension claim; the ETRG construction and fixed-point proof are not audited.
 - No experiment, software installation, dataset acquisition, author contact or publication activity beyond this repository artifact was performed.
 
 ## Independent review
@@ -95,5 +96,6 @@ Findings and unresolved points: both reviewers independently confirmed that the 
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
+| 0.1.2 / 2026-11-19 | Added the `D(S₃)` worked-example dimension check | The preprint calls 2 the largest non-Abelian dimension, while Lou et al.'s topological-data table includes dimensions 3; the example's factor 1/2 is the reciprocal of the minimum non-Abelian dimension. No ETRG or fixed-point assurance is added. |
 | 0.1.0 / 2026-11-19 | Initial source-review artifact | Version-3 full-text source check; zero-mean precession derivation; unit conversion; independent AI review. |
 | 0.1.1 / 2026-11-19 | Clarified which independent reviewer checked the unit conversion | Corrected the review summary to match the scoped reviewer records in the private item834 receipt; scientific claims and derivations are unchanged. |
