@@ -51,6 +51,8 @@ The public `freeze.json` is a documented derivative of the private freeze record
 
 The BFT construction is based on Banks, Ford and Tao's probabilistic model for large prime gaps. Their paper studies large gaps; it does not claim the deterministic next-prime ranking rule evaluated here. This experiment's exact bounded claim and comparison are mapped in [`sources/bft-first-event-census.md`](../../sources/bft-first-event-census.md). The frozen verifier/source-map scope and its 19 November 2026 clarification are documented in [`sources/bft-verification-scope.md`](../../sources/bft-verification-scope.md) and the [scope correction addendum](../../sources/bft-verification-scope-correction-20261119.md). A bounded search did not identify a direct equivalent first-event next-prime ranker, but that search was not comprehensive and supports no novelty claim.
 
+For a reader-facing account of this census alongside a separate singular-series screen, see [A Clever Prime Score Can Still Lose to the Wheel](https://rgd.cx/articles/a-clever-prime-score-can-still-lose-to-the-wheel) on RGD.cx.
+
 ## Change history
 
 | Version/date | Change | Reason and evidence |
