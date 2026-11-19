@@ -2,9 +2,9 @@
 
 Status: `provisional application` — conditional derivation, AI-challenged, not Lean-formalised.
 
-Version: `0.1.0`
+Version: `0.1.1`
 
-Last updated: `2026-10-12`
+Last updated: `2026-11-19`
 
 Artifact author: Richard George Davis. The mathematical derivation was AI-assisted and independently challenged by an AI reviewer; no independent human review is claimed.
 
@@ -98,7 +98,7 @@ The result shows how a changed representation can create a separate graph questi
 | [OpenAI Math family 028 manuscript](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/preprints/Bounded-Step-Walks-on-Gaussian-Primes-September-26-2026/build/main.tex) | Pinned commit `fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb` | Source uniform-component theorem. This artifact does not claim authorship or priority for that theorem. |
 | [Formal graph model](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/NumberTheory/GaussianMoat/Model.lean) | Same source commit | Vertex identity, adjacency and endpoint definitions used for alignment. |
 | [Formal endpoint](https://github.com/openai/math/blob/fd4aeeb2ee4fc729c18d98444fed42fd0529eeeb/lean/OAI/NumberTheory/GaussianMoat/Main.lean#L99-L103) | Same source commit | Declares `fullMain : MainEndpoint ∧ UniformEndpoint`; the corollary uses `UniformEndpoint`. |
-| [Family-028 evidence record](../gaussian-moat-formal-check/README.md) | Public record, version 0.1.3 | Build/axiom output and trust boundary; this artifact does not extend its proof audit. |
+| [historical Family-028 evidence record, version 0.1.3](https://github.com/RichardGeorgeDavis/research-artifact-ledger/blob/7e9457805016404ef26f208e1043570b13befa13/artifacts/gaussian-moat-formal-check/README.md) | Public snapshot at the cited commit; current record has since advanced | Build/axiom output and trust boundary; this artifact does not extend its proof audit. |
 
 ## Chronology
 
@@ -108,4 +108,5 @@ The private research record dates the derivation and AI challenge to 2026-10-12 
 
 | Version/date | Change | Evidence and limit |
 |---|---|---|
+| 0.1.1 / 2026-11-19 | Pinned the historical Family-028 evidence record | The artifact cites version 0.1.3; its previous relative link resolved to the current later-version file. The corollary is unchanged. |
 | 0.1.0 / 2026-10-12 | Added the conditional helix-metric graph application | AI-challenged derivation; no Lean formalisation, exhaustive novelty review or human sign-off. |
