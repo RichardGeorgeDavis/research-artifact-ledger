@@ -2,7 +2,7 @@
 
 Status: `source review` and `bounded derivation`
 
-Version: `0.1.0`
+Version: `0.1.1`
 
 Last updated: `2026-11-19`
 
@@ -89,10 +89,11 @@ Reviewer and date: AI subagent (`gpt-6.2-astra / high`) and AI subagent (`gpt-6.
 
 Scope of review: the first reviewer checked public version-3 sections 3 and 6.1 and the STAR estimate's algebraic inference; the second checked the spin equation, small-angle interpretation, unit conversion and Appendix C.2.3 reciprocal bound. Both independently confirmed that zero-mean precession preserves zero; the second confirmed the reversed reciprocal inequality and its conditional weaker bound.
 
-Findings and unresolved points: both reviewers agree on the bounded spin-precession objection and natural-unit correction; the second also confirmed the reciprocal inequality's direction and the conditional finite-set bound. No human specialist assessment, independent data analysis, or full-theory review is claimed.
+Findings and unresolved points: both reviewers independently confirmed that the stated homogeneous equation preserves zero-mean precession. The second reviewer also checked the small-angle interpretation, natural-unit conversion and central estimate, and the reciprocal inequality's direction and conditional finite-set bound. No human specialist assessment, independent data analysis, or full-theory review is claimed.
 
 ## Change history
 
 | Version/date | Change | Reason and evidence |
 |---|---|---|
 | 0.1.0 / 2026-11-19 | Initial source-review artifact | Version-3 full-text source check; zero-mean precession derivation; unit conversion; independent AI review. |
+| 0.1.1 / 2026-11-19 | Clarified which independent reviewer checked the unit conversion | Corrected the review summary to match the scoped reviewer records in the private item834 receipt; scientific claims and derivations are unchanged. |
